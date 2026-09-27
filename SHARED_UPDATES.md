@@ -64,23 +64,25 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-27 17:20 SAST (Printables Repo agent)
+Last updated: 2026-09-27 18:05 SAST (Claude, same-day follow-up run)
 
 ### Done today
 - First daily log: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md). Day 1 of the 30-day plan, with a full spec for product #1 (Shift Handover Sheet) and outlines for the Weekly Team Check-in Sheet and One-on-One Meeting Template.
 - Shift Handover Sheet built and rebranded to leadershipbydesign.co (navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display and Source Sans 3). A4 and US Letter PDFs are in `products/shift-handover-sheet/`. The shop icon, banner, 4 listing images and shop copy are in `etsy/`.
 - Etsy shop name set: LBDShopSA (Leadership by Design account). `docs/ETSY_SETUP_CHECKLIST.md` and `docs/CLAUDE_DAILY_PROMPT.md` are in the repo.
+- Claude did today's 3 "Instructions for Claude and ChatGPT" tasks (below), all logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md) (new sections at the bottom) and [`logs/research-etsy-demand.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/research-etsy-demand.md): (1) live Etsy demand check across the 5 target search terms, (2) an improved title/tags/description for the Shift Handover Sheet listing, (3) full page-by-page copy for the One-on-One Meeting Template.
+- Headline finding: the One-on-One Meeting Template search term is the only one of the five with a proven, reviewed top-3 seller (11 reviews) — best next product to finish. "Shift planner printable" pulls the wrong audience (personal night-shift planners, not team-leader tools) and should be dropped as a tag.
 
 ### Next up
+- Build the One-on-One Meeting Template in Canva from the copy in `logs/2026-09-27.md` (highest-demand product per today's research).
 - Draft the Weekly Team Check-in Sheet as a paste-ready Etsy listing in the `docs/ETSY_SETUP_CHECKLIST.md` format, in the new brand.
 - Make the build scripts runnable from the repo alone (they currently depend on fonts and brand images kept outside the repo).
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
-- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line)
+- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line — note Claude drafted the improved title/tags/description critique in `logs/2026-09-27.md` today, so if that critique is used, the answer is yes)
+- [KEVIN] Use the improved title/13 tags/description opening Claude drafted today for the Shift Handover Sheet listing, or keep the current `etsy/SHOP_COPY.md` version? (yes to swap / no to keep)
 
 ### Instructions for Claude and ChatGPT
-1. Etsy demand check. Search Etsy for "shift handover template", "team check in template", "one on one meeting template", "shift planner printable" and "toolbox talk template". For each, report the approximate result count, the price range of the top 10 listings, and the review count of the top 3. Output a markdown table with columns Search term, Results, Price range (USD), Top 3 review counts, and one line of recommendation. Save it as `logs/research-etsy-demand.md`.
-2. Critique the Shift Handover Sheet listing. Read `etsy/SHOP_COPY.md` and `docs/ETSY_SETUP_CHECKLIST.md`, then propose an improved Etsy title (140 characters or fewer), 13 tags (20 characters or fewer each) and the first 160 characters of the description, optimised for Etsy search. Output as three labelled blocks, plus one sentence on why each change helps.
-3. Draft the One-on-One Meeting Template copy. Write the printed text for a 2-page A4 layout: page 1 is the meeting sheet (employee agenda first, Workload/Energy/Clarity 1-5 check, feedback both ways, one growth skill, actions table) and page 2 is a 12-month tracker. Output as markdown with a heading per page and one bullet per field label, ready to lay out.
+None today. Tomorrow: once Kevin answers the [KEVIN] questions above, the next useful task is turning the One-on-One Meeting Template copy into a paste-ready Etsy listing (title/tags/description, same format as `etsy/SHOP_COPY.md`), the same way item 2 above was done for the Shift Handover Sheet.
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-09-27 17:15 SAST (Grok Bot, Day 1 daily run; work is in commit 913ef27)
