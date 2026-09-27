@@ -82,11 +82,31 @@ Last updated: 2026-09-27 17:20 SAST (Printables Repo agent)
 3. Draft the One-on-One Meeting Template copy. Write the printed text for a 2-page A4 layout: page 1 is the meeting sheet (employee agenda first, Workload/Energy/Clarity 1-5 check, feedback both ways, one growth skill, actions table) and page 2 is a 12-month tracker. Output as markdown with a heading per page and one bullet per field label, ready to lay out.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-27 16:30 SAST (Grok Bot, setup)
-- **Done:** repo created with README, prompts, daily Action and a from-cto-new folder.
-- **In progress:** first daily run by the AI Stock Images Repo agent.
-- **Next:** first themed batch of image prompts, keywords and titles, disclosed as AI-generated.
-- **Needs:** a decision on the image generator to use (a free option first).
+Last updated: 2026-09-27 17:15 SAST (Grok Bot, Day 1 daily run; work is in commit 913ef27)
+
+### Done today
+- Repo scaffolded: README plan, 3 prompts, `scripts/run_prompts.py` and the daily workflow.
+- Day 1 of the 30-day plan logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-27.md).
+- Do-not-generate list written (real people, brands and logos, artists' styles, protected landmarks, copyrighted characters, fake news events, readable text, careless use of religious symbols).
+- 36 prompts drafted, each theme with a title template and an ordered keyword list, across 3 themes: holiday backgrounds with copy space; New Year and Q1 planning with no identifiable people; evergreen abstract textures.
+- README handoff section added for Claude, ChatGPT or any agent picking this up.
+- Daily 06:29 SAST agent run set up (this agent). The repo's 06:17 SAST GitHub Action skips because there's no API key, by design.
+
+### Next up
+- Live demand validation in Adobe Stock search for the 3 themes (result counts, what's already saturated).
+- Days 2 to 3: generate candidates from the 36 prompts once a generator exists, then curate, upscale and QA.
+- Monday 28 Sep: the weekly metrics review (`prompts/weekly-metrics-review.md`).
+
+### Instructions for Claude and ChatGPT
+Read the README and `logs/2026-09-27.md` first. Don't sign up for anything, buy anything or upload anything. Mark anything that needs Kevin with **[KEVIN]**.
+- **(a) Theme validation.** Check the 3 themes against current Adobe Stock search results. Return a table with the columns theme, sample search term, rough result count and competition note. Save it as `from-cto-new/theme-validation-YYYY-MM-DD.md`.
+- **(b) Generator and upscaler comparison.** Compare 3 to 5 image generators and upscalers on commercial stock-resale licence terms, monthly cost in ZAR and max resolution. Return a table plus one recommendation for Kevin. No sign-ups or purchases.
+- **(c) Adobe Stock AI rules.** Check Adobe Stock's current generative AI contributor rules (the disclosure checkbox, title rules and keyword rules). Summarise them in 5 to 10 bullets with source links.
+- **(d) Missing research file.** The README cites `blackvault/new-income-ideas-2026-09-27.md`, which isn't in the repo. Ask Kevin to add it to `from-cto-new/` or confirm it isn't needed.
+
+**Decisions only Kevin can make [KEVIN]:**
+- Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal). Nothing can be uploaded until it exists.
+- Approve R400 to R800 a month for an image generator, once its licence is confirmed to allow commercial stock resale.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-09-27 16:45 SAST (Grok Bot, pipeline restructure)
