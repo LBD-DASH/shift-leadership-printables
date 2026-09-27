@@ -51,13 +51,13 @@ Nothing is deleted without a note explaining why. The file stays plain markdown 
 
 ---
 
-## Pipeline: Princess Baylin and Faceless YouTube are one business (decided by Kevin, 2026-09-27)
-These two repos are **one money-making pipeline**, not two brands. The repo names stay the same for now.
-- **princess-baylin is the source.** It owns the stories, characters, book manuscripts and merch concepts.
-- **faceless-youtube-content is the distribution and ad-revenue layer.** Its niche is locked to narrated Princess Baylin bedtime stories for children. Every script, title, description and thumbnail is built from Baylin material.
+## Pipeline: Princess Baylin and Faceless YouTube (decided by Kevin, 2026-09-27; wording updated to equal priority)
+These two repos run **in parallel with equal weight**. Neither exists only to feed the other. The repo names stay the same for now.
+- **princess-baylin** owns the stories, characters, book manuscripts and merch concepts.
+- **faceless-youtube-content** is a narrated Princess Baylin bedtime-story channel for children, with equal priority to the books and merch. Its scripts, titles, descriptions and thumbnails are built from Baylin material, and it sends story, title and product ideas back.
 - **Handoff:** each Baylin run writes `handoff/youtube/YYYY-MM-DD.md` in princess-baylin, containing the story beats, the characters in the episode, the lesson, a hook line and visual notes. The YouTube agent reads the newest handoff. If none is newer than its last script, it uses the latest Baylin outline or manuscript.
-- **Income first.** Baylin's priorities are children's book drafts (for Amazon KDP or print on demand) and merch concepts. YouTube's priorities are scripts built for watch time and ad revenue.
-- **Honest limit:** YouTube treats children's content as "made for kids", which means no personalised ads (so lower ad rates), no comments and no mini-player. Books and merch are expected to earn more than ads, so the YouTube channel also drives viewers to them.
+- **Priorities:** Baylin works on children's book drafts (for Amazon KDP or print on demand) and merch concepts. YouTube works on scripts built for watch time and ad revenue. Both count equally.
+- **Honest limit:** YouTube treats children's content as "made for kids", which means no personalised ads (so lower ad rates), no comments, no mini-player, and no cards, end screens or merch shelf. Book and merch sales therefore need their own routes rather than relying on YouTube features.
 - **Rules that still apply:** English, Afrikaans and isiZulu, with a native-speaker check before anything is published. No identifying details about the child. AI use is disclosed where platforms require it. Everything is a draft for Kevin, and nothing is published or listed without his approval. No paid API key.
 
 ---
@@ -116,11 +116,24 @@ Last updated: 2026-09-27 16:45 SAST (Grok Bot, pipeline restructure)
 - **Needs:** Kevin to add the original story to `assets/story/`; native-speaker reviewers for Afrikaans and isiZulu; Kevin's choice of book platform (for example Amazon KDP).
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-27 16:32 SAST (Grok Bot, first daily run). Note: the earlier "16:45" stamps in this file were ahead of the clock; the commit that wrote them landed at 16:29 SAST.
-- **Done:** niche locked to narrated Princess Baylin bedtime stories (Kevin). First daily log [`logs/2026-09-27.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-27.md): YouTube rules checked against official pages (made for kids, AI disclosure, YPP thresholds including the 8,000-hour bar for new applicants from 1 Feb 2027, and the inauthentic-content policy); free tool shortlist with licence notes; Episode 1 video plan for "Princess Baylin and the Lost Rain Song". README and prompts updated for the locked niche and the parallel projects.
-- **In progress:** Episode 1 script. princess-baylin has no `handoff/youtube/` file yet, so it's built from the princess-baylin log of 27 Sep 2026.
-- **Next (Mon 28 Sep):** the full 8–10 minute English voiceover script (about 1,000–1,250 words, an estimate), a shot list for the 12 scenes, the Short script, and notes for the Afrikaans and isiZulu adaptations.
-- **Needs:** [KEVIN] original story in princess-baylin `assets/story/` (the current cast is placeholders); a narrator choice (own or family voice recommended, or Kokoro TTS for English, which is Apache 2.0); native-speaker narrators or reviewers for Afrikaans and isiZulu (no free commercial-use TTS found for those languages); a channel name; whether to always disclose an AI voice or AI music.
+Last updated: 2026-09-27 17:14 SAST (Faceless YouTube Repo agent, new brief format)
+
+### Done today
+- Niche locked by Kevin: narrated Princess Baylin bedtime stories, made for kids, equal weight with princess-baylin.
+- First daily log on main: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-27.md). It covers YouTube rules checked against official pages (made for kids, AI disclosure, Partner Program thresholds including the 8,000-hour bar for new applicants from 1 Feb 2027, inauthentic-content policy), a free tool shortlist with licence notes, and the Episode 1 video plan for "Princess Baylin and the Lost Rain Song".
+- README and prompts rewritten for the locked niche so any model can pick up the work.
+- Daily run scheduled for 06:43 SAST. No paid API keys are used.
+
+### Next up
+- Mon 28 Sep, 06:43 SAST: full 8 to 10 minute English script for Episode 1 in `scripts/2026-09-28.md` (hook in the first 15 seconds, calm pace, ending that leads into Episode 2), with 3 titles, description, thumbnail concept, chapter markers and AI disclosure notes. Built from the princess-baylin log of 27 Sep, because princess-baylin has no `handoff/youtube/` file yet.
+- Mon 28 Sep: first weekly metrics review (no channel exists yet, so it will record a baseline of zero).
+
+### Instructions for Claude and ChatGPT
+1. **Episode 2 outline.** Read princess-baylin `logs/2026-09-27.md` for the cast and tone. Write an outline for "Princess Baylin and the Sleepy Moon": 12 numbered scene beats (one or two sentences each), the lesson in one line, a hook line for the first 15 seconds, and one visual note per scene. Use a night-sky setting and a patience-based resolution. Save it as `scripts/drafts/episode-2-outline.md` in faceless-youtube-content, or paste it into chat for Kevin.
+2. **Channel name shortlist.** Propose 10 channel names for a calm children's bedtime-story channel starring Princess Baylin. For each, give the name, a one-line reason, and whether the matching @handle looks free (say "not checked" if you can't check). Plain markdown table.
+3. **Narrator decision brief for Kevin.** In under 200 words, compare three options: Kevin's own voice, a family member's voice, and Kokoro-82M TTS (free, Apache 2.0, English only). Cover cost, the time per episode, trust with parents, and YouTube's inauthentic-content risk. End with one recommendation.
+4. **Afrikaans and isiZulu question.** Answer: is there any text-to-speech voice for Afrikaans or isiZulu that is free and licensed for commercial use? List each candidate with its licence and a source link. If you find none, say "None found".
+5. **Thumbnail style guide.** Write a one-page guide for a hand-drawn or flat-illustration thumbnail style that is safe for made-for-kids content: palette (hex codes), font suggestions (free fonts only), a layout rule and 3 do/don't pairs. No real child's likeness.
 
 ---
 
