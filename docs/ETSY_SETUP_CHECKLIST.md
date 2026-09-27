@@ -15,13 +15,13 @@ Note: Etsy changes its screens and rules often. If a menu or number here doesn't
 ## 1. Rename the shop (5 min)
 Shop Manager > Settings > Info & Appearance > Shop name.
 - [ ] Pick a name: 4 to 20 characters, no spaces, not already taken. Etsy limits how often you can rename, so choose once.
-- [ ] Ideas to check: `ShiftLeaderStudio`, `ShiftReadyPrints`, `HandoverAndHuddle`, `FloorLeaderPrints`, `ShiftBoardStudio`.
+- [ ] Shop name: `LBDShopSA`.
 - [ ] Update the shop title (the one-line tagline), for example: "Printable shift handover sheets, huddle boards and team leader tools".
 
 ## 2. Banner and shop icon in Canva (15 min)
-- [ ] **Shop icon (logo):** 500 x 500 px. Use a simple initials mark or a clipboard icon on one solid brand colour (navy or charcoal with a yellow accent reads as "workplace").
+- [ ] **Shop icon (logo):** 500 x 500 px. Use a simple initials mark or a clipboard icon on the brand palette: navy #0F1F2E, teal #2A7B88, gold #C8A864 and cream #F8F6F1.
 - [ ] **Banner:** 3360 x 840 px. Show the shop name, the tagline, and 2 or 3 product mockups on the right. Keep the text in the middle, because Etsy crops the edges on mobile.
-- [ ] Use the same two colours and one font on both, so the listings look like one brand.
+- [ ] Use navy #0F1F2E, teal #2A7B88, gold #C8A864 and cream #F8F6F1, with Playfair Display (headings) and Source Sans 3 (body), on both, so the listings look like one brand.
 - [ ] Upload both under Info & Appearance.
 - [ ] Only use Canva elements your plan licenses for products you sell (Pro elements need Canva Pro). Canva's content licence allows selling designs that are substantially your own, not a template you haven't changed.
 
