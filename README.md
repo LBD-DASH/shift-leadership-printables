@@ -1,6 +1,7 @@
 # Shift & Leadership Printables (Canva templates)
 
 > **Start here:** read [SHARED_UPDATES.md](SHARED_UPDATES.md) for the status of all four sister projects, and write your update back into it.
+Etsy shop setup: see docs/ETSY_SETUP_CHECKLIST.md
 
 _Repo: `shift-leadership-printables`. Side venture, separate from YardOps, 6HN and LBD. Background research: `blackvault/new-income-ideas-2026-09-27.md` (27 Sep 2026)._
 
