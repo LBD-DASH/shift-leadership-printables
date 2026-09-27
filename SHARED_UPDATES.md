@@ -58,6 +58,7 @@ These two repos run **in parallel with equal weight**. Neither exists only to fe
 - **Handoff:** each Baylin run writes `handoff/youtube/YYYY-MM-DD.md` in princess-baylin, containing the story beats, the characters in the episode, the lesson, a hook line and visual notes. The YouTube agent reads the newest handoff. If none is newer than its last script, it uses the latest Baylin outline or manuscript.
 - **Priorities:** Baylin works on children's book drafts (for Amazon KDP or print on demand) and merch concepts. YouTube works on scripts built for watch time and ad revenue. Both count equally.
 - **Honest limit:** YouTube treats children's content as "made for kids", which means no personalised ads (so lower ad rates), no comments, no mini-player, and no cards, end screens or merch shelf. Book and merch sales therefore need their own routes rather than relying on YouTube features.
+Book/merch and YouTube run in parallel with equal priority; each feeds the other through this file.
 - **Rules that still apply:** English, Afrikaans and isiZulu, with a native-speaker check before anything is published. No identifying details about the child. AI use is disclosed where platforms require it. Everything is a draft for Kevin, and nothing is published or listed without his approval. No paid API key.
 
 ---
@@ -109,11 +110,31 @@ Read the README and `logs/2026-09-27.md` first. Don't sign up for anything, buy 
 - Approve R400 to R800 a month for an image generator, once its licence is confirmed to allow commercial stock resale.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-27 16:45 SAST (Grok Bot, pipeline restructure)
-- **Done:** repo set up. First daily log is on main with the episode outline "Princess Baylin and the Lost Rain Song" in English, Afrikaans and isiZulu (commit 2cf1a6e).
-- **In progress:** being restructured as the source for the YouTube channel.
-- **Next (daily run at 06:37 SAST):** a first draft of a picture-book manuscript (about 12 spreads, English first, Afrikaans and isiZulu marked for a native-speaker check); 3 to 5 merch concepts, such as prints, colouring pages, plush toys and bedtime cards; and `handoff/youtube/YYYY-MM-DD.md` for the YouTube agent.
-- **Needs:** Kevin to add the original story to `assets/story/`; native-speaker reviewers for Afrikaans and isiZulu; Kevin's choice of book platform (for example Amazon KDP).
+Last updated: 2026-09-27 17:15 SAST (Grok Bot)
+
+### Done today
+- The first daily log was committed at `logs/2026-09-27.md` in commit `2cf1a6e`.
+- Progress check: Day 1 of the 30-day plan, at the series bible stage.
+- The episode outline is **Princess Baylin and the Lost Rain Song**, **Prinses Baylin en die Verlore Reënlied**, and **Inkosazana uBaylin neNgoma Yemvula Elahlekile**. The Rainbird has forgotten the song that brings rain. Baylin must listen and collect one piece of the song from each creature. The lesson is listening and teamwork.
+- The log includes 10-step outlines, on-screen text and a 12-scene illustration list.
+- Placeholder characters and setting are Tilly the tortoise, the Kingdom of Sunhill and the Rainbird.
+- The daily routine is set to 06:37 SAST. The book, merch and YouTube pipeline restructure starts on 28 Sep.
+
+### Next up
+For the 28 Sep run:
+- Push `handoff/youtube/2026-09-28.md` early for the YouTube handoff.
+- Draft a picture-book manuscript of about 12 spreads, English first, with Afrikaans and isiZulu flagged for review, for KDP or print on demand.
+- Propose 3 to 5 merch concepts, each with a platform and rough price.
+- Run the progress check.
+
+### Instructions for Claude and ChatGPT
+1. Review the Afrikaans and isiZulu title and outline sections in `logs/2026-09-27.md` in a native-speaker style. Output a corrected version as a markdown table with columns `original`, `suggested` and `reason` in a new file at `reviews/2026-09-27-language.md`. State that a human native speaker must still confirm it.
+2. Research current Amazon KDP picture-book specifications for trim size, page count and bleed. Output a short checklist with source links at `docs/kdp-specs.md`.
+3. Propose 3 alternative names for Tilly, Sunhill and the Rainbird that work in English, Afrikaans and isiZulu. Output them as a table for Kevin to choose from.
+
+Decisions for Kevin: add the original story to `assets/story/` with identifying details removed, and name the Afrikaans and isiZulu native-speaker reviewers.
+
+Safety: Never include the child's face, real name details, school, location or other identifying details.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-09-27 17:14 SAST (Faceless YouTube Repo agent, new brief format)
@@ -145,3 +166,4 @@ Last updated: 2026-09-27 17:14 SAST (Faceless YouTube Repo agent, new brief form
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Title and theme ideas that hold watch time** (calm, no keyword stuffing, no distress-bait): "Princess Baylin and the Sleepy Moon", "Princess Baylin and the Quiet Star", "Princess Baylin and the River That Whispered", "Princess Baylin and the Very Patient Tortoise", "Princess Baylin Says Sorry". Themes: listening, patience, saying sorry, sharing, being brave in a small way, gratitude.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Possible book and merch items from Episode 1:** a "Lost Rain Song" picture book (12 spreads, trilingual); a rain-song colouring page set (frogs, grasshoppers, the grandmother tree, the Rainbird); a printable "Listen… what do you hear?" bedtime listening card; a Tilly the tortoise plush (once the cast is confirmed as canon); a trilingual goodnight poster ("Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!", after the native-speaker check).
 - 2026-09-27 16:45 SAST (Grok Bot): Kevin merged Princess Baylin and Faceless YouTube into one revenue pipeline (see the Pipeline section at the top). The Printables and AI Stock Images projects are unchanged.
+- 2026-09-27 17:15 SAST (Grok Bot): Kevin decided book/merch and YouTube have equal priority; each feeds the other through this file.
