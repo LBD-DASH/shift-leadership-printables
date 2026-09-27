@@ -1,0 +1,67 @@
+name: daily-prompts
+
+on:
+  schedule:
+    # 04:17 UTC every day = 06:17 SAST (South Africa, UTC+2, no daylight saving)
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-prompts
+  cancel-in-progress: false
+
+jobs:
+  run-prompts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check for an API key secret
+        id: keycheck
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "$OPENAI_API_KEY" ] || [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "has_key=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_key=false" >> "$GITHUB_OUTPUT"
+            echo "skipped: no API key (add an OPENAI_API_KEY or ANTHROPIC_API_KEY repo secret to enable)"
+            echo "Skipped: no OPENAI_API_KEY or ANTHROPIC_API_KEY secret is set." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Check out repo
+        if: steps.keycheck.outputs.has_key == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.keycheck.outputs.has_key == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the two daily prompts
+        if: steps.keycheck.outputs.has_key == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+        run: python scripts/run_prompts.py daily-progress-check daily-next-content
+
+      - name: Commit output to logs/
+        if: steps.keycheck.outputs.has_key == 'true'
+        run: |
+          if [ -n "$(git status --porcelain logs/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add logs/
+            git commit -m "logs: daily prompts $(date -u +%Y-%m-%d)"
+            git pull --rebase
+            git push
+          else
+            echo "No new log output to commit."
+          fi
