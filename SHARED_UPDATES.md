@@ -15,6 +15,31 @@ It gives anyone working on any one project (the repo agents, Claude, ChatGPT or 
 4. Keep each section short. Put details in that repo's `logs/` and link to them.
 5. If you can only edit one repo (for example Claude or ChatGPT working in one chat), that's fine. The repo agents sync this file across all four repos on every daily run.
 
+## Daily entry format (every project section, every day)
+Each project section is a brief for the next AI. Rewrite your own section each run using exactly this structure, in this order:
+
+```
+## <Project name> (<repo-name>)
+Last updated: YYYY-MM-DD HH:MM SAST (<who>)
+
+### Done today
+- What was finished today, with links to files or logs.
+
+### Next up
+- The next concrete steps for this project. Tag anything only Kevin can do with [KEVIN] and phrase it as a yes/no question.
+
+### Instructions for Claude and ChatGPT
+- One item per task, question or decision an outside AI should take on (work the repo agent can't do itself).
+- Each item says exactly what to produce and what the output should look like (format, length, file path to save it to).
+- If there is nothing, write: None today
+```
+
+Rules:
+- The "### Instructions for Claude and ChatGPT" heading is always present. Never leave it out.
+- Keep each section short; put detail in the repo's `logs/` and link to it.
+- Only edit your own project's section. Notes for other projects go under Cross-project notes.
+- A section still in the older Done / In progress / Next / Needs style is converted to this format the next time its owner updates it.
+
 ## Sync rule (for the repo agents)
 On every run, the agent:
 1. Reads `SHARED_UPDATES.md` from all four repos.
@@ -38,11 +63,23 @@ These two repos are **one money-making pipeline**, not two brands. The repo name
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-27 16:30 SAST (Grok Bot, setup)
-- **Done:** repo created with README, prompts, daily Action (06:17 SAST, skips without an API key) and a from-cto-new folder.
-- **In progress:** first daily run by the Printables Repo agent.
-- **Next:** pick the first printable (for example a shift handover sheet) and draft its layout, copy and Etsy listing.
-- **Needs:** nothing yet.
+Last updated: 2026-09-27 17:20 SAST (Printables Repo agent)
+
+### Done today
+- First daily log: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md). Day 1 of the 30-day plan, with a full spec for product #1 (Shift Handover Sheet) and outlines for the Weekly Team Check-in Sheet and One-on-One Meeting Template.
+- Shift Handover Sheet built and rebranded to leadershipbydesign.co (navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display and Source Sans 3). A4 and US Letter PDFs are in `products/shift-handover-sheet/`. The shop icon, banner, 4 listing images and shop copy are in `etsy/`.
+- Etsy shop name set: LBDShopSA (Leadership by Design account). `docs/ETSY_SETUP_CHECKLIST.md` and `docs/CLAUDE_DAILY_PROMPT.md` are in the repo.
+
+### Next up
+- Draft the Weekly Team Check-in Sheet as a paste-ready Etsy listing in the `docs/ETSY_SETUP_CHECKLIST.md` format, in the new brand.
+- Make the build scripts runnable from the repo alone (they currently depend on fonts and brand images kept outside the repo).
+- [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
+- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line)
+
+### Instructions for Claude and ChatGPT
+1. Etsy demand check. Search Etsy for "shift handover template", "team check in template", "one on one meeting template", "shift planner printable" and "toolbox talk template". For each, report the approximate result count, the price range of the top 10 listings, and the review count of the top 3. Output a markdown table with columns Search term, Results, Price range (USD), Top 3 review counts, and one line of recommendation. Save it as `logs/research-etsy-demand.md`.
+2. Critique the Shift Handover Sheet listing. Read `etsy/SHOP_COPY.md` and `docs/ETSY_SETUP_CHECKLIST.md`, then propose an improved Etsy title (140 characters or fewer), 13 tags (20 characters or fewer each) and the first 160 characters of the description, optimised for Etsy search. Output as three labelled blocks, plus one sentence on why each change helps.
+3. Draft the One-on-One Meeting Template copy. Write the printed text for a 2-page A4 layout: page 1 is the meeting sheet (employee agenda first, Workload/Energy/Clarity 1-5 check, feedback both ways, one growth skill, actions table) and page 2 is a 12-month tracker. Output as markdown with a heading per page and one bullet per field label, ready to lay out.
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-09-27 16:30 SAST (Grok Bot, setup)

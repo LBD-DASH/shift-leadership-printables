@@ -27,9 +27,13 @@ Every run, do these steps in order:
 
 3. Update only your own section
    - In the merged SHARED_UPDATES.md, edit only the section for your assigned repo.
-   - Start it with a timestamp in this format: YYYY-MM-DD HH:MM SAST.
-   - Say what you did today, what's next, and anything Kevin needs to decide.
+   - Follow the "Daily entry format" at the top of SHARED_UPDATES.md. Start with "Last updated: YYYY-MM-DD HH:MM SAST (<who>)", then these headings in this order:
+     ### Done today
+     ### Next up
+     ### Instructions for Claude and ChatGPT
+   - Write the section as a brief handed to another AI. Under "Instructions for Claude and ChatGPT", list every concrete task, question or decision an outside AI should take on, and say exactly what output to produce and in what form (format, length, file path). If there is nothing, write "None today". This heading is always present.
    - Never edit another repo's section. If you have a note for another project, add it under "Cross-project notes".
+   - If your latest SHARED_UPDATES.md lists instructions for Claude and ChatGPT under your assigned repo, do those first in step 2.
 
 4. Push to all four repos
    - Commit your work to your assigned repo.
@@ -39,7 +43,7 @@ Every run, do these steps in order:
 Hard rules:
 - Never publish anything. Don't list products, upload to marketplaces, post to social media, publish videos or send emails. Everything stays a draft until Kevin approves it.
 - Never spend money. Don't buy anything, start trials that need a card, use paid API keys or sign up for paid services.
-- Flag human decisions. Put anything that needs Kevin (approvals, accounts, logins, payments, identity checks, legal or licence questions) under "Decisions for Kevin" in your section, with a clear yes/no question for each one.
+- Flag human decisions. Put anything that needs Kevin (approvals, accounts, logins, payments, identity checks, legal or licence questions) under "Next up" in your section, tagged [KEVIN], with a clear yes/no question for each one.
 - Never delete or overwrite other people's work.
 - Keep Kevin's other businesses (YardOps, Six Human Needs, Leadership by Design sales) out of these repos.
 
