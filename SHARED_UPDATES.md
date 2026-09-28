@@ -64,25 +64,28 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-27 18:05 SAST (Claude, same-day follow-up run)
+Last updated: 2026-09-28 06:35 SAST (Printables Repo agent)
 
 ### Done today
-- First daily log: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md). Day 1 of the 30-day plan, with a full spec for product #1 (Shift Handover Sheet) and outlines for the Weekly Team Check-in Sheet and One-on-One Meeting Template.
-- Shift Handover Sheet built and rebranded to leadershipbydesign.co (navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display and Source Sans 3). A4 and US Letter PDFs are in `products/shift-handover-sheet/`. The shop icon, banner, 4 listing images and shop copy are in `etsy/`.
-- Etsy shop name set: LBDShopSA (Leadership by Design account). `docs/ETSY_SETUP_CHECKLIST.md` and `docs/CLAUDE_DAILY_PROMPT.md` are in the repo.
-- Claude did today's 3 "Instructions for Claude and ChatGPT" tasks (below), all logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-09-27.md) (new sections at the bottom) and [`logs/research-etsy-demand.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/research-etsy-demand.md): (1) live Etsy demand check across the 5 target search terms, (2) an improved title/tags/description for the Shift Handover Sheet listing, (3) full page-by-page copy for the One-on-One Meeting Template.
-- Headline finding: the One-on-One Meeting Template search term is the only one of the five with a proven, reviewed top-3 seller (11 reviews) — best next product to finish. "Shift planner printable" pulls the wrong audience (personal night-shift planners, not team-leader tools) and should be dropped as a tag.
+- Day 2 log: link to logs/2026-09-28.md (progress + next content + first weekly metrics).
+- Prioritised One-on-One Meeting Template as next build (per Claude's Etsy demand research).
+- Full Canva layout + paste-ready Etsy listing draft for the 1:1 in today's log.
+- Merged SHARED_UPDATES across the four repos.
 
 ### Next up
-- Build the One-on-One Meeting Template in Canva from the copy in `logs/2026-09-27.md` (highest-demand product per today's research).
-- Draft the Weekly Team Check-in Sheet as a paste-ready Etsy listing in the `docs/ETSY_SETUP_CHECKLIST.md` format, in the new brand.
-- Make the build scripts runnable from the repo alone (they currently depend on fonts and brand images kept outside the repo).
+- Layout the One-on-One Meeting Template in Canva from today's log (A4 + Letter PDFs into products/one-on-one-meeting-template/).
+- Draft Weekly Team Check-in Sheet next.
+- Make build scripts runnable from the repo alone.
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
-- [KEVIN] Did AI help with the copy or layout? (yes/no; this sets the AI disclosure line — note Claude drafted the improved title/tags/description critique in `logs/2026-09-27.md` today, so if that critique is used, the answer is yes)
-- [KEVIN] Use the improved title/13 tags/description opening Claude drafted today for the Shift Handover Sheet listing, or keep the current `etsy/SHOP_COPY.md` version? (yes to swap / no to keep)
+- [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
+- [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
+- [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
+- [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
 
 ### Instructions for Claude and ChatGPT
-None today. Tomorrow: once Kevin answers the [KEVIN] questions above, the next useful task is turning the One-on-One Meeting Template copy into a paste-ready Etsy listing (title/tags/description, same format as `etsy/SHOP_COPY.md`), the same way item 2 above was done for the Shift Handover Sheet.
+1. Turn the One-on-One Meeting Template draft in logs/2026-09-28.md into a paste-ready listing block matching etsy/SHOP_COPY.md style (title/13 tags/full description). Save as etsy/LISTING_ONE_ON_ONE.md or append to the log.
+2. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md.
+3. Critique the 1:1 page layout in today's log for printability (line height, section order, missing fields a real first-time manager needs). Output 5 specific fix suggestions as a numbered list in the log or a short file under logs/.
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-09-28 06:35 SAST (Grok Bot, Day 2 daily run + Monday weekly metrics)
@@ -157,8 +160,9 @@ Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief form
 - 2026-09-27 16:30 SAST (Grok Bot): All four repos share this file. Reusable ideas, such as a leadership theme that fits both the printables and YouTube, go here so the other projects can use them.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content): **Kevin's latest decision:** the YouTube channel and princess-baylin run **in parallel with equal weight**, and the channel isn't just a funnel. The Pipeline section above ("one business", "distribution layer") was written earlier, so Kevin should update its wording. It's left unchanged here because agents only edit their own section.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Made for kids turns off cards, end screens and the merchandise shelf** (https://support.google.com/youtube/answer/9527654). The channel can't sell Baylin books or merch through YouTube's merch features, and "heavily promotional" is a low-quality signal for kids content (https://support.google.com/youtube/answer/10774223). Book and merch sales need their own route (shop listing, book platform); don't rely on YouTube for them.
-- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Story and character requests.** (1) A fixed character sheet for Baylin and each recurring friend (appearance, catchphrase, one flaw) so every episode looks consistent. (2) Episodes 2–4 should use new settings (for example night sky, river, market day) and new kinds of resolution (making amends, trying something new, patience), not listening again. (3) One small recurring bedtime ritual Baylin does at the end of every story, for a calm, familiar ending. (4) Please start `handoff/youtube/YYYY-MM-DD.md` with beats, cast, lesson, hook line and visual notes.
+- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Story and character requests.** (1) A fixed character sheet for Baylin and each recurring friend (appearance, catchphrase, one flaw) so every episode looks consistent. (2) Episodes 2-4 should use new settings (for example night sky, river, market day) and new kinds of resolution (making amends, trying something new, patience), not listening again. (3) One small recurring bedtime ritual Baylin does at the end of every story, for a calm, familiar ending. (4) Please start `handoff/youtube/YYYY-MM-DD.md` with beats, cast, lesson, hook line and visual notes.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Title and theme ideas that hold watch time** (calm, no keyword stuffing, no distress-bait): "Princess Baylin and the Sleepy Moon", "Princess Baylin and the Quiet Star", "Princess Baylin and the River That Whispered", "Princess Baylin and the Very Patient Tortoise", "Princess Baylin Says Sorry". Themes: listening, patience, saying sorry, sharing, being brave in a small way, gratitude.
-- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Possible book and merch items from Episode 1:** a "Lost Rain Song" picture book (12 spreads, trilingual); a rain-song colouring page set (frogs, grasshoppers, the grandmother tree, the Rainbird); a printable "Listen… what do you hear?" bedtime listening card; a Tilly the tortoise plush (once the cast is confirmed as canon); a trilingual goodnight poster ("Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!", after the native-speaker check).
+- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Possible book and merch items from Episode 1:** a "Lost Rain Song" picture book (12 spreads, trilingual); a rain-song colouring page set (frogs, grasshoppers, the grandmother tree, the Rainbird); a printable "Listen... what do you hear?" bedtime listening card; a Tilly the tortoise plush (once the cast is confirmed as canon); a trilingual goodnight poster ("Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!", after the native-speaker check).
 - 2026-09-27 16:45 SAST (Grok Bot): Kevin merged Princess Baylin and Faceless YouTube into one revenue pipeline (see the Pipeline section at the top). The Printables and AI Stock Images projects are unchanged.
 - 2026-09-27 17:15 SAST (Grok Bot): Kevin decided book/merch and YouTube have equal priority; each feeds the other through this file.
+- 2026-09-28 06:35 SAST (Printables Repo agent): Printables Day 2: building the One-on-One Meeting Template next (strongest Etsy demand signal). Shop name confirmed LBDShopSA.
