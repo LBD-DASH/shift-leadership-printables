@@ -108,31 +108,28 @@ Last updated: 2026-09-28 06:35 SAST (Grok Bot, Day 2 daily run + Monday weekly m
 3. **Contributor setup checklist.** Write a one-page Adobe Stock Contributor setup checklist for a South African individual (account, ID verify, W-8BEN, PayPal, first-upload AI disclosure). Bullet list with official Adobe help links. Save as `docs/adobe-contributor-setup.md`.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-27 17:15 SAST (Grok Bot)
+Last updated: 2026-09-28 06:42 SAST (Princess Baylin Repo agent)
 
 ### Done today
-- The first daily log was committed at `logs/2026-09-27.md` in commit `2cf1a6e`.
-- Progress check: Day 1 of the 30-day plan, at the series bible stage.
-- The episode outline is **Princess Baylin and the Lost Rain Song**, **Prinses Baylin en die Verlore Reënlied**, and **Inkosazana uBaylin neNgoma Yemvula Elahlekile**. The Rainbird has forgotten the song that brings rain. Baylin must listen and collect one piece of the song from each creature. The lesson is listening and teamwork.
-- The log includes 10-step outlines, on-screen text and a 12-scene illustration list.
-- Placeholder characters and setting are Tilly the tortoise, the Kingdom of Sunhill and the Rainbird.
-- The daily routine is set to 06:37 SAST. The book, merch and YouTube pipeline restructure starts on 28 Sep.
+- YouTube handoff for Episode 1 at [`handoff/youtube/2026-09-28.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-09-28.md): beats, cast, lesson, hook, visual notes (EN primary; AF/ZU flagged).
+- Day 2 log at [`logs/2026-09-28.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-09-28.md): progress check, first ~12-spread picture-book manuscript (EN + AF/ZU flagged), 5 merch concepts, Monday weekly metrics baseline (recommend adjust).
+- Recurring bedtime thank-you ritual noted for every episode ending.
+- Pipeline equal-priority line already present; no further Pipeline edit needed.
 
 ### Next up
-For the 28 Sep run:
-- Push `handoff/youtube/2026-09-28.md` early for the YouTube handoff.
-- Draft a picture-book manuscript of about 12 spreads, English first, with Afrikaans and isiZulu flagged for review, for KDP or print on demand.
-- Propose 3 to 5 merch concepts, each with a platform and rough price.
-- Run the progress check.
+- Refine the picture-book manuscript (do not restart) once placeholders are confirmed or replaced.
+- YouTube agent should build Ep 1 script from today's handoff at 06:43 SAST.
+- Sketch a one-page character sheet for Baylin, Tilly and the Rainbird after Kevin's call on names.
+- [KEVIN] Add the original story to `assets/story/` with identifying details removed? (yes this week / not yet)
+- [KEVIN] Keep placeholder names Tilly, Sunhill and Rainbird, or replace them? (keep / replace)
+- [KEVIN] Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
+- [KEVIN] Approve Episode 1 direction (listening + teamwork, soft rain, thank-you bedtime ritual) for book and YouTube? (yes / changes needed)
 
 ### Instructions for Claude and ChatGPT
-1. Review the Afrikaans and isiZulu title and outline sections in `logs/2026-09-27.md` in a native-speaker style. Output a corrected version as a markdown table with columns `original`, `suggested` and `reason` in a new file at `reviews/2026-09-27-language.md`. State that a human native speaker must still confirm it.
-2. Research current Amazon KDP picture-book specifications for trim size, page count and bleed. Output a short checklist with source links at `docs/kdp-specs.md`.
-3. Propose 3 alternative names for Tilly, Sunhill and the Rainbird that work in English, Afrikaans and isiZulu. Output them as a table for Kevin to choose from.
-
-Decisions for Kevin: add the original story to `assets/story/` with identifying details removed, and name the Afrikaans and isiZulu native-speaker reviewers.
-
-Safety: Never include the child's face, real name details, school, location or other identifying details.
+1. **Language review of the book draft.** Read the Afrikaans and isiZulu manuscript sections in `logs/2026-09-28.md`. Output a markdown table with columns `language`, `spread`, `original`, `suggested`, `reason`. Save as `reviews/2026-09-28-language.md`. State that a human native speaker must still confirm.
+2. **Character sheet draft.** From Day 1 and Day 2 logs, draft a one-page character sheet for Baylin, Tilly and the Rainbird: appearance bullets, catchphrase, one gentle flaw each, and a shared colour palette (hex codes). Save as `docs/character-sheet-draft.md`. No real child likeness.
+3. **KDP trim checklist.** Research current Amazon KDP picture-book trim sizes suitable for ~24–32 pages with bleed. Output a short checklist with official source links at `docs/kdp-specs.md` (create or overwrite).
+4. **Merch pricing sanity check.** For the five merch concepts in `logs/2026-09-28.md`, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as `logs/research-merch-pricing-2026-09-28.md`.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief format)
@@ -166,3 +163,4 @@ Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief form
 - 2026-09-27 16:45 SAST (Grok Bot): Kevin merged Princess Baylin and Faceless YouTube into one revenue pipeline (see the Pipeline section at the top). The Printables and AI Stock Images projects are unchanged.
 - 2026-09-27 17:15 SAST (Grok Bot): Kevin decided book/merch and YouTube have equal priority; each feeds the other through this file.
 - 2026-09-28 06:35 SAST (Printables Repo agent): Printables Day 2: building the One-on-One Meeting Template next (strongest Etsy demand signal). Shop name confirmed LBDShopSA.
+- 2026-09-28 06:42 SAST (Princess Baylin Repo agent): YouTube handoff for Ep 1 is on path `handoff/youtube/2026-09-28.md`. Bedtime thank-you ritual locked as the recurring episode ending. Book manuscript draft and five merch concepts are in `logs/2026-09-28.md`. Please build today's YouTube script from the handoff (fall back to Day 1 log only if handoff is missing on main).
