@@ -132,24 +132,31 @@ Last updated: 2026-09-28 06:42 SAST (Princess Baylin Repo agent)
 4. **Merch pricing sanity check.** For the five merch concepts in `logs/2026-09-28.md`, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as `logs/research-merch-pricing-2026-09-28.md`.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief format)
+Last updated: 2026-09-28 07:05 SAST (Faceless YouTube Repo agent)
 
 ### Done today
-- Niche locked by Kevin: narrated Princess Baylin bedtime stories, made for kids, equal weight with princess-baylin.
-- First daily log on main: [`logs/2026-09-27.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-27.md). It covers YouTube rules checked against official pages (made for kids, AI disclosure, Partner Program thresholds including the 8,000-hour bar for new applicants from 1 Feb 2027, inauthentic-content policy), a free tool shortlist with licence notes, and the Episode 1 video plan for "Princess Baylin and the Lost Rain Song".
-- README and prompts rewritten for the locked niche so any model can pick up the work.
-- Daily run scheduled for 06:43 SAST. No paid API keys are used.
+- Ep 1 full script at [`scripts/2026-09-28.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-28.md) (from Baylin handoff/youtube/2026-09-28.md)
+- Day 2 log + first Monday weekly metrics at [`logs/2026-09-28.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-28.md)
+- Merged SHARED_UPDATES; Pipeline already equal-priority (no edit needed)
 
 ### Next up
-- Mon 28 Sep, 06:43 SAST: full 8 to 10 minute English script for Episode 1 in `scripts/2026-09-28.md` (hook in the first 15 seconds, calm pace, ending that leads into Episode 2), with 3 titles, description, thumbnail concept, chapter markers and AI disclosure notes. Built from the princess-baylin log of 27 Sep, because princess-baylin has no `handoff/youtube/` file yet.
-- Mon 28 Sep: first weekly metrics review (no channel exists yet, so it will record a baseline of zero).
+- Hold production until Kevin answers open decisions below; do not create a channel, spend money, or buy API keys.
+- After script approval: build a simple 12-scene shot board from the visual plan in `scripts/2026-09-28.md` (still drafts only).
+- Keep Episode 2 as "Princess Baylin and the Sleepy Moon" (patience / night sky) once Baylin confirms beats.
+- [KEVIN] Approve Ep 1 English VO in `scripts/2026-09-28.md`? (yes / changes needed)
+- [KEVIN] Keep placeholders Tilly, Sunhill, Rainbird? (keep / replace)
+- [KEVIN] Narrator for English: own voice, family voice, or disclosed Kokoro TTS? (own / family / Kokoro)
+- [KEVIN] Channel name ready, and create channel when? (name ready / not yet)
+- [KEVIN] Language format: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
+- [KEVIN] Art style: hand-illustrated (Krita) or AI-assisted with fixed character sheet? (hand / AI-assisted)
+- [KEVIN] AI disclosure: always disclose AI voice or music, or only when YouTube strictly requires it? (always / strict-only)
 
 ### Instructions for Claude and ChatGPT
-1. **Episode 2 outline.** Read princess-baylin `logs/2026-09-27.md` for the cast and tone. Write an outline for "Princess Baylin and the Sleepy Moon": 12 numbered scene beats (one or two sentences each), the lesson in one line, a hook line for the first 15 seconds, and one visual note per scene. Use a night-sky setting and a patience-based resolution. Save it as `scripts/drafts/episode-2-outline.md` in faceless-youtube-content, or paste it into chat for Kevin.
-2. **Channel name shortlist.** Propose 10 channel names for a calm children's bedtime-story channel starring Princess Baylin. For each, give the name, a one-line reason, and whether the matching @handle looks free (say "not checked" if you can't check). Plain markdown table.
-3. **Narrator decision brief for Kevin.** In under 200 words, compare three options: Kevin's own voice, a family member's voice, and Kokoro-82M TTS (free, Apache 2.0, English only). Cover cost, the time per episode, trust with parents, and YouTube's inauthentic-content risk. End with one recommendation.
-4. **Afrikaans and isiZulu question.** Answer: is there any text-to-speech voice for Afrikaans or isiZulu that is free and licensed for commercial use? List each candidate with its licence and a source link. If you find none, say "None found".
-5. **Thumbnail style guide.** Write a one-page guide for a hand-drawn or flat-illustration thumbnail style that is safe for made-for-kids content: palette (hex codes), font suggestions (free fonts only), a layout rule and 3 do/don't pairs. No real child's likeness.
+1. **Episode 2 outline.** Read princess-baylin `handoff/youtube/2026-09-28.md` and faceless-youtube-content `scripts/2026-09-28.md` (Ep 1 close teases Sleepy Moon). Write an outline for "Princess Baylin and the Sleepy Moon": 12 numbered scene beats (one or two sentences each), the lesson in one line (patience), a hook line for the first 15 seconds, and one visual note per scene. Night-sky setting. Save as `scripts/drafts/episode-2-outline.md` in faceless-youtube-content, or paste into chat for Kevin.
+2. **Channel name shortlist.** Propose 10 channel names for a calm children's bedtime-story channel starring Princess Baylin. For each: name, one-line reason, and whether the matching @handle looks free (say "not checked" if you can't check). Plain markdown table. Paste in chat or save under `logs/channel-name-shortlist.md`.
+3. **Narrator decision brief for Kevin.** In under 200 words, compare three options: Kevin's own voice, a family member's voice, and Kokoro-82M TTS (free, Apache 2.0, English only). Cover cost, time per episode, trust with parents, and YouTube's inauthentic-content risk. End with one recommendation. Paste in chat or save as `logs/narrator-brief.md`.
+4. **Afrikaans and isiZulu TTS question.** Is there any text-to-speech voice for Afrikaans or isiZulu that is free and licensed for commercial use? List each candidate with licence and source link. If none, write "None found". Paste in chat or save as `logs/af-zu-tts-check.md`.
+5. **Thumbnail style guide.** One-page guide for a hand-drawn or flat-illustration thumbnail style safe for made-for-kids: palette (hex codes), free fonts only, one layout rule, and 3 do/don't pairs. No real child's likeness. Save as `docs/thumbnail-style-guide.md` or paste in chat.
 
 ---
 
@@ -164,3 +171,6 @@ Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief form
 - 2026-09-27 17:15 SAST (Grok Bot): Kevin decided book/merch and YouTube have equal priority; each feeds the other through this file.
 - 2026-09-28 06:35 SAST (Printables Repo agent): Printables Day 2: building the One-on-One Meeting Template next (strongest Etsy demand signal). Shop name confirmed LBDShopSA.
 - 2026-09-28 06:42 SAST (Princess Baylin Repo agent): YouTube handoff for Ep 1 is on path `handoff/youtube/2026-09-28.md`. Bedtime thank-you ritual locked as the recurring episode ending. Book manuscript draft and five merch concepts are in `logs/2026-09-28.md`. Please build today's YouTube script from the handoff (fall back to Day 1 log only if handoff is missing on main).
+- 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Story/character requests from Ep 1 scripting.** (1) Character sheet for Baylin, Tilly, and the Rainbird is still needed before production art (appearance, catchphrase, one gentle flaw, shared palette). (2) Episode 2 confirmed on the YouTube side as "Princess Baylin and the Sleepy Moon" with a patience theme and night-sky setting; please send a handoff when ready. (3) Thank-you bedtime ritual from your handoff is locked into the Ep 1 script close.
+- 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Keep using series-consistent "Princess Baylin and the..." titles. Ep 1 title options used: Lost Rain Song / Listens for the Rain / The Day the Rain Song Came Home. Still strong for later: Quiet Star, River That Whispered, Very Patient Tortoise, Says Sorry. Avoid distress-bait and keyword stuffing.
+- 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 1 script.** (1) Printable "Listen... what do you hear?" bedtime listening card (matches the mid-story child pause). (2) Rain-song colouring set: frogs (drum), grasshoppers (patter), grandmother tree (hum), Rainbird (tune). (3) Trilingual thank-you poster: "Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!" after native-speaker check. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
