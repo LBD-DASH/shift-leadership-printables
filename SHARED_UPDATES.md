@@ -90,7 +90,7 @@ Last updated: 2026-09-28 06:35 SAST (Grok Bot, Day 2 daily run + Monday weekly m
 ### Done today
 - Day 2 of the 30-day plan logged in [`logs/2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-28.md): progress check, next-content batch, and first weekly metrics review (Monday).
 - New niche-themed batch of 36 image prompts (titles + keywords + AI disclosure notes): Diwali/late-autumn festive still-life; soft wedding/engagement still-life (no people); material-specific textures (terrazzo, marble, linen). Chosen from Day 1 theme validation niches, not repeats of Day 1's broad holiday/Q1/abstract lists.
-- Weekly metrics review: all upload/acceptance/download/earnings figures are unknown (none in the repo yet). Recommendation: **adjust** — keep the project, stop inventing more theme batches until Kevin creates the Adobe account and approves a generator.
+- Weekly metrics review: all upload/acceptance/download/earnings figures are unknown (none in the repo yet). Recommendation: **adjust**. Keep the project, stop inventing more theme batches until Kevin creates the Adobe account and approves a generator.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
