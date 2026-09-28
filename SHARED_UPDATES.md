@@ -85,31 +85,24 @@ Last updated: 2026-09-27 18:05 SAST (Claude, same-day follow-up run)
 None today. Tomorrow: once Kevin answers the [KEVIN] questions above, the next useful task is turning the One-on-One Meeting Template copy into a paste-ready Etsy listing (title/tags/description, same format as `etsy/SHOP_COPY.md`), the same way item 2 above was done for the Shift Handover Sheet.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-27 17:15 SAST (Grok Bot, Day 1 daily run; work is in commit 913ef27)
+Last updated: 2026-09-28 06:35 SAST (Grok Bot, Day 2 daily run + Monday weekly metrics)
 
 ### Done today
-- Repo scaffolded: README plan, 3 prompts, `scripts/run_prompts.py` and the daily workflow.
-- Day 1 of the 30-day plan logged in [`logs/2026-09-27.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-27.md).
-- Do-not-generate list written (real people, brands and logos, artists' styles, protected landmarks, copyrighted characters, fake news events, readable text, careless use of religious symbols).
-- 36 prompts drafted, each theme with a title template and an ordered keyword list, across 3 themes: holiday backgrounds with copy space; New Year and Q1 planning with no identifiable people; evergreen abstract textures.
-- README handoff section added for Claude, ChatGPT or any agent picking this up.
-- Daily 06:29 SAST agent run set up (this agent). The repo's 06:17 SAST GitHub Action skips because there's no API key, by design.
+- Day 2 of the 30-day plan logged in [`logs/2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-28.md): progress check, next-content batch, and first weekly metrics review (Monday).
+- New niche-themed batch of 36 image prompts (titles + keywords + AI disclosure notes): Diwali/late-autumn festive still-life; soft wedding/engagement still-life (no people); material-specific textures (terrazzo, marble, linen). Chosen from Day 1 theme validation niches, not repeats of Day 1's broad holiday/Q1/abstract lists.
+- Weekly metrics review: all upload/acceptance/download/earnings figures are unknown (none in the repo yet). Recommendation: **adjust** — keep the project, stop inventing more theme batches until Kevin creates the Adobe account and approves a generator.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
-- Live demand validation in Adobe Stock search for the 3 themes (result counts, what's already saturated).
-- Days 2 to 3: generate candidates from the 36 prompts once a generator exists, then curate, upscale and QA.
-- Monday 28 Sep: the weekly metrics review (`prompts/weekly-metrics-review.md`).
+- **[KEVIN]** Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal)? (yes started / not yet)
+- **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
+- **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
+- Once both account and generator exist: generate a pilot of ~30 keepers from the lowest-saturation niches (Diwali, wooden-blocks growth, terrazzo/marble/linen), then curate, upscale, QA and upload with the generative-AI box ticked on every file.
 
 ### Instructions for Claude and ChatGPT
-Read the README and `logs/2026-09-27.md` first. Don't sign up for anything, buy anything or upload anything. Mark anything that needs Kevin with **[KEVIN]**.
-- **(a) Theme validation.** Check the 3 themes against current Adobe Stock search results. Return a table with the columns theme, sample search term, rough result count and competition note. Save it as `from-cto-new/theme-validation-YYYY-MM-DD.md`.
-- **(b) Generator and upscaler comparison.** Compare 3 to 5 image generators and upscalers on commercial stock-resale licence terms, monthly cost in ZAR and max resolution. Return a table plus one recommendation for Kevin. No sign-ups or purchases.
-- **(c) Adobe Stock AI rules.** Check Adobe Stock's current generative AI contributor rules (the disclosure checkbox, title rules and keyword rules). Summarise them in 5 to 10 bullets with source links.
-- **(d) Missing research file.** The README cites `blackvault/new-income-ideas-2026-09-27.md`, which isn't in the repo. Ask Kevin to add it to `from-cto-new/` or confirm it isn't needed.
-
-**Decisions only Kevin can make [KEVIN]:**
-- Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal). Nothing can be uploaded until it exists.
-- Approve R400 to R800 a month for an image generator, once its licence is confirmed to allow commercial stock resale.
+1. **Firefly stock-resale confirmation.** Check Adobe Firefly's current terms of use for whether outputs may be submitted to Adobe Stock for commercial licensing/resale. Return a short answer (yes / no / unclear) plus 3 to 5 quoted bullets with source URLs. Save as `from-cto-new/firefly-stock-resale-2026-09-28.md`. Do not sign up or buy anything.
+2. **Pilot prompt shortlist.** From `logs/2026-09-27.md` and `logs/2026-09-28.md`, pick the 10 best niche prompts for a first generation pilot (prefer Diwali, wooden-blocks growth, terrazzo/marble/linen). Output a numbered list with prompt text, title template and the first 10 keywords each. Save as `from-cto-new/pilot-prompt-shortlist-2026-09-28.md`.
+3. **Contributor setup checklist.** Write a one-page Adobe Stock Contributor setup checklist for a South African individual (account, ID verify, W-8BEN, PayPal, first-upload AI disclosure). Bullet list with official Adobe help links. Save as `docs/adobe-contributor-setup.md`.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-09-27 17:15 SAST (Grok Bot)
@@ -139,7 +132,7 @@ Decisions for Kevin: add the original story to `assets/story/` with identifying 
 Safety: Never include the child's face, real name details, school, location or other identifying details.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-27 17:14 SAST (Faceless YouTube Repo agent, new brief format)
+Last updated: 2026-09-27 17:15 SAST (Faceless YouTube Repo agent, new brief format)
 
 ### Done today
 - Niche locked by Kevin: narrated Princess Baylin bedtime stories, made for kids, equal weight with princess-baylin.
