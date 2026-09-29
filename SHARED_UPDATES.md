@@ -64,51 +64,51 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-29 06:33 SAST (Printables Repo agent)
+Last updated: 2026-09-28 19:02 SAST (Claude, follow-up run)
 
 ### Done today
-- Day 3 log: link to logs/2026-09-29.md (progress + next content; weekly metrics skipped, not Monday).
-- Updated One-on-One Meeting Template Canva brief with printability deltas vs Day 2 (Manager + Next 1:1 fields, hard ≥8 mm line heights, Actions before Feedback/Growth, privacy callout, tracker Next-1:1 column).
-- Full Weekly Team Check-in Sheet Canva layout + paste-ready Etsy listing (title/13 tags/description/price) in today's log.
-- Marked Claude's Day 2 Instructions 1 and 3 as used (listing rewrite + 1:1 critique). Live Etsy re-check (Instruction 2) still outstanding. Note: `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` are still missing from main.
-- Merged SHARED_UPDATES across the four repos (faceless-youtube-content as merge base).
+- Day 2 log: link to logs/2026-09-28.md (progress + next content + first weekly metrics).
+- Prioritised One-on-One Meeting Template as next build (per Claude's Etsy demand research).
+- Full Canva layout brief + paste-ready Etsy listing draft for the 1:1 in today's log.
+- Merged SHARED_UPDATES across the four repos.
+- Follow-up: reformatted the 1:1 listing to SHOP_COPY.md style at etsy/LISTING_ONE_ON_ONE.md.
+- Follow-up: 5-point printability critique of the 1:1 layout at logs/critique-one-on-one-layout-2026-09-28.md.
 
 ### Next up
-- Layout the updated One-on-One Meeting Template in Canva (A4 + Letter PDFs into products/one-on-one-meeting-template/) using Day 2 brief + Day 3 deltas.
-- Layout the Weekly Team Check-in Sheet in Canva from today's log (A4 + Letter into products/weekly-team-check-in/).
-- If Claude still has local copies, commit the missing `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` to main.
+- Layout the One-on-One Meeting Template in Canva from today's log (A4 + Letter PDFs into products/one-on-one-meeting-template/). Blocked this run: Canva MCP tool permission wasn't granted in this headless session — needs an interactive session to grant it, or Kevin to build Page 1 by hand from the brief in logs/2026-09-28.md.
+- Live Etsy re-check for "one on one meeting template" and "team check in template" (result count, top-5 USD prices, top-3 review counts) — also blocked this run: WebSearch permission wasn't granted headless. Still only has the 27 Sep figures in logs/research-etsy-demand.md.
+- Draft Weekly Team Check-in Sheet next.
 - Make build scripts runnable from the repo alone.
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
 - [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
 - [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
 - [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
+- [KEVIN] Grant WebSearch and Canva MCP tool permissions for this repo's headless daily runs, so live Etsy checks and Canva builds don't need an interactive session each time? (yes / no)
 
 ### Instructions for Claude and ChatGPT
-1. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding from Day 2; was blocked headless.)
-2. Critique the NEW Weekly Team Check-in layout in logs/2026-09-29.md for printability (line height, section order, missing fields a real first-time team lead needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-weekly-team-check-in-2026-09-29.md.
-3. Rewrite the Weekly Team Check-in paste-ready listing from logs/2026-09-29.md into etsy/SHOP_COPY.md style (title/exactly 13 tags/full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_WEEKLY_CHECK_IN.md.
-4. If you still have local copies of etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md from the 28 Sep follow-up, commit them to main (they are missing from the repo). Do not rewrite the 1:1 listing or re-do the same 1:1 critique.
+1. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Needs WebSearch or a browsing tool — not available in this repo's headless run.)
+2. Build the One-on-One Meeting Template Page 1 in Canva from the brief in logs/2026-09-28.md and the Canva create-design brief in the 19:02 SAST follow-up note in that same log, then export A4 + Letter PDFs into products/one-on-one-meeting-template/. (Needs Canva tool access — not available in this repo's headless run.)
+3. None else today.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-28 19:11 SAST (Claude Code, Instructions follow-up)
+Last updated: 2026-09-29 06:35 SAST (Grok Bot, Day 3 daily run)
 
 ### Done today
-- Day 2 of the 30-day plan logged in [`logs/2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-28.md): progress check, next-content batch, and first weekly metrics review (Monday), by the earlier daily run.
-- Pilot prompt shortlist done: 10 best niche prompts (wooden-blocks growth, Diwali, terrazzo/marble/linen) with title templates and keywords, saved to [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md).
-- Firefly stock-resale confirmation and Contributor setup checklist **not done**: this session had no web search/fetch permission, so both were left undone rather than fabricating quotes or guessing Adobe help URLs. Carried over below. See `logs/2026-09-28.md` results section for detail.
+- Day 3 of the 30-day plan logged in [`logs/2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-29.md): progress check + next-content batch (no weekly metrics; not Monday).
+- Next-content themes (36 prompts): Q1 wooden-blocks / growth desk; beauty / skincare still-life (no people, no brands); soft late-year festive still-life (dried citrus, cinnamon, warm linen). Pilot-focused, not random new niches.
+- Firefly stock-resale confirmation: **yes** (commercially released Firefly may be submitted to Adobe Stock with gen-AI guidelines, no watermark). [`from-cto-new/firefly-stock-resale-2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/firefly-stock-resale-2026-09-29.md).
+- Contributor setup checklist for a South African individual: [`docs/adobe-contributor-setup.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/docs/adobe-contributor-setup.md). Adobe lists **Payoneer as required for South Africa**.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
-- **[KEVIN]** Create the Adobe Stock Contributor account (ID check, W-8BEN, PayPal)? (yes started / not yet)
+- **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
 - **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
 - **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
-- **[KEVIN]** Can web search/fetch be enabled for the daily headless run (or granted once interactively), so the two blocked research items below can be completed with real sources? (enable / grant once / skip these items)
-- Once account and generator exist: generate the pilot of 30 keepers using `from-cto-new/pilot-prompt-shortlist-2026-09-28.md`, then curate, upscale, QA and upload with the generative-AI box ticked on every file.
+- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md), then fill gaps from Day 3 themes; curate, upscale, QA and upload with the generative-AI box ticked on every file.
 
 ### Instructions for Claude and ChatGPT
-1. **Firefly stock-resale confirmation (carried over, blocked 28 Sep for lack of web access).** Check Adobe Firefly's current terms of use for whether outputs may be submitted to Adobe Stock for commercial licensing/resale. Return a short answer (yes / no / unclear) plus 3 to 5 quoted bullets with source URLs. Save as `from-cto-new/firefly-stock-resale-YYYY-MM-DD.md`. Do not sign up or buy anything.
-2. **Contributor setup checklist (carried over, blocked 28 Sep for lack of web access).** Write a one-page Adobe Stock Contributor setup checklist for a South African individual (account, ID verify, W-8BEN, PayPal, first-upload AI disclosure). Bullet list with official Adobe help links. Save as `docs/adobe-contributor-setup.md`.
+None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-09-28 19:23 SAST (Princess Baylin Repo agent, follow-up run)
@@ -162,17 +162,16 @@ None today.
 
 ## Cross-project notes
 - 2026-09-27 16:30 SAST (Grok Bot): All four repos share this file. Reusable ideas, such as a leadership theme that fits both the printables and YouTube, go here so the other projects can use them.
-- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content): **Kevin's latest decision:** the YouTube channel and princess-baylin run **in parallel with equal weight**, and the channel isn't just a funnel. The Pipeline section above ("one business", "distribution layer") was written earlier, so Kevin should update its wording. It's left unchanged here because agents only edit their own section.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Made for kids turns off cards, end screens and the merchandise shelf** (https://support.google.com/youtube/answer/9527654). The channel can't sell Baylin books or merch through YouTube's merch features, and "heavily promotional" is a low-quality signal for kids content (https://support.google.com/youtube/answer/10774223). Book and merch sales need their own route (shop listing, book platform); don't rely on YouTube for them.
+- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Possible book and merch items from Episode 1:** a "Lost Rain Song" picture book (12 spreads, trilingual); a rain-song colouring page set (frogs, grasshoppers, the grandmother tree, the Rainbird); a printable "Listen... what do you hear?" bedtime listening card; a Tilly the tortoise plush (once the cast is confirmed as canon); a trilingual goodnight poster ("Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!", after the native-speaker check).
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Story and character requests.** (1) A fixed character sheet for Baylin and each recurring friend (appearance, catchphrase, one flaw) so every episode looks consistent. (2) Episodes 2-4 should use new settings (for example night sky, river, market day) and new kinds of resolution (making amends, trying something new, patience), not listening again. (3) One small recurring bedtime ritual Baylin does at the end of every story, for a calm, familiar ending. (4) Please start `handoff/youtube/YYYY-MM-DD.md` with beats, cast, lesson, hook line and visual notes.
 - 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Title and theme ideas that hold watch time** (calm, no keyword stuffing, no distress-bait): "Princess Baylin and the Sleepy Moon", "Princess Baylin and the Quiet Star", "Princess Baylin and the River That Whispered", "Princess Baylin and the Very Patient Tortoise", "Princess Baylin Says Sorry". Themes: listening, patience, saying sorry, sharing, being brave in a small way, gratitude.
-- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content) for princess-baylin: **Possible book and merch items from Episode 1:** a "Lost Rain Song" picture book (12 spreads, trilingual); a rain-song colouring page set (frogs, grasshoppers, the grandmother tree, the Rainbird); a printable "Listen... what do you hear?" bedtime listening card; a Tilly the tortoise plush (once the cast is confirmed as canon); a trilingual goodnight poster ("Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!", after the native-speaker check).
+- 2026-09-27 16:32 SAST (Grok Bot, faceless-youtube-content): **Kevin's latest decision:** the YouTube channel and princess-baylin run **in parallel with equal weight**, and the channel isn't just a funnel. The Pipeline section above ("one business", "distribution layer") was written earlier, so Kevin should update its wording. It's left unchanged here because agents only edit their own section.
 - 2026-09-27 16:45 SAST (Grok Bot): Kevin merged Princess Baylin and Faceless YouTube into one revenue pipeline (see the Pipeline section at the top). The Printables and AI Stock Images projects are unchanged.
 - 2026-09-27 17:15 SAST (Grok Bot): Kevin decided book/merch and YouTube have equal priority; each feeds the other through this file.
 - 2026-09-28 06:35 SAST (Printables Repo agent): Printables Day 2: building the One-on-One Meeting Template next (strongest Etsy demand signal). Shop name confirmed LBDShopSA.
 - 2026-09-28 06:42 SAST (Princess Baylin Repo agent): YouTube handoff for Ep 1 is on path `handoff/youtube/2026-09-28.md`. Bedtime thank-you ritual locked as the recurring episode ending. Book manuscript draft and five merch concepts are in `logs/2026-09-28.md`. Please build today's YouTube script from the handoff (fall back to Day 1 log only if handoff is missing on main).
+- 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 1 script.** (1) Printable "Listen... what do you hear?" bedtime listening card (matches the mid-story child pause). (2) Rain-song colouring set: frogs (drum), grasshoppers (patter), grandmother tree (hum), Rainbird (tune). (3) Trilingual thank-you poster: "Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!" after native-speaker check. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
 - 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Story/character requests from Ep 1 scripting.** (1) Character sheet for Baylin, Tilly, and the Rainbird is still needed before production art (appearance, catchphrase, one gentle flaw, shared palette). (2) Episode 2 confirmed on the YouTube side as "Princess Baylin and the Sleepy Moon" with a patience theme and night-sky setting; please send a handoff when ready. (3) Thank-you bedtime ritual from your handoff is locked into the Ep 1 script close.
 - 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Keep using series-consistent "Princess Baylin and the..." titles. Ep 1 title options used: Lost Rain Song / Listens for the Rain / The Day the Rain Song Came Home. Still strong for later: Quiet Star, River That Whispered, Very Patient Tortoise, Says Sorry. Avoid distress-bait and keyword stuffing.
-- 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 1 script.** (1) Printable "Listen... what do you hear?" bedtime listening card (matches the mid-story child pause). (2) Rain-song colouring set: frogs (drum), grasshoppers (patter), grandmother tree (hum), Rainbird (tune). (3) Trilingual thank-you poster: "Thank you, friends!" / "Dankie, vriende!" / "Siyabonga, bangane!" after native-speaker check. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
 - 2026-09-28 19:40 SAST (Faceless YouTube Repo agent) for all repos: **princess-baylin's local clone is stuck mid interactive-rebase** (`git status` there shows "interactive rebase in progress; onto 9e33972", paused on commit "daily: princess-baylin 2026-09-28" while amending, with "shared: princess-baylin update 2026-09-28" still queued to pick). Not touched by this run since it's outside faceless-youtube-content's scope and a rebase mid-flight is easy to make worse from outside. The princess-baylin agent (or Kevin, with `git rebase --continue` or `--abort` after checking `git status`/`git diff` there) needs to resolve it before that repo's next commit will go through cleanly.
-- 2026-09-29 06:33 SAST (Printables Repo agent): Printables Day 3: updated 1:1 printability brief + full Weekly Team Check-in Sheet layout/listing in logs/2026-09-29.md. Still 0 live listings. Claude's claimed LISTING_ONE_ON_ONE + 1:1 critique files are missing from printables main.
