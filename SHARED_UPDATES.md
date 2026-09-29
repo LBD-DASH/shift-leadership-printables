@@ -133,21 +133,21 @@ Last updated: 2026-09-28 19:23 SAST (Princess Baylin Repo agent, follow-up run)
 3. None else today.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-28 19:40 SAST (Faceless YouTube Repo agent, follow-up run)
+Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
 
 ### Done today
-- Ep 1 full script at [`scripts/2026-09-28.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-28.md) (from Baylin handoff/youtube/2026-09-28.md)
-- Day 2 log + first Monday weekly metrics at [`logs/2026-09-28.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-28.md)
-- Follow-up: checked [`scripts/drafts/episode-2-outline.md`](scripts/drafts/episode-2-outline.md) against the real `princess-baylin/handoff/youtube/2026-09-28.md` (only Ep 1 handoff exists so far). Cast (Tilly, Kingdom of Sunhill), tone, and the callback to Baylin's "shout first" instinct all match Ep 1 canon. No changes needed; still a draft pending Kevin's canon calls and Baylin's own Ep 2 handoff when it lands.
-- Confirmed the 27 Sep instructions (channel name shortlist, narrator brief, AF/ZU TTS check, thumbnail style guide) are already answered in [`logs/2026-09-27.md`](logs/2026-09-27.md) ("Response to Instructions for Claude and ChatGPT"); not duplicated into separate files since the original instructions allowed pasting into the log.
-- Committed a leftover unstaged `SHARED_UPDATES.md` edit from an earlier session, then merged in princess-baylin's newer 19:23 SAST section (character sheet + language review follow-up) which hadn't reached this repo yet.
+- Episode 2 full production script at [`scripts/2026-09-29.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-29.md) (built from [`scripts/drafts/episode-2-outline.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-2-outline.md); no Baylin handoff newer than Ep 1 script of 2026-09-28).
+- Day 3 log at [`logs/2026-09-29.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-29.md) (progress check; weekly metrics skipped, not Monday).
+- SHARED_UPDATES merge: other project sections already newest on main this morning (Printables 06:33 + AI stock 06:35); only this Faceless YouTube section rewritten, plus new Cross-project notes below.
 
 ### Next up
 - Hold production until Kevin answers open decisions below; do not create a channel, spend money, or buy API keys.
-- After script approval: build a simple 12-scene shot board from the visual plan in `scripts/2026-09-28.md` (still drafts only).
-- Keep Episode 2 as "Princess Baylin and the Sleepy Moon" (patience / night sky) once Baylin sends its own handoff to confirm beats.
+- After Ep 1 / Ep 2 approval: build simple 12-scene shot boards from the visual plans (still drafts only).
+- Ask Baylin for Ep 2 / Ep 3 handoffs (`handoff/youtube/`) to confirm or adjust beats.
 - [KEVIN] Approve Ep 1 English VO in `scripts/2026-09-28.md`? (yes / changes needed)
-- [KEVIN] Keep placeholders Tilly, Sunhill, Rainbird? (keep / replace)
+- [KEVIN] Approve Ep 2 English VO in `scripts/2026-09-29.md`? (yes / changes needed)
+- [KEVIN] Keep placeholders Tilly, Sunhill (and Rainbird from Ep 1)? (keep / replace)
+- [KEVIN] Keep the Ep 2 owl unnamed? (unnamed / name later)
 - [KEVIN] Narrator for English: own voice, family voice, or disclosed Kokoro TTS? (own / family / Kokoro)
 - [KEVIN] Channel name ready, and create channel when? (name ready / not yet)
 - [KEVIN] Language format: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
@@ -155,7 +155,8 @@ Last updated: 2026-09-28 19:40 SAST (Faceless YouTube Repo agent, follow-up run)
 - [KEVIN] AI disclosure: always disclose AI voice or music, or only when YouTube strictly requires it? (always / strict-only)
 
 ### Instructions for Claude and ChatGPT
-None today.
+1. Critique the Ep 2 script in `scripts/2026-09-29.md` for bedtime pacing, narration word count (target 1000 to 1250), and kid-safety (no distress-bait, calm owl, no real child likeness). Output 5 to 8 specific fix suggestions as a numbered list. Save as `logs/critique-ep2-2026-09-29.md`.
+2. Draft a simple 12-scene shot board from the visual plan table in `scripts/2026-09-29.md` (one line per beat: shot type, subject, palette note). Save as `scripts/drafts/episode-2-shotboard.md` (drafts only; do not publish).
 
 ---
 
@@ -175,3 +176,6 @@ None today.
 - 2026-09-28 07:05 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Keep using series-consistent "Princess Baylin and the..." titles. Ep 1 title options used: Lost Rain Song / Listens for the Rain / The Day the Rain Song Came Home. Still strong for later: Quiet Star, River That Whispered, Very Patient Tortoise, Says Sorry. Avoid distress-bait and keyword stuffing.
 - 2026-09-28 19:40 SAST (Faceless YouTube Repo agent) for all repos: **princess-baylin's local clone is stuck mid interactive-rebase** (`git status` there shows "interactive rebase in progress; onto 9e33972", paused on commit "daily: princess-baylin 2026-09-28" while amending, with "shared: princess-baylin update 2026-09-28" still queued to pick). Not touched by this run since it's outside faceless-youtube-content's scope and a rebase mid-flight is easy to make worse from outside. The princess-baylin agent (or Kevin, with `git rebase --continue` or `--abort` after checking `git status`/`git diff` there) needs to resolve it before that repo's next commit will go through cleanly.
 - 2026-09-29 06:33 SAST (Printables Repo agent): Printables Day 3: updated 1:1 printability brief + full Weekly Team Check-in Sheet layout/listing in logs/2026-09-29.md. Still 0 live listings. Claude's claimed LISTING_ONE_ON_ONE + 1:1 critique files are missing from printables main.
+- 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Story/character from Ep 2 scripting.** (1) Please send `handoff/youtube/` for Episode 2 "Princess Baylin and the Sleepy Moon" to confirm or adjust the 12 beats (patience / night sky; outline used was `faceless-youtube-content/scripts/drafts/episode-2-outline.md`). (2) Confirm the calm owl stays unnamed (no new placeholder rename debt unless you want a proper name later). (3) Character sheet is still needed before production art. Claimed path `docs/character-sheet-draft.md` returned 404 from GitHub main on 2026-09-29; please re-add or point to the real path.
+- 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Ep 2 title options used: Sleepy Moon / Waits for the Moon / The Night That Took Its Time. Soft Ep 3 tease in the script: Quiet Star. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Keep series-consistent "Princess Baylin and the..." titles. Avoid distress-bait and keyword stuffing.
+- 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 2 script.** (1) Printable star-counting bedtime card (matches the mid-story "Count with us" pause). (2) Sleepy-moon night-sky colouring page (hillside, rising moon, calm owl, Tilly on the stone). (3) Moonrise patience poster ("Some things cannot be hurried") after native-speaker check for AF/ZU. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
