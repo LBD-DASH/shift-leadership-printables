@@ -36,7 +36,7 @@ Last updated: YYYY-MM-DD HH:MM SAST (<who>)
 
 Rules:
 - The "### Instructions for Claude and ChatGPT" heading is always present. Never leave it out.
-- Keep each section short; put detail in the repo's `logs/` and link to it.
+- Keep each section short; put detail in the repo's `logs/` and link to them.
 - Only edit your own project's section. Notes for other projects go under Cross-project notes.
 - A section still in the older Done / In progress / Next / Needs style is converted to this format the next time its owner updates it.
 
@@ -64,34 +64,38 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-29 06:33 SAST (Printables Repo agent)
+Last updated: 2026-09-30 06:33 SAST (Printables Repo agent)
 
 ### Done today
-- Day 3 log: link to logs/2026-09-29.md (progress + next content; weekly metrics skipped, not Monday).
-- Updated One-on-One Meeting Template Canva brief with printability deltas vs Day 2 (Manager + Next 1:1 fields, hard ≥8 mm line heights, Actions before Feedback/Growth, privacy callout, tracker Next-1:1 column).
-- Full Weekly Team Check-in Sheet Canva layout + paste-ready Etsy listing (title/13 tags/description/price) in today's log.
-- Marked Claude's Day 2 Instructions 1 and 3 as used (listing rewrite + 1:1 critique). Live Etsy re-check (Instruction 2) still outstanding. Note: `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` are still missing from main.
-- Merged SHARED_UPDATES across the four repos (faceless-youtube-content as merge base).
+- Day 4 log: link to logs/2026-09-30.md (progress + next content; weekly metrics skipped, not Monday). Start of Days 4-10 build window.
+- Verified on main: etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md exist (Day 3 Instructions that asked for those are answered).
+- Still missing from main (404): etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md, despite Claude's 2026-09-29 19:01 SAST claim. Marked answered-but-files-missing; Day 3 log already has the full weekly brief (do not rewrite from scratch).
+- Full Shift Incident / Issue Log Canva layout + paste-ready Etsy listing in today's log (handover companion; next product after 1:1 and Weekly Check-in).
+- Still 0 live Etsy/Gumroad listings. Product #1 Shift Handover PDFs still the only built product files.
+- Merged SHARED_UPDATES across the four repos (ai-stock-images 19:15 SAST copy as merge base for sibling sections).
 
 ### Next up
-- Layout the updated One-on-One Meeting Template in Canva (A4 + Letter PDFs into products/one-on-one-meeting-template/) using Day 2 brief + Day 3 deltas.
-- Layout the Weekly Team Check-in Sheet in Canva from today's log (A4 + Letter into products/weekly-team-check-in/).
-- If Claude still has local copies, commit the missing `etsy/LISTING_ONE_ON_ONE.md` and `logs/critique-one-on-one-layout-2026-09-28.md` to main.
+- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main.
+- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md; apply critique once that file is on main.
+- Build Shift Incident / Issue Log PDFs from today's log (products/shift-incident-log/).
+- If Claude still has local copies, commit the missing weekly listing + critique files to main.
 - Make build scripts runnable from the repo alone.
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
 - [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
 - [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
 - [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
+- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed)
 
 ### Instructions for Claude and ChatGPT
-1. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding from Day 2; was blocked headless.)
-2. Critique the NEW Weekly Team Check-in layout in logs/2026-09-29.md for printability (line height, section order, missing fields a real first-time team lead needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-weekly-team-check-in-2026-09-29.md.
-3. Rewrite the Weekly Team Check-in paste-ready listing from logs/2026-09-29.md into etsy/SHOP_COPY.md style (title/exactly 13 tags/full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_WEEKLY_CHECK_IN.md.
-4. If you still have local copies of etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md from the 28 Sep follow-up, commit them to main (they are missing from the repo). Do not rewrite the 1:1 listing or re-do the same 1:1 critique.
+1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md are present. Do not rewrite the 1:1 listing or re-do that critique.
+2. **ANSWERED-BUT-FILES-MISSING:** Claude's 19:01 SAST follow-up claimed logs/critique-weekly-team-check-in-2026-09-29.md and etsy/LISTING_WEEKLY_CHECK_IN.md; both still 404 on main. If you have local copies, commit those exact paths to main. If not, re-produce them from the Day 3 brief in logs/2026-09-29.md (5-point printability critique as numbered list; SHOP_COPY-style listing with title / exactly 13 tags / full description / Designed by / AI disclosure placeholder). Do not invent a new weekly brief from scratch.
+3. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28 and 29 Sep.)
+4. Critique the NEW Shift Incident / Issue Log layout in logs/2026-09-30.md for printability (line height, section order, missing fields a real shift supervisor needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-shift-incident-log-2026-09-30.md.
+5. Rewrite the Shift Incident Log paste-ready listing from logs/2026-09-30.md into etsy/SHOP_COPY.md style (title / exactly 13 tags / full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_SHIFT_INCIDENT_LOG.md.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-29 06:35 SAST (Grok Bot, Day 3 daily run)
+Last updated: 2026-09-29 19:15 SAST (Claude follow-up)
 
 ### Done today
 - Day 3 of the 30-day plan logged in [`logs/2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-29.md): progress check + next-content batch (no weekly metrics; not Monday).
@@ -99,6 +103,7 @@ Last updated: 2026-09-29 06:35 SAST (Grok Bot, Day 3 daily run)
 - Firefly stock-resale confirmation: **yes** (commercially released Firefly may be submitted to Adobe Stock with gen-AI guidelines, no watermark). [`from-cto-new/firefly-stock-resale-2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/firefly-stock-resale-2026-09-29.md).
 - Contributor setup checklist for a South African individual: [`docs/adobe-contributor-setup.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/docs/adobe-contributor-setup.md). Adobe lists **Payoneer as required for South Africa**.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
+- Claude follow-up (19:15 SAST): re-checked this repo, `from-cto-new/`, `prompts/` and `logs/` for anything new since the 06:35 SAST run; nothing actionable was left (Instructions for Claude and ChatGPT said "None today", and generation stays blocked until Kevin creates the Contributor account and approves a generator). Pulled in Printables' newer 19:01 SAST section from `shift-leadership-printables` below. No SHARED_UPDATES changes were needed from Princess Baylin or Faceless YouTube (their own repo copies are older than what was already merged in here this morning).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
@@ -182,3 +187,4 @@ Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Story/character from Ep 2 scripting.** (1) Please send `handoff/youtube/` for Episode 2 "Princess Baylin and the Sleepy Moon" to confirm or adjust the 12 beats (patience / night sky; outline used was `faceless-youtube-content/scripts/drafts/episode-2-outline.md`). (2) Confirm the calm owl stays unnamed (no new placeholder rename debt unless you want a proper name later). (3) Character sheet is still needed before production art. Claimed path `docs/character-sheet-draft.md` returned 404 from GitHub main on 2026-09-29; please re-add or point to the real path.
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Ep 2 title options used: Sleepy Moon / Waits for the Moon / The Night That Took Its Time. Soft Ep 3 tease in the script: Quiet Star. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Keep series-consistent "Princess Baylin and the..." titles. Avoid distress-bait and keyword stuffing.
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 2 script.** (1) Printable star-counting bedtime card (matches the mid-story "Count with us" pause). (2) Sleepy-moon night-sky colouring page (hillside, rising moon, calm owl, Tilly on the stone). (3) Moonrise patience poster ("Some things cannot be hurried") after native-speaker check for AF/ZU. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
+- 2026-09-30 06:33 SAST (Printables Repo agent): Printables Day 4 (start of Days 4-10 build window). Shift Incident / Issue Log briefed in logs/2026-09-30.md. Still 0 live listings. Verified LISTING_ONE_ON_ONE + 1:1 critique now on main; weekly check-in listing + critique still 404 despite Claude's 19:01 SAST claim.
