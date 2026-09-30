@@ -64,21 +64,23 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-30 06:33 SAST (Printables Repo agent)
+Last updated: 2026-09-30 14:47 SAST (Claude follow-up)
 
 ### Done today
 - Day 4 log: link to logs/2026-09-30.md (progress + next content; weekly metrics skipped, not Monday). Start of Days 4-10 build window.
 - Verified on main: etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md exist (Day 3 Instructions that asked for those are answered).
-- Still missing from main (404): etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md, despite Claude's 2026-09-29 19:01 SAST claim. Marked answered-but-files-missing; Day 3 log already has the full weekly brief (do not rewrite from scratch).
+- **Resolved:** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md were only missing from `origin/main` because the 2026-09-29 19:01 SAST commit hadn't been pushed; rebased local main onto the Day 4 commit and both files are now on main. No content was rewritten.
+- Wrote logs/critique-shift-incident-log-2026-09-30.md (5-point printability critique of today's Shift Incident / Issue Log brief: header strip overloaded, no row-height budget totalled (~230mm used of ~273mm usable, too tight), Box A tick-row "wrap if needed" left unresolved, Box D equipment-status symbols have no legend, Box D Impact table can't hold multi-asset incidents).
+- Wrote etsy/LISTING_SHIFT_INCIDENT_LOG.md (SHOP_COPY.md-style listing: title / exactly 13 tags / full description / Designed by / AI disclosure placeholder) from today's log.
+- Live Etsy re-check still blocked: WebSearch permission not available in this headless run (same as 28 and 29 Sep).
 - Full Shift Incident / Issue Log Canva layout + paste-ready Etsy listing in today's log (handover companion; next product after 1:1 and Weekly Check-in).
 - Still 0 live Etsy/Gumroad listings. Product #1 Shift Handover PDFs still the only built product files.
 - Merged SHARED_UPDATES across the four repos (ai-stock-images 19:15 SAST copy as merge base for sibling sections).
 
 ### Next up
 - Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main.
-- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md; apply critique once that file is on main.
-- Build Shift Incident / Issue Log PDFs from today's log (products/shift-incident-log/).
-- If Claude still has local copies, commit the missing weekly listing + critique files to main.
+- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main.
+- Build Shift Incident / Issue Log PDFs from today's log + today's critique (products/shift-incident-log/).
 - Make build scripts runnable from the repo alone.
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
@@ -89,10 +91,9 @@ Last updated: 2026-09-30 06:33 SAST (Printables Repo agent)
 
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md are present. Do not rewrite the 1:1 listing or re-do that critique.
-2. **ANSWERED-BUT-FILES-MISSING:** Claude's 19:01 SAST follow-up claimed logs/critique-weekly-team-check-in-2026-09-29.md and etsy/LISTING_WEEKLY_CHECK_IN.md; both still 404 on main. If you have local copies, commit those exact paths to main. If not, re-produce them from the Day 3 brief in logs/2026-09-29.md (5-point printability critique as numbered list; SHOP_COPY-style listing with title / exactly 13 tags / full description / Designed by / AI disclosure placeholder). Do not invent a new weekly brief from scratch.
-3. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28 and 29 Sep.)
-4. Critique the NEW Shift Incident / Issue Log layout in logs/2026-09-30.md for printability (line height, section order, missing fields a real shift supervisor needs). Output 5 specific fix suggestions as a numbered list. Save as logs/critique-shift-incident-log-2026-09-30.md.
-5. Rewrite the Shift Incident Log paste-ready listing from logs/2026-09-30.md into etsy/SHOP_COPY.md style (title / exactly 13 tags / full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_SHIFT_INCIDENT_LOG.md.
+2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md are now on main (was a local-commit-not-pushed issue, not missing content; fixed via rebase 2026-09-30). Do not rewrite the weekly listing or re-do that critique.
+3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md (5-point printability critique) and etsy/LISTING_SHIFT_INCIDENT_LOG.md (SHOP_COPY-style listing) are done. Do not redo either.
+4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28, 29 and 30 Sep — WebSearch permission is not grantable in a non-interactive run. Needs an interactive session with WebSearch/WebFetch approved, or Kevin to paste the numbers by hand.)
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
