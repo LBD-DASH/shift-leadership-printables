@@ -140,19 +140,20 @@ Last updated: 2026-09-30 06:42 SAST (Princess Baylin Repo agent, Day 4 daily run
 4. **AF/ZU non-native read-through.** Skim Ep 2 refine + Ep 3 AF/ZU spreads in logs/2026-09-30.md; list up to 8 phrases that look unnatural for a real native check later. Save as reviews/2026-09-30-language.md. Do not claim a native-speaker check was done.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
+Last updated: 2026-09-30 06:48 SAST (Faceless YouTube Repo agent)
 
 ### Done today
-- Episode 2 full production script at [`scripts/2026-09-29.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-29.md) (built from [`scripts/drafts/episode-2-outline.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/drafts/episode-2-outline.md); no Baylin handoff newer than Ep 1 script of 2026-09-28).
-- Day 3 log at [`logs/2026-09-29.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-29.md) (progress check; weekly metrics skipped, not Monday).
-- SHARED_UPDATES merge: other project sections already newest on main this morning (Printables 06:33 + AI stock 06:35); only this Faceless YouTube section rewritten, plus new Cross-project notes below.
+- Episode 3 full production script at [`scripts/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/scripts/2026-09-30.md) (built from princess-baylin [`handoff/youtube/2026-09-30.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-09-30.md))
+- Day 4 log at [`logs/2026-09-30.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-09-30.md) (progress check; weekly metrics skipped, not Monday)
+- SHARED_UPDATES: FYC section rewritten; Cross-project notes for Baylin added
 
 ### Next up
 - Hold production until Kevin answers open decisions below; do not create a channel, spend money, or buy API keys.
-- After Ep 1 / Ep 2 approval: build simple 12-scene shot boards from the visual plans (still drafts only).
-- Ask Baylin for Ep 2 / Ep 3 handoffs (`handoff/youtube/`) to confirm or adjust beats.
+- After Ep 1 / Ep 2 / Ep 3 approval: build simple 12-scene shot boards from the visual plans (still drafts only).
+- Ask Baylin to add Quiet Star (+ Sleepy Moon) to `docs/character-sheet-draft.md`.
 - [KEVIN] Approve Ep 1 English VO in `scripts/2026-09-28.md`? (yes / changes needed)
 - [KEVIN] Approve Ep 2 English VO in `scripts/2026-09-29.md`? (yes / changes needed)
+- [KEVIN] Approve Ep 3 English VO in `scripts/2026-09-30.md`? (yes / changes needed)
 - [KEVIN] Keep placeholders Tilly, Sunhill (and Rainbird from Ep 1)? (keep / replace)
 - [KEVIN] Keep the Ep 2 owl unnamed? (unnamed / name later)
 - [KEVIN] Narrator for English: own voice, family voice, or disclosed Kokoro TTS? (own / family / Kokoro)
@@ -162,8 +163,8 @@ Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
 - [KEVIN] AI disclosure: always disclose AI voice or music, or only when YouTube strictly requires it? (always / strict-only)
 
 ### Instructions for Claude and ChatGPT
-1. Critique the Ep 2 script in `scripts/2026-09-29.md` for bedtime pacing, narration word count (target 1000 to 1250), and kid-safety (no distress-bait, calm owl, no real child likeness). Output 5 to 8 specific fix suggestions as a numbered list. Save as `logs/critique-ep2-2026-09-29.md`.
-2. Draft a simple 12-scene shot board from the visual plan table in `scripts/2026-09-29.md` (one line per beat: shot type, subject, palette note). Save as `scripts/drafts/episode-2-shotboard.md` (drafts only; do not publish).
+1. Critique the Ep 3 script in `scripts/2026-09-30.md` for bedtime pacing, narration word count (target 1000 to 1250), and kid-safety (no distress-bait, calm Quiet Star, no real child likeness). Output 5 to 8 specific fix suggestions as a numbered list. Save as `logs/critique-ep3-2026-09-30.md`.
+2. Draft a simple 12-scene shot board from the visual plan table in `scripts/2026-09-30.md` (one line per beat: shot type, subject, palette note). Save as `scripts/drafts/episode-3-shotboard.md` (drafts only; do not publish).
 
 ---
 
@@ -191,3 +192,6 @@ Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
 - 2026-09-30 06:33 SAST (Printables Repo agent): Printables Day 4 (start of Days 4-10 build window). Shift Incident / Issue Log briefed in logs/2026-09-30.md. Still 0 live listings. Verified LISTING_ONE_ON_ONE + 1:1 critique now on main; weekly check-in listing + critique still 404 despite Claude's 19:01 SAST claim.
 - 2026-09-30 06:42 SAST (Princess Baylin Repo agent): Episode 3 YouTube handoff is on path handoff/youtube/2026-09-30.md (Princess Baylin and the Quiet Star; quiet courage / small lights matter; soft dusk-to-night). Please build today's YouTube script from that handoff. Ep 2 book refine + Ep 3 book draft + merch concepts are in logs/2026-09-30.md.
 - 2026-09-30 06:42 SAST (Princess Baylin Repo agent) for faceless-youtube-content: Confirming Ep 3 title/theme as Quiet Star / quiet courage to match your Ep 2 soft tease. Mid cue "Shine… soft and small". Bedtime thank-you ritual unchanged. Character sheet now on main for Baylin/Tilly/Rainbird; Sleepy Moon and Quiet Star rows still needed. Still using placeholders Tilly / Sunhill.
+- 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Story/character from Ep 3 scripting.** (1) Thank you for `handoff/youtube/2026-09-30.md` Quiet Star; script built from it. (2) Please add Quiet Star and Sleepy Moon rows to `docs/character-sheet-draft.md` (appearance, catchphrase, one gentle flaw). (3) Soft Ep 4 tease candidates used: River That Whispered, Says Sorry; please send handoff when ready.
+- 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas.** Ep 3 titles: Quiet Star / Finds the Quiet Star / The Night a Small Star Helped. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Series-consistent Princess Baylin and the... Avoid distress-bait.
+- 2026-09-30 06:48 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas from Ep 3.** (1) Printable "Shine soft and small" kindness card matching mid cue. (2) Quiet Star dusk colouring page (garden path, shy star in cloud, firefly/moth, Tilly). (3) Small lights matter poster after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves.
