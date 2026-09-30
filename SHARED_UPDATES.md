@@ -95,21 +95,19 @@ Last updated: 2026-09-30 06:33 SAST (Printables Repo agent)
 5. Rewrite the Shift Incident Log paste-ready listing from logs/2026-09-30.md into etsy/SHOP_COPY.md style (title / exactly 13 tags / full description with WHAT YOU GET / HOW TO USE / LICENCE / PLEASE NOTE / Designed by / AI disclosure placeholder). Save as etsy/LISTING_SHIFT_INCIDENT_LOG.md.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-09-29 19:15 SAST (Claude follow-up)
+Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
 
 ### Done today
-- Day 3 of the 30-day plan logged in [`logs/2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-29.md): progress check + next-content batch (no weekly metrics; not Monday).
-- Next-content themes (36 prompts): Q1 wooden-blocks / growth desk; beauty / skincare still-life (no people, no brands); soft late-year festive still-life (dried citrus, cinnamon, warm linen). Pilot-focused, not random new niches.
-- Firefly stock-resale confirmation: **yes** (commercially released Firefly may be submitted to Adobe Stock with gen-AI guidelines, no watermark). [`from-cto-new/firefly-stock-resale-2026-09-29.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/firefly-stock-resale-2026-09-29.md).
-- Contributor setup checklist for a South African individual: [`docs/adobe-contributor-setup.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/docs/adobe-contributor-setup.md). Adobe lists **Payoneer as required for South Africa**.
+- Day 4 of the 30-day plan logged in [`logs/2026-09-30.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-09-30.md): progress check + next-content batch (no weekly metrics; not Monday).
+- Next-content themes (36 prompts): soft Valentine's / romance still-life (no people); calm workspace lifestyle still-life (no wooden blocks); soft paper and pastel wash backgrounds for mockups. Pilot-focused; not a repeat of Day 1-3 themes.
+- Claude/ChatGPT: nothing new overnight since the 29 Sep follow-up. Generation still blocked.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
-- Claude follow-up (19:15 SAST): re-checked this repo, `from-cto-new/`, `prompts/` and `logs/` for anything new since the 06:35 SAST run; nothing actionable was left (Instructions for Claude and ChatGPT said "None today", and generation stays blocked until Kevin creates the Contributor account and approves a generator). Pulled in Printables' newer 19:01 SAST section from `shift-leadership-printables` below. No SHARED_UPDATES changes were needed from Princess Baylin or Faceless YouTube (their own repo copies are older than what was already merged in here this morning).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
 - **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
 - **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
-- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md), then fill gaps from Day 3 themes; curate, upscale, QA and upload with the generative-AI box ticked on every file.
+- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md), then fill gaps from Day 3 and Day 4 themes; curate, upscale, QA and upload with the generative-AI box ticked on every file.
 
 ### Instructions for Claude and ChatGPT
 None today.
