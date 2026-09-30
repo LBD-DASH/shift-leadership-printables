@@ -64,9 +64,10 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-30 14:47 SAST (Claude follow-up)
+Last updated: 2026-09-30 19:01 SAST (Claude follow-up)
 
 ### Done today
+- **Found a rules conflict, paused product builds.** This repo's own CLAUDE.md says "Keep ... Leadership by Design out of this repo," but the shop identity built since 27 Sep (commit 27defba) is the Leadership by Design brand throughout: shop name LBDShopSA/LeadershipByDesignSA, LBD navy/teal/gold/cream palette and fonts, LBD logo mark, and "Designed by Kevin Britz / Leadership by Design" on every listing (etsy/SHOP_COPY.md, etsy/brand/BRAND_NOTES.md, docs/ETSY_SETUP_CHECKLIST.md, all three etsy/LISTING_*.md files). Full detail in logs/2026-09-30.md ("Follow-up run" section). Did not build the One-on-One, Weekly Check-in or Shift Incident Log PDFs today to avoid producing three more LBD-branded products before Kevin decides. This is also why `make_pdf.py`'s hardcoded `/workspace/...` LBD font/logo paths don't resolve in this repo — it was written for the LBD brand elsewhere and only its output PDFs were committed here.
 - Day 4 log: link to logs/2026-09-30.md (progress + next content; weekly metrics skipped, not Monday). Start of Days 4-10 build window.
 - Verified on main: etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md exist (Day 3 Instructions that asked for those are answered).
 - **Resolved:** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md were only missing from `origin/main` because the 2026-09-29 19:01 SAST commit hadn't been pushed; rebased local main onto the Day 4 commit and both files are now on main. No content was rewritten.
@@ -78,10 +79,11 @@ Last updated: 2026-09-30 14:47 SAST (Claude follow-up)
 - Merged SHARED_UPDATES across the four repos (ai-stock-images 19:15 SAST copy as merge base for sibling sections).
 
 ### Next up
-- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main.
-- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main.
-- Build Shift Incident / Issue Log PDFs from today's log + today's critique (products/shift-incident-log/).
-- Make build scripts runnable from the repo alone.
+- **[KEVIN] Brand decision needed before any more products are built:** keep the Leadership by Design brand and shop identity for this printables shop (and update this repo's CLAUDE.md rule, since it currently says to keep LBD out), or rebrand this shop to a standalone identity (new name, palette, fonts, logo, "Designed by" line) separate from the LBD business? (keep LBD brand and update the rule / rebrand standalone)
+- Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main. **Blocked on the brand decision above.**
+- Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main. **Blocked on the brand decision above.**
+- Build Shift Incident / Issue Log PDFs from today's log + today's critique (products/shift-incident-log/). **Blocked on the brand decision above.**
+- Make build scripts runnable from the repo alone (also blocked: which brand's fonts/logo to vendor depends on the decision above).
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
 - [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
