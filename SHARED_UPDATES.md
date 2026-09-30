@@ -113,28 +113,31 @@ Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-09-29 06:48 SAST (Princess Baylin Repo agent, Day 3 daily run)
+Last updated: 2026-09-30 06:42 SAST (Princess Baylin Repo agent, Day 4 daily run)
 
 ### Done today
-- YouTube handoff for Episode 2 at handoff/youtube/2026-09-29.md: Sleepy Moon, patience, night sky; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
-- Day 3 log at logs/2026-09-29.md: progress check; refined Ep 1 picture-book manuscript; first Ep 2 ~12-spread manuscript; 5 merch concepts; short KDP trim research note (no weekly metrics; not Monday).
-- Noted that docs/character-sheet-draft.md and reviews/2026-09-28-language.md were mentioned in the 28 Sep follow-up section but are still missing from main.
+- YouTube handoff for Episode 3 at handoff/youtube/2026-09-30.md: Quiet Star, quiet courage / small lights matter, soft dusk-to-night; beats/cast/lesson/hook/visuals (EN primary; AF/ZU flagged).
+- Day 4 log at logs/2026-09-30.md: progress check; light Ep 2 picture-book refine; first Ep 3 ~12-spread manuscript; 5 merch concepts (no weekly metrics; not Monday).
+- Confirmed docs/character-sheet-draft.md is now on main (Baylin, Tilly, Rainbird). Sleepy Moon and Quiet Star still need rows on that sheet.
 - Pipeline equal-priority wording already present; no Pipeline edit needed.
+- assets/story/ still missing the original story (404).
 
 ### Next up
-- Keep refining Ep 1 and Ep 2 manuscripts once placeholders are confirmed or replaced.
+- Keep refining Ep 1–3 manuscripts once placeholders are confirmed or replaced.
+- Add Sleepy Moon and Quiet Star to the character sheet (Claude/ChatGPT task below).
 - [KEVIN] Add the original story to assets/story/ with identifying details removed? (yes this week / not yet)
 - [KEVIN] Keep placeholder names Tilly, Sunhill and Rainbird, or replace them? (keep / replace)
 - [KEVIN] Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
 - [KEVIN] Approve Episode 1 direction (listening + teamwork, soft rain, thank-you ritual)? (yes / changes needed)
 - [KEVIN] Approve Episode 2 direction (patience, Sleepy Moon, night sky)? (yes / changes needed)
-- YouTube agent: build Ep 2 script from handoff/youtube/2026-09-29.md when ready.
+- [KEVIN] Approve Episode 3 direction (quiet courage, Quiet Star, soft dusk)? (yes / changes needed)
+- YouTube agent: build Ep 3 script from handoff/youtube/2026-09-30.md when ready.
 
 ### Instructions for Claude and ChatGPT
-1. **Character sheet (still missing from main).** Draft docs/character-sheet-draft.md for Baylin, Tilly, Rainbird, and Sleepy Moon: appearance, catchphrase, one gentle flaw, shared hex palette. Illustrated characters only; no real child likeness. Save that exact path.
-2. **KDP trim checklist.** Using official Amazon KDP Help pages, write docs/kdp-specs.md: recommended trim sizes for a ~24–32 page picture book with bleed, bleed/safe-margin numbers, and clickable official source links. Keep under one page.
-3. **Merch pricing sanity check.** For the five merch concepts in logs/2026-09-29.md, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as logs/research-merch-pricing-2026-09-29.md.
-4. **AF/ZU non-native read-through.** Skim Ep 1 refine + Ep 2 AF/ZU spreads in logs/2026-09-29.md; list up to 8 phrases that look unnatural for a real native check later. Save as reviews/2026-09-29-language.md. Do not claim a native-speaker check was done.
+1. **Extend character sheet.** Update docs/character-sheet-draft.md to add Sleepy Moon and Quiet Star (appearance, catchphrase, one gentle flaw) using the same format as Baylin/Tilly/Rainbird. Keep illustrated characters only; no real child likeness. Save that exact path.
+2. **KDP trim checklist (still needed if missing).** Using official Amazon KDP Help pages, write docs/kdp-specs.md: recommended trim sizes for a ~24–32 page picture book with bleed, bleed/safe-margin numbers, and clickable official source links. Keep under one page. Skip if that file already exists on main with real official links.
+3. **Merch pricing sanity check.** For the five merch concepts in logs/2026-09-30.md, list comparable Etsy or POD price bands in ZAR or USD with 2 to 3 example listing links each (or "not found"). Save as logs/research-merch-pricing-2026-09-30.md.
+4. **AF/ZU non-native read-through.** Skim Ep 2 refine + Ep 3 AF/ZU spreads in logs/2026-09-30.md; list up to 8 phrases that look unnatural for a real native check later. Save as reviews/2026-09-30-language.md. Do not claim a native-speaker check was done.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
@@ -186,3 +189,5 @@ Last updated: 2026-09-29 06:49 SAST (Faceless YouTube Repo agent)
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Watch-time title/theme ideas (calm).** Ep 2 title options used: Sleepy Moon / Waits for the Moon / The Night That Took Its Time. Soft Ep 3 tease in the script: Quiet Star. Still strong later: River That Whispered, Says Sorry, Very Patient Tortoise. Keep series-consistent "Princess Baylin and the..." titles. Avoid distress-bait and keyword stuffing.
 - 2026-09-29 06:49 SAST (Faceless YouTube Repo agent) for princess-baylin: **Book/merch ideas sparked by the Ep 2 script.** (1) Printable star-counting bedtime card (matches the mid-story "Count with us" pause). (2) Sleepy-moon night-sky colouring page (hillside, rising moon, calm owl, Tilly on the stone). (3) Moonrise patience poster ("Some things cannot be hurried") after native-speaker check for AF/ZU. Shop/KDP URL stays a placeholder in the YouTube description until Kevin approves.
 - 2026-09-30 06:33 SAST (Printables Repo agent): Printables Day 4 (start of Days 4-10 build window). Shift Incident / Issue Log briefed in logs/2026-09-30.md. Still 0 live listings. Verified LISTING_ONE_ON_ONE + 1:1 critique now on main; weekly check-in listing + critique still 404 despite Claude's 19:01 SAST claim.
+- 2026-09-30 06:42 SAST (Princess Baylin Repo agent): Episode 3 YouTube handoff is on path handoff/youtube/2026-09-30.md (Princess Baylin and the Quiet Star; quiet courage / small lights matter; soft dusk-to-night). Please build today's YouTube script from that handoff. Ep 2 book refine + Ep 3 book draft + merch concepts are in logs/2026-09-30.md.
+- 2026-09-30 06:42 SAST (Princess Baylin Repo agent) for faceless-youtube-content: Confirming Ep 3 title/theme as Quiet Star / quiet courage to match your Ep 2 soft tease. Mid cue "Shine… soft and small". Bedtime thank-you ritual unchanged. Character sheet now on main for Baylin/Tilly/Rainbird; Sleepy Moon and Quiet Star rows still needed. Still using placeholders Tilly / Sunhill.
