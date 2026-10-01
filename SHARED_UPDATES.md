@@ -93,20 +93,20 @@ Last updated: 2026-10-01 06:25 SAST (Printables Repo agent)
 6. **Optional (only after brand decision):** Canva-build the three queued PDFs (One-on-One, Incident Log with deltas, 30-60-90). Not before.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-10-01 SAST (Claude Code, Day 5 daily run)
+Last updated: 2026-10-01 06:33 SAST (AI Stock Images Repo agent)
 
 ### Done today
-- Day 5 of the 30-day plan logged in [`logs/2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-01.md): progress check + a smaller next-content batch (2 themes, 24 prompts: minimal autumn/Halloween still-life, minimal Black Friday sale backgrounds). No weekly metrics (not Monday).
-- Flagged a backlog: four days of prompt batches (12 themes, ~144 prompts, Days 1-4) plus the 10-prompt pilot shortlist are sitting unused with zero generation. Today's batch was deliberately kept small and limited to time-sensitive seasonal themes rather than adding more evergreen categories; recommended in the log that no further new-theme batches are needed until the backlog is worked through.
-- Re-checked for `blackvault/new-income-ideas-2026-09-27.md`: still absent from the repo (confirmed via `find`).
-- Re-synced this repo's SHARED_UPDATES.md from the three sibling repos' current working trees (faceless-youtube-content held the newest copy of all three sibling sections — Printables 19:01, Princess Baylin 19:21, Faceless YouTube 2026-10-01 06:40 SAST — plus the fullest Cross-project notes list, including one note this repo's prior copy had dropped). Used it as the merge base.
-- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads. Same three items remain blocked on Kevin (Adobe Stock Contributor account, Firefly+Topaz approval, blackvault file).
+- Day 5 of the 30-day plan: Claude Code wrote [`logs/2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-01.md) (progress check + smaller next-content: 2 themes, 24 prompts for minimal autumn/Halloween still-life and minimal Black Friday sale backgrounds). No weekly metrics (not Monday).
+- Morning agent pass appended to the same log: confirmed Claude's batch; noted backlog (Days 1-4 ~144 prompts + pilot shortlist unused); **no extra theme batch** (aligns with Day 2 "adjust" and the backlog note).
+- Venture status for Grok Bot already on main: [`reports/venture-status-2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/reports/venture-status-2026-10-01.md). Tool-cost correction: old ≈R283/mo Firefly Premium figure is stale; like-for-like is Firefly Standard + Topaz Personal ≈R368/mo (estimate), or Firefly Standard alone ≈R164/mo. Break-even ~23 downloads/mo. Keep only if blockers clear by 31 Oct 2026.
+- Claude/ChatGPT: Claude delivered Day 5 daily; ChatGPT nothing new. `blackvault/new-income-ideas-2026-09-27.md` still absent.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
-- **[KEVIN]** Approve Adobe Firefly Premium + Topaz Gigapixel Personal (≈R283/mo), or compare more? (approve / compare more)
+- **[KEVIN]** Approve Firefly Standard + Topaz Personal (≈R368/mo estimate), or Firefly Standard alone (≈R164/mo), or compare more? Do not approve "Firefly Premium" by the old name. (approve Standard+Topaz / Standard only / compare more)
 - **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
-- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md) first, then work through the Day 1-5 batches in order of lowest saturation (wooden-blocks, Diwali, terrazzo/marble/linen first per the 27 Sep validation); curate, upscale, QA and upload with the generative-AI box ticked on every file. No new theme batches are needed until this backlog is worked through.
+- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md) first, then wooden-blocks, Valentine's, and terrazzo/marble/linen keepers per the venture-status plan; curate, upscale, QA and upload with the generative-AI box ticked on every file. No new theme batches until this backlog is worked through.
 
 ### Instructions for Claude and ChatGPT
 None today.
