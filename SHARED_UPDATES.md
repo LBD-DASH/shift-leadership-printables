@@ -64,33 +64,31 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-10-01 06:25 SAST (Printables Repo agent)
+Last updated: 2026-10-01 22:30 SAST (Printables Repo agent)
 
 ### Done today
-- Morning progress check + next-content appended to [`logs/2026-10-01.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-01.md) (Claude's overnight brand decision brief kept at the top; Morning run ~06:25 SAST adds Daily progress check + Next content).
-- Acknowledged overnight work already on main (do not redo): Claude brand brief (Option A keep LBD / Option B rebrand); [`logs/research-etsy-demand-2026-10-01.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/research-etsy-demand-2026-10-01.md); [`etsy/LISTING_30_60_90_DAY_PLAN.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/etsy/LISTING_30_60_90_DAY_PLAN.md).
-- Expanded New Manager 30-60-90 into a full Canva layout brief (zone tables, >=8 mm handwriting lines, 12 mm margins, A4 + Letter targets under `products/new-manager-30-60-90-day-plan/`) plus paste-ready Etsy listing format (USD 5.00 kept). Applied the 5 Shift Incident Log critique fixes as a short revised layout delta (full original brief stays in Day 4 log).
-- Weekly Team Check-in noted as demoted to bundle add-on per overnight research. Feedback Conversation Log stays outline-only for later.
-- Still 0 live Etsy/Gumroad listings. Only built PDFs remain Shift Handover Sheet. PDF builds still blocked on **[KEVIN]** brand decision. Nothing published, listed, sold or sent. No money spent.
+- **Brand decision applied (Kevin, 2026-10-01): keep Leadership by Design for this shop (LBDShopSA).** CLAUDE.md rule updated: YardOps and Six Human Needs stay out; this repo's shop uses the LBD brand (navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display headings, Source Sans 3 body; "Designed by Kevin Britz / Leadership by Design"). The "[KEVIN BRAND LINE]" placeholder in etsy/LISTING_ONE_ON_ONE.md, etsy/LISTING_SHIFT_INCIDENT_LOG.md and etsy/LISTING_30_60_90_DAY_PLAN.md is now "Designed by Kevin Britz / Leadership by Design." (etsy/LISTING_WEEKLY_CHECK_IN.md already had it). AI disclosure placeholders left as they are.
+- **One-on-One Meeting Template PDFs built (2 pages each):** [`products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf) and [`-Letter.pdf`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/products/one-on-one-meeting-template/one-on-one-meeting-template-Letter.pdf). Built from the Day 2 brief + Day 3 deltas + the 2026-09-28 critique: header fields Name, Role, Manager, Date, Last 1:1, Next 1:1; "Not an HR rating form" callout; Their agenda first with a "Follow-up from last 1:1" line; Workload / Energy / Clarity 1-5 circles (7 mm) with an "In a word, why?" line each; going well / hard right now; Actions table with 5 rows before Feedback and Growth; sign-off with Next 1:1 date. Page 2 is the 12-month tracker with a "Next 1:1 booked" column. Write-in rows: 9.1 mm (A4) and 8.2 mm (Letter) on page 1; margins 12 mm. Checked visually at page level for overlap and clipping.
+- Build script is self-contained: [`products/one-on-one-meeting-template/src/make_pdf.py`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/products/one-on-one-meeting-template/src/make_pdf.py) (repo-relative paths). Fonts vendored unmodified under `assets/fonts/` (Playfair Display and Source Sans 3 variable fonts from google/fonts, with their OFL.txt); LBD mark copied to `assets/brand/lbd-mark-reversed-cream.png`.
+- Morning (06:25 SAST): progress check + next content in [`logs/2026-10-01.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-01.md), including the full New Manager 30-60-90 brief and the Shift Incident Log critique deltas.
+- Still 0 live Etsy/Gumroad listings. Built products: Shift Handover Sheet and One-on-One Meeting Template. Nothing published, listed, sold or sent. No money spent.
 
 ### Next up
-- **[KEVIN] Brand decision first** (full brief in logs/2026-10-01.md): keep the Leadership by Design brand for this shop and update this repo's CLAUDE.md rule to allow it, or rebrand this shop to a standalone identity separate from LBD before any more products are built? (keep LBD brand / rebrand standalone)
-- After brand: build order for PDFs - (1) One-on-One Meeting Template into `products/one-on-one-meeting-template/`, (2) Shift Incident Log into `products/shift-incident-log/` using Day 4 brief + morning critique deltas, (3) New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/`.
+- Update etsy/LISTING_ONE_ON_ONE.md so "WHAT'S ON THE SHEET" and the status line match the built PDF (Manager and Next 1:1 fields, follow-up line, "why" lines, 5 action rows, "Next 1:1 booked" tracker column; the PDF is now built).
+- Build next PDFs with the same script pattern: (1) Shift Incident Log into `products/shift-incident-log/` (Day 4 brief + critique deltas in logs/2026-10-01.md), (2) New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/`.
+- Make Etsy listing images for the One-on-One (same style as etsy/listing-0*.png).
 - Weekly Team Check-in: keep as bundle add-on later (New Manager Starter Toolkit ~USD 12-15); not standalone priority.
-- Remaining **[KEVIN]** yes/no: Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
-- **[KEVIN]** Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
+- **[KEVIN]** Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
+- **[KEVIN]** Did AI help with the copy or layout of the Shift Handover Sheet and the One-on-One Meeting Template, so the AI disclosure line should go in? (yes/no)
 - **[KEVIN]** Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
 - **[KEVIN]** Etsy seller + Payments and Gumroad status? (open / pending / not started)
 - **[KEVIN]** Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
 - **[KEVIN]** Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed)
 
 ### Instructions for Claude and ChatGPT
-1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md. Do not rewrite the 1:1 listing or re-do that critique.
-2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md. Do not rewrite the weekly listing or re-do that critique. (Weekly is demoted to bundle add-on per research-etsy-demand-2026-10-01.md.)
-3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md and etsy/LISTING_SHIFT_INCIDENT_LOG.md. Do not redo either. Morning run already folded the 5 critique fixes into logs/2026-10-01.md as deltas.
-4. **ANSWERED (on main):** etsy/LISTING_30_60_90_DAY_PLAN.md and logs/research-etsy-demand-2026-10-01.md. Do not redo the listing or the overnight research file. Full Canva brief for 30-60-90 is in this morning's Next content section of logs/2026-10-01.md.
-5. **Remaining:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form", and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Overnight research answered the demand side via indirect sources; live counts are still missing.
-6. **Optional (only after brand decision):** Canva-build the three queued PDFs (One-on-One, Incident Log with deltas, 30-60-90). Not before.
+1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md, etsy/LISTING_WEEKLY_CHECK_IN.md, etsy/LISTING_SHIFT_INCIDENT_LOG.md, etsy/LISTING_30_60_90_DAY_PLAN.md, logs/research-etsy-demand-2026-10-01.md and the three layout critiques (one-on-one 2026-09-28, weekly 2026-09-29, incident log 2026-09-30). Do not redo them.
+2. **New:** critique the built One-on-One PDFs (products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf and -Letter.pdf) for printability: print at 100% on A4 and Letter if you can (or check the PDF at actual size), and check write-in space for real handwriting, black and white legibility of the teal and gold, the 1-5 circles, the Actions table, and whether anything a first-time manager needs is missing. Save 5 numbered fixes (one short paragraph each, most important first) to logs/critique-one-on-one-pdf-2026-10-01.md. Text only, no rebuild.
+3. **Still outstanding:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form" and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Live counts are still missing.
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-10-01 06:33 SAST (AI Stock Images Repo agent)

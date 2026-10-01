@@ -85,7 +85,7 @@ PLEASE NOTE
 • It is a planning tool for new managers and team leaders. It is not a job interview presentation.
 • Colours may look slightly different depending on your screen and printer.
 
-[KEVIN BRAND LINE: Designed by Kevin Britz / Leadership by Design, or standalone brand]
+Designed by Kevin Britz / Leadership by Design.
 
 [KEVIN AI DISCLOSURE: if AI helped create the design or text, add one honest line here, for example "AI tools helped draft some of the wording. The layout was designed and checked by me." Delete this placeholder if AI was not used.]
 ```

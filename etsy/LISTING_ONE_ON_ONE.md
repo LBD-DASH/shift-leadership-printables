@@ -79,7 +79,7 @@ PLEASE NOTE
 • This is a print-and-write PDF, not an editable template. There is no Canva, Word or Google Docs version.
 • Colours may look slightly different depending on your screen and printer.
 
-[KEVIN BRAND LINE: Designed by Kevin Britz / Leadership by Design, or standalone brand]
+Designed by Kevin Britz / Leadership by Design.
 
 [KEVIN AI DISCLOSURE: if AI helped create the design or text, add one honest line here, for example "AI tools helped draft some of the wording. The layout was designed and checked by me." Delete this placeholder if AI was not used.]
 ```

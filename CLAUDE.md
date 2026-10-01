@@ -25,6 +25,6 @@
 - Never send messages of any kind (email, WhatsApp, social, DMs).
 - Never open, edit, move or delete `.env` files or any secrets.
 - Always `git pull --rebase` before starting work. Make small commits with clear messages (for example `daily: shift-leadership-printables YYYY-MM-DD`). Never force-push.
-- Keep YardOps, Six Human Needs and Leadership by Design out of this repo.
+- Keep YardOps and Six Human Needs out of this repo. This repo's shop uses the Leadership by Design brand (Kevin's decision, 2026-10-01): shop LBDShopSA; navy #0F1F2E, teal #2A7B88, gold #C8A864, cream #F8F6F1; Playfair Display headings, Source Sans 3 body; "Designed by Kevin Britz / Leadership by Design" on listings and products.
 - Never use em dashes in files you write.
 - End each run with a five-line summary: what you did, files changed, commits pushed, decisions needed from Kevin, tomorrow's plan.
