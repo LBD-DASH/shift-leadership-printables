@@ -1,87 +1,98 @@
-# Shift Incident / Issue Log — Etsy listing copy (LBDShopSA)
+# Shift Incident / Issue Log: Etsy listing copy (LBDShopSA)
 
-Reformatted to match `etsy/SHOP_COPY.md` style from the paste-ready draft in `logs/2026-09-30.md`. Paste-ready. Same voice rules: short direct sentences, plain claims, no hype, South African/British spelling.
+Refreshed 2026-10-01 against the demand check in `logs/research-etsy-demand-2026-10-01.md`. Replaces the 2026-09-30 draft. Main change: the title and tags now lead with "incident report form" and "incident report", which is where the Etsy search volume is (about 1.1K to 1.6K active listings per MakerWords, Oct 2026), while keeping the shift-supervisor angle. Format follows `docs/ETSY_SETUP_CHECKLIST.md` and the voice of `etsy/SHOP_COPY.md`.
+
+Status: DRAFT ONLY. Not listed. The PDF is not built yet; the contents below must match the final PDF before anything is published. Brand line and AI disclosure are placeholders for Kevin.
 
 ---
 
 ## Listing: Shift Incident / Issue Log
 
-### Title (127 / 140 chars)
-Shift Incident Log Printable | Issue Report Form for Supervisors | Near Miss & Equipment Log | A4 & Letter PDF Instant Download
+- **Listing type:** Digital files
+- **Category (suggested):** Paper & Party Supplies > Paper > Stationery > Design & Templates > Templates (MakerWords files "incident report form" under this category)
+- **Files to upload:** shift-incident-log-A4.pdf, shift-incident-log-Letter.pdf
 
-### Tags (13, each ≤ 20 chars)
-1. incident log
-2. shift incident
-3. issue report form
-4. near miss form
-5. supervisor tools
-6. equipment log
-7. quality issue log
-8. shift report
-9. warehouse log
-10. team leader
-11. printable pdf
-12. handover companion
-13. manager printable
+### Title (123 / 140 chars)
+```
+Shift Incident Report Form Printable | Workplace Incident Log + Weekly Tracker | 2 Pages | Near Miss Form | A4 & Letter PDF
+```
 
-### Suggested price
-USD 4.00 (check 3–5 competing listings before you publish. Bundle later: Shift Handover + Incident Log at about USD 9–12; also fits the New Manager Starter Toolkit once the 1:1 and Weekly Check-in PDFs are built, about USD 12–15 — see `logs/2026-09-30.md`).
+### Tags (13, each 20 characters or fewer; letters, numbers and spaces only, as Etsy tags don't accept colons)
+1. incident report form
+2. incident report
+3. incident log
+4. shift incident
+5. workplace incident
+6. near miss form
+7. safety report form
+8. supervisor tools
+9. shift report
+10. equipment log
+11. warehouse forms
+12. team leader
+13. printable pdf
 
-### Description
+### Price
+**USD 3.50** (single, 2-page PDF in two sizes).
+Why: single workplace incident forms from established shops sit at USD 2 to 4: SubtlePlans USD 1.99 (shop 3.2K sales), JDSHPDesigns USD 3.00 (ranked #1 for "incident report"), ProBizTemplates USD 3.74 (shop 17.8K sales), ScribblingBumblebee's witness statement about USD 4.65. The keyword averages (USD 8.38 to 10.35) are pulled up by large bundles, so they are not the right anchor for one sheet. USD 3.50 sits just under ProBizTemplates and is justified by the extra weekly tracker page. Bundle later: Shift Handover Sheet + Incident Log at about USD 9 to 12.
 
+### Description (paste into Etsy)
+
+```
 Stop losing mid-shift problems between people.
 
-When something goes wrong on shift, the details live in someone's head until the next handover, and then they vanish. This Shift Incident / Issue Log gives supervisors one clear page per incident: type, facts, immediate action, impact, escalation, and owners with due dates. Page 2 is a weekly open-incidents tracker that feeds straight into your Shift Handover Sheet.
+When something goes wrong on shift, the details live in someone's head until the next handover, and then they vanish. This Shift Incident Report Form gives supervisors one clear page per incident: what type it is, the facts, the immediate action, the impact, who it was escalated to, and owners with due dates. Page 2 is a weekly open-incidents tracker that carries straight into your shift handover.
 
-**WHAT YOU GET**
-• 2 print-ready PDF files (incident sheet + weekly tracker in each size):
-  – shift-incident-log-A4.pdf (A4, 210 × 297 mm)
-  – shift-incident-log-Letter.pdf (US Letter, 8.5 × 11 in)
+WHAT YOU GET
+• 2 print-ready PDF files, 2 pages each:
+  - shift-incident-log-A4.pdf (A4, 210 x 297 mm)
+  - shift-incident-log-Letter.pdf (US Letter, 8.5 x 11 in)
+• Page 1: the incident sheet (one incident per sheet). Page 2: the weekly open-incidents tracker.
 • Instant download after purchase. Nothing is shipped.
 
-**WHAT'S ON THE SHEET**
-• Header: site/area, date, time found, shift, reported by, role
-• Type: safety/near miss, equipment, quality/customer, staffing/people or other, one primary type per sheet
+WHAT'S ON THE SHEET
+• Header: site or area, date, time found, shift, reported by, role
+• Type: safety or near miss, equipment, quality or customer, staffing or people, other (one main type per sheet)
 • What happened: facts-only write-in lines
-• Immediate action taken: what was done right away to make it safe or stop the loss
-• Impact: people affected, output/quality hit, equipment status, estimated downtime
-• Root cause (best guess now): a first guess plus the evidence behind it
-• Escalation: who, how, when and ticket/reference number, or why it wasn't escalated
-• Actions to close table: owner, what, due, status
+• Immediate action taken: what was done straight away to make it safe or stop the loss
+• Impact: people affected, output or quality hit, equipment status, estimated downtime
+• Likely cause (best guess for now), plus the evidence behind it
+• Escalation: who, how, when and ticket or reference number, or why it wasn't escalated
+• Actions to close: owner, what, due date, status
 • Sign-off: reported by and supervisor reviewed
-• Page 2: weekly open-incidents tracker so nothing stays open only in someone's memory
+• Page 2: weekly tracker of open incidents, so nothing stays open only in someone's memory
 
-**HOW TO USE IT**
+HOW TO USE IT
 1. Download the PDF in the size you need (A4 or US Letter).
-2. Print at home or at work, colour or black and white. Print "actual size" / 100%.
-3. Open one Page 1 sheet as soon as an incident needs action beyond this shift.
-4. Fill facts, immediate action, escalation and owners. Keep gossip off the page.
-5. Update Page 2 at every handover. Copy open items onto the Shift Handover Sheet.
+2. Print at home or at work, in colour or black and white. Print at "actual size" / 100%.
+3. Start a fresh Page 1 as soon as an incident needs action beyond this shift.
+4. Fill in the facts, the immediate action, the escalation and the owners. Keep opinions and gossip off the page.
+5. Update Page 2 at every handover and carry open items into your handover notes.
 
-**LICENCE**
-• Personal use, or use within one workplace (a single site or business). Print as many copies as that workplace needs.
+LICENCE
+• For personal use, or for use within one workplace (a single site or business). Print as many copies as that workplace needs.
 • Please don't resell, share, upload or redistribute the files, or use them in products for sale.
 
-**RETURNS AND FAULTY FILES**
+RETURNS AND FAULTY FILES
 Because this is a digital download, returns and exchanges aren't accepted. If a file is faulty or won't download, send me a message and I'll fix it or refund you.
 
-**PLEASE NOTE**
-• This is a print-and-write PDF, not an editable template.
+PLEASE NOTE
+• This is a print-and-write PDF, not an editable template. There is no Canva, Word or Google Docs version.
+• This is an operational shift log. It is not a legal, HR, medical or regulatory reporting form, and it does not replace any report your employer or the law requires.
 • Colours may look slightly different depending on your screen and printer.
-• This is an ops log, not a formal HR, legal or medical investigation form.
 
-Designed by Kevin Britz / Leadership by Design.
-[KEVIN AI DISCLOSURE PLACEHOLDER: if AI helped with copy or layout, keep a line such as "AI tools helped draft some wording; all layouts were designed and checked by me." or "Designed by Leadership by Design with the help of AI tools." Delete if not needed.]
+[KEVIN BRAND LINE: Designed by Kevin Britz / Leadership by Design, or standalone brand]
 
-From Leadership by Design — leadership tools, built by design. Not by default.
+[KEVIN AI DISCLOSURE: if AI helped create the design or text, add one honest line here, for example "AI tools helped draft some of the wording. The layout was designed and checked by me." Delete this placeholder if AI was not used.]
+```
 
 ---
 
 ### Mock-up ideas
-1. Printed Page 1 on a clipboard next to a hi-vis vest and radio, pen on the Actions row, soft navy/cream badge "A4 + US Letter · Instant Download".
-2. Flat-lay of Page 1 + Page 2 tracker beside the Shift Handover Sheet, with one Open row highlighted and a "Handover companion" label; no fake review counts.
+1. Page 1 printed on a clipboard next to a hi-vis vest and a two-way radio, with the "Immediate action taken" box filled in by hand; small badge: "A4 + US Letter, Instant Download, 2 Pages".
+2. Page 2 tracker flat-lay beside the Shift Handover Sheet, one "Open" row highlighted in the brand teal, label "Carries open incidents into your handover". No review stars, sales counts or fake testimonials.
 
-### Why original / useful
-One primary type forced (stops vague "misc" dumps), facts-only prompt, immediate-action box before the root-cause guess, an impact section that ties people/output/equipment together, escalation with a ticket/reference number, a close-out table, and a Page 2 tracker that explicitly feeds the Shift Handover open-items log. Built for floor supervisors. Own layout; no PLR.
+### Why it should stand out
+Most incident forms on Etsy are generic or aimed at daycare, home care or co-parenting. This one is built for shift supervisors: one main type per sheet (no vague "misc"), facts before opinions, immediate action before the cause guess, impact on people, output and equipment in one row, escalation with a reference number, a close-out table, and a weekly tracker that links to the Shift Handover Sheet. Own layout, no PLR.
 
-Nothing in this file has been listed or published. Draft only, pending Kevin's approval and the PDF build.
+Nothing in this file has been listed or published. Draft only, pending Kevin's approval, the brand decision and the PDF build.
