@@ -64,38 +64,32 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-09-30 19:01 SAST (Claude follow-up)
+Last updated: 2026-10-01 00:00 SAST (Claude, Day 5)
 
 ### Done today
-- **Found a rules conflict, paused product builds.** This repo's own CLAUDE.md says "Keep ... Leadership by Design out of this repo," but the shop identity built since 27 Sep (commit 27defba) is the Leadership by Design brand throughout: shop name LBDShopSA/LeadershipByDesignSA, LBD navy/teal/gold/cream palette and fonts, LBD logo mark, and "Designed by Kevin Britz / Leadership by Design" on every listing (etsy/SHOP_COPY.md, etsy/brand/BRAND_NOTES.md, docs/ETSY_SETUP_CHECKLIST.md, all three etsy/LISTING_*.md files). Full detail in logs/2026-09-30.md ("Follow-up run" section). Did not build the One-on-One, Weekly Check-in or Shift Incident Log PDFs today to avoid producing three more LBD-branded products before Kevin decides. This is also why `make_pdf.py`'s hardcoded `/workspace/...` LBD font/logo paths don't resolve in this repo — it was written for the LBD brand elsewhere and only its output PDFs were committed here.
-- Day 4 log: link to logs/2026-09-30.md (progress + next content; weekly metrics skipped, not Monday). Start of Days 4-10 build window.
-- Verified on main: etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md exist (Day 3 Instructions that asked for those are answered).
-- **Resolved:** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md were only missing from `origin/main` because the 2026-09-29 19:01 SAST commit hadn't been pushed; rebased local main onto the Day 4 commit and both files are now on main. No content was rewritten.
-- Wrote logs/critique-shift-incident-log-2026-09-30.md (5-point printability critique of today's Shift Incident / Issue Log brief: header strip overloaded, no row-height budget totalled (~230mm used of ~273mm usable, too tight), Box A tick-row "wrap if needed" left unresolved, Box D equipment-status symbols have no legend, Box D Impact table can't hold multi-asset incidents).
-- Wrote etsy/LISTING_SHIFT_INCIDENT_LOG.md (SHOP_COPY.md-style listing: title / exactly 13 tags / full description / Designed by / AI disclosure placeholder) from today's log.
-- Live Etsy re-check still blocked: WebSearch permission not available in this headless run (same as 28 and 29 Sep).
-- Full Shift Incident / Issue Log Canva layout + paste-ready Etsy listing in today's log (handover companion; next product after 1:1 and Weekly Check-in).
+- **Brand decision still open; wrote Kevin a decision brief instead of re-asking the bare question a third day.** Full brief in logs/2026-10-01.md: Option A (keep the Leadership by Design brand, update this repo's CLAUDE.md rule, build the 3 queued PDFs today with no rework) vs Option B (rebrand standalone, matching this repo's own CLAUDE.md and the README's original "separate from LBD" framing, but half a day to a day of rework first: new name/palette/fonts/logo, rewrite etsy/SHOP_COPY.md + all three etsy/LISTING_*.md + etsy/brand/BRAND_NOTES.md + docs/ETSY_SETUP_CHECKLIST.md, regenerate the Shift Handover Sheet PDFs with new assets). Did not build the One-on-One, Weekly Check-in or Shift Incident Log PDFs today, for the same reason as Day 4 (would compound the conflict under either brand before Kevin picks one).
+- **WebSearch/WebFetch exist in this session for the first time** (prior runs reported the tool itself missing). Still blocked: calling it returns a permission-grant prompt this headless run can't answer. Live Etsy re-check (Instructions #4, outstanding since 28 Sep) is still not done; narrowed down to needing one interactive approval, not a missing tool.
+- Cross-repo `git` (pull/status) in the three sibling repos' directories required approval not grantable in this run; read their SHARED_UPDATES.md files directly instead (filesystem read, no git) and merged from there. Used faceless-youtube-content's 2026-09-30 20:10 SAST copy as the merge base (the most complete/newest of the four local copies seen this run).
 - Still 0 live Etsy/Gumroad listings. Product #1 Shift Handover PDFs still the only built product files.
-- Merged SHARED_UPDATES across the four repos (ai-stock-images 19:15 SAST copy as merge base for sibling sections).
 
 ### Next up
-- **[KEVIN] Brand decision needed before any more products are built:** keep the Leadership by Design brand and shop identity for this printables shop (and update this repo's CLAUDE.md rule, since it currently says to keep LBD out), or rebrand this shop to a standalone identity (new name, palette, fonts, logo, "Designed by" line) separate from the LBD business? (keep LBD brand and update the rule / rebrand standalone)
+- **[KEVIN] Brand decision (see full brief in logs/2026-10-01.md), now the single blocker for all three queued products:** keep the Leadership by Design brand for this shop and update this repo's CLAUDE.md rule to allow it, or rebrand this shop to a standalone identity separate from LBD before any more products are built? (keep LBD brand / rebrand standalone)
 - Build One-on-One Meeting Template PDFs (A4 + Letter into products/one-on-one-meeting-template/) from Day 2 brief + Day 3 deltas + critique on main. **Blocked on the brand decision above.**
 - Build Weekly Team Check-in Sheet PDFs (A4 + Letter into products/weekly-team-check-in/) from logs/2026-09-29.md + critique, both now on main. **Blocked on the brand decision above.**
-- Build Shift Incident / Issue Log PDFs from today's log + today's critique (products/shift-incident-log/). **Blocked on the brand decision above.**
+- Build Shift Incident / Issue Log PDFs from logs/2026-09-30.md + its critique (products/shift-incident-log/). **Blocked on the brand decision above.**
 - Make build scripts runnable from the repo alone (also blocked: which brand's fonts/logo to vendor depends on the decision above).
 - [KEVIN] Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
 - [KEVIN] Did AI help with the copy or layout of the Shift Handover Sheet (including Claude's 27 Sep critique)? (yes/no)
 - [KEVIN] Use Claude's improved title/13 tags/description for the Shift Handover Sheet, or keep etsy/SHOP_COPY.md? (swap / keep)
 - [KEVIN] Etsy seller + Payments and Gumroad status? (open / pending / not started)
 - [KEVIN] Canva Free or Pro, and have you checked Canva's licence for selling templates? (Free / Pro)
-- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed)
+- [KEVIN] Copy blackvault/new-income-ideas-2026-09-27.md into from-cto-new/? (yes / not needed) — this repo's from-cto-new/ has no blackvault file; the source lives outside this repo, so an outside AI can't do this one either.
 
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md and logs/critique-one-on-one-layout-2026-09-28.md are present. Do not rewrite the 1:1 listing or re-do that critique.
-2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md are now on main (was a local-commit-not-pushed issue, not missing content; fixed via rebase 2026-09-30). Do not rewrite the weekly listing or re-do that critique.
-3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md (5-point printability critique) and etsy/LISTING_SHIFT_INCIDENT_LOG.md (SHOP_COPY-style listing) are done. Do not redo either.
-4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding; blocked headless on 28, 29 and 30 Sep — WebSearch permission is not grantable in a non-interactive run. Needs an interactive session with WebSearch/WebFetch approved, or Kevin to paste the numbers by hand.)
+2. **ANSWERED (on main):** etsy/LISTING_WEEKLY_CHECK_IN.md and logs/critique-weekly-team-check-in-2026-09-29.md are on main. Do not rewrite the weekly listing or re-do that critique.
+3. **ANSWERED (on main):** logs/critique-shift-incident-log-2026-09-30.md and etsy/LISTING_SHIFT_INCIDENT_LOG.md are done. Do not redo either.
+4. Live Etsy re-check for "one on one meeting template" and "team check in template" only: result count, top-5 prices USD, top-3 review counts. Append a dated table to logs/research-etsy-demand.md. (Still outstanding since 28 Sep — needs an interactive session with WebSearch/WebFetch approved once, or Kevin to paste the numbers by hand.)
 
 ## AI stock images (ai-stock-images)
 Last updated: 2026-09-30 06:35 SAST (Grok Bot, Day 4 daily run)
