@@ -1,8 +1,8 @@
 # One-on-One Meeting Template: Etsy listing copy (LBDShopSA)
 
-Refreshed 2026-10-01 against the demand check in `logs/research-etsy-demand-2026-10-01.md`. Replaces the 2026-09-28 draft. Format follows `docs/ETSY_SETUP_CHECKLIST.md` and the voice of `etsy/SHOP_COPY.md`: short direct sentences, plain claims, no hype, South African/British spelling.
+Updated 2026-10-02 against the built PDFs in `products/one-on-one-meeting-template/`. Replaces the 2026-10-01 draft that still said the PDF was not built. Format follows `docs/ETSY_SETUP_CHECKLIST.md` and the voice of `etsy/SHOP_COPY.md`: short direct sentences, plain claims, no hype, South African/British spelling.
 
-Status: DRAFT ONLY. Not listed. The PDF is not built yet; the contents below must match the final PDF before anything is published. Brand line and AI disclosure are placeholders for Kevin.
+Status: DRAFT ONLY. Not listed. PDFs are built (A4 + Letter). Brand line set to Leadership by Design (Kevin, 2026-10-01). AI disclosure still a Kevin placeholder.
 
 ---
 
@@ -51,15 +51,16 @@ WHAT YOU GET
 • Instant download after purchase. Nothing is shipped.
 
 WHAT'S ON THE SHEET
-• Header: name, role, date, date of last 1:1
-• Their agenda first: three write-in lines for what the team member wants to raise
-• Check-in: workload, energy and clarity on what's expected, each rated 1 to 5
+• Header: Name, Role, Manager, Date, Last 1:1, Next 1:1
+• Callout: not an HR rating form; private between manager and team member
+• Their agenda first: a "Follow-up from last 1:1" line, then three numbered write-in lines for what the team member wants to raise
+• Check-in: Workload, Energy and Clarity on what's expected, each rated 1 to 5 (circle), plus an "In a word, why?" line under each scale
 • What's going well and what's hard right now, side by side
+• Actions table: Who, What, By when (5 rows). Check these first at the next 1:1
 • Feedback both ways: one thing manager to team member, one thing team member to manager
 • Growth: one skill to build before the next 1:1, and how it will be practised
-• Actions table: who, what, by when
-• Sign-off line for both people to agree the actions
-• Page 2: 12-month tracker (month, date held, main theme, action done) so a missed 1:1 is visible, not hidden
+• Sign-off: Manager, Team member, Date, Next 1:1
+• Page 2: 12-month tracker (#, Month, Date held, Key theme, Action done tick, Next 1:1 booked) so a missed 1:1 is visible, not hidden
 
 HOW TO USE IT
 1. Download the PDF in the size you need (A4 or US Letter).
@@ -91,6 +92,6 @@ Designed by Kevin Britz / Leadership by Design.
 2. Flat-lay of Page 1 and Page 2 side by side, a few months on the tracker ticked, and a short label "Keeps your 1:1s on track for 12 months". No review stars, sales counts or fake testimonials.
 
 ### Why it should stand out
-Employee agenda first (not a manager monologue), three quick check-in scales, feedback in both directions, only one growth skill, and a 12-month tracker most single-sheet competitors don't include. Print-and-write for floor leaders who don't use HR software. Own layout, no PLR.
+Employee agenda first (not a manager monologue), three quick check-in scales with a why line each, feedback in both directions, only one growth skill, 5 action rows before feedback, and a 12-month tracker with a Next 1:1 booked column that most single-sheet competitors don't include. Print-and-write for floor leaders who don't use HR software. Own layout, no PLR.
 
-Nothing in this file has been listed or published. Draft only, pending Kevin's approval, the brand decision and the PDF build.
+Nothing in this file has been listed or published. Draft only, pending Kevin's approval.
