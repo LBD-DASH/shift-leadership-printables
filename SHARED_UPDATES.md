@@ -110,27 +110,29 @@ Last updated: 2026-10-02 06:38 SAST (AI Stock Images Repo agent)
 None today.
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-01 19:30 SAST (Claude Code daily agent, Day 5 evening pass)
+Last updated: 2026-10-02 06:50 SAST (Princess Baylin Repo agent / Grok Bot daily run)
 
 ### Done today
-- Overnight Day 5 draft: Episode 4 YouTube handoff, first Ep 4 ~12-spread manuscript, 5 Ep 4 merch concepts, Pip character-sheet row, `docs/series-bible-draft.md` stopgap, `docs/kdp-specs.md`, `logs/research-merch-pricing-2026-10-01.md`, `reviews/2026-10-01-language.md`.
-- Grok Bot morning refine (~06:48 SAST): TEMPLATE-locked fields folded into [`handoff/youtube/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-01.md) (channel, narrator, EN/AF/ZU voices, AI disclosure, art style). Story beats unchanged.
-- A full Episode 1 picture-book build landed on main today (not this agent's work, credited in its own commits): [`book/ep1-lost-rain-song/`](https://github.com/LBD-DASH/princess-baylin/tree/main/book/ep1-lost-rain-song) with English text, AF/ZU translations (each flagged NEEDS NATIVE-SPEAKER CHECK with an inline "lines to check" table), extracted art, a build script, KDP-ready interior/cover PDFs and an Etsy screen PDF, a KDP-readiness doc, and a draft Etsy listing. Nothing listed, published or uploaded anywhere.
-- Evening pass (this agent, see [`logs/2026-10-01.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-01.md)): added a missing `docs/character-sheet-draft.md` row for Bonayo the owl (confirmed canon since 2026-09-30 but had no row, unlike the rest of the cast); fixed em dash usage in `docs/series-bible-draft.md` per this repo's style rule; checked the repo for stray email addresses (none found). Could not extend the KDP book-build pipeline to Episodes 2 or 3 from this environment: no rendered video exists here to extract art frames from (Ep1's build used video frames produced elsewhere).
-- `assets/story/` still missing (only `assets/.gitkeep`). No weekly metrics (Thursday). Drafts only; nothing published; no money spent.
+- Day 6 of 30 (Days 6-12 original story-script window): Episode 5 YouTube handoff at [`handoff/youtube/2026-10-02.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-02.md) (Princess Baylin and the Very Patient Tortoise; friendship at the pace of care; sunlit hillside path; mid cue "Walk... soft and slow"; TEMPLATE-locked channel, narrator, EN/AF/ZU voices, AI disclosure, art style).
+- First Episode 5 ~12-spread picture-book manuscript (EN then AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK), five Ep 5 merch concepts, and Episode 4 light refine notes only (responding to Faceless critique themes: hook/close pacing, mid-cue alignment with "Mend... soft and true", drop reserved "Says Sorry" title option) in [`logs/2026-10-02.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-02.md).
+- Weekly metrics skipped (not Monday). `assets/story/` still missing (only `assets/.gitkeep`). Drafts only; nothing published; no money spent. Pipeline equal-priority wording left unchanged.
 
 ### Next up
-- YouTube agent: build Episode 4 script from the refined handoff at `handoff/youtube/2026-10-01.md` (already done on the faceless-youtube-content side today, per their section below).
-- **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? Now past the Day 1-5 series-bible window. (yes this week / not yet)
+- YouTube agent: build Episode 5 script from `handoff/youtube/2026-10-02.md`.
+- Apply Episode 4 light refine notes in `logs/2026-10-02.md` after Kevin's Ep 4 direction (do not full-rewrite Ep 4 until he answers).
+- **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? Still past the Day 1-5 series-bible window. (yes this week / not yet)
 - **[KEVIN]** Keep placeholder names Tilly, Sunhill, Rainbird and Pip the River Fish, or replace them? (keep / replace)
 - **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
 - **[KEVIN]** Language format for YouTube: English first, or Afrikaans/isiZulu in parallel after native check? (EN first / parallel later)
-- **[KEVIN]** Approve Episode 4 (River That Whispered / making amends) the way Episodes 1-3 were approved? (yes / changes needed)
-- **[KEVIN]** Review `book/ep1-lost-rain-song/` (manuscript, KDP readiness, Etsy draft, price estimates) and the open questions in its README before anything is uploaded?
+- **[KEVIN]** Approve Episode 4 (River That Whispered / making amends), with or without the Faceless pacing fixes? (yes / yes with fixes / changes needed)
+- **[KEVIN]** Approve Episode 5 draft direction (Very Patient Tortoise / friendship at the pace of care)? (yes / changes needed)
+- **[KEVIN]** Drop Ep 4 title option "Princess Baylin Says Sorry" (reserved for a possible future episode)? (drop it / fine to use)
 - Replace `docs/series-bible-draft.md` with a real series bible once the original story lands.
 
 ### Instructions for Claude and ChatGPT
-None today.
+1. Native-speaker review of Episode 5 Afrikaans and isiZulu lines (handoff hook, on-screen title/mid/close in `handoff/youtube/2026-10-02.md`, and the 12-spread AF/ZU manuscript blocks in `logs/2026-10-02.md`). Save corrected lines plus a short "still unsure" list to `reviews/2026-10-02-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag until a real native speaker signs off. Do not invent a child's real name, school, location, or email.
+2. Apply the Episode 4 light refine notes from `logs/2026-10-02.md` (and Faceless `logs/critique-ep4-2026-10-01.md` themes) as a short patch list into `logs/ep4-refine-patch-2026-10-02.md`: hook trim or longer hook slot, slower Beat 12 close, Beat 7 child-pause aligned to "Mend... soft and true", drop "Says Sorry" as an Ep 4 title option. Text only. Do not rewrite the whole Ep 4 manuscript until Kevin approves direction.
+3. Character sheet: Tilly already has a row and is the star of Ep 5; no new named recurring cast today. Only add a row if Kevin asks for painted-pebbles / wind-marker notes. Sleepy Moon and Quiet Star rows remain the prior open sheet work if still thin. Save any sheet edit under `docs/character-sheet-draft.md` with a one-line changelog at the top of the edit.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-10-01 SAST (Faceless YouTube Repo agent, Day 5 follow-up)
@@ -158,10 +160,6 @@ Last updated: 2026-10-01 SAST (Faceless YouTube Repo agent, Day 5 follow-up)
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (this run):** Episode 4 pacing/word count/kid-safety critique is at `logs/critique-ep4-2026-10-01.md`. Do not redo it.
 2. After Kevin approves Ep 4 direction: draft a 12-scene shot board from the visual plan in `scripts/2026-10-01.md`, matching the format of `scripts/drafts/episode-3-shotboard.md`, into `scripts/drafts/episode-4-shotboard.md`. Do not invent new canon. Still blocked on Kevin.
-
----
-
----
 
 ## Cross-project notes
 - 2026-09-27 16:30 SAST (Grok Bot): All four repos share this file. Reusable ideas, such as a leadership theme that fits both the printables and YouTube, go here so the other projects can use them.
@@ -209,3 +207,5 @@ Last updated: 2026-10-01 SAST (Faceless YouTube Repo agent, Day 5 follow-up)
 - 2026-10-01 06:50 SAST (Grok Bot, princess-baylin): Merged SHARED_UPDATES across all four repos via GitHub API this morning; rewriting Princess Baylin section and pushing the merged file to all four repos on main via cloud agents (prior Day 5 note said sibling pushes were blocked). Pipeline equal-priority line already present; no Pipeline edit.
 - 2026-10-01 19:30 SAST (Claude Code, princess-baylin agent): Same sandboxing prior agents hit again this run: cross-repo `git` in the three sibling repos' local directories required approval not grantable in this session, so could not pull their latest sections or push this merged file out to them. Only updated this repo's own section and pushed to princess-baylin's `origin/main`. Each sibling repo's own next run should pull this copy from princess-baylin's `origin/main` to pick up the evening-pass update.
 - 2026-10-02 06:27 SAST (Printables Repo agent): Printables Day 6 morning run. One-on-One listing patched to match built PDF. Next build: Shift Incident Log PDFs. Still 0 live listings.
+- 2026-10-02 06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Episode 5 YouTube handoff is on path handoff/youtube/2026-10-02.md (Princess Baylin and the Very Patient Tortoise; friendship at the pace of care; sunlit hillside path above Sunhill; mid cue "Walk... soft and slow"; closing invite "Who could you walk beside today?"). Please build today's YouTube script from that handoff. Episode 5 is a new draft, not yet approved by Kevin the way Episodes 1-3 were; flag it pending approval. Ep 5 book manuscript draft and 5 merch concepts are in logs/2026-10-02.md.
+- 2026-10-02 06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: **Book/merch ideas from Ep 5.** (1) Printable "Walk soft and slow" bedtime card matching the mid cue. (2) Sunlit hillside colouring page (forked path, painted pebbles, Tilly humming, soft tall grass). (3) Painted-pebbles trail activity sheet. (4) Honey-gold lookout art print. (5) "Walk beside" friendship card ("Who could you walk beside today?") after native AF/ZU check. Shop/KDP URL stays placeholder until Kevin approves. YouTube made-for-kids still turns off the merch shelf.
