@@ -64,17 +64,17 @@ Book/merch and YouTube run in parallel with equal priority; each feeds the other
 ---
 
 ## Shift and leadership printables (shift-leadership-printables)
-Last updated: 2026-10-02 06:27 SAST (Printables Repo agent)
+Last updated: 2026-10-02 06:40 SAST (Printables Repo agent)
 
 ### Done today
 - Day 6 morning run: progress check + next content in [`logs/2026-10-02.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/logs/2026-10-02.md). Weekly metrics skipped (not Monday).
 - Patched [`etsy/LISTING_ONE_ON_ONE.md`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/etsy/LISTING_ONE_ON_ONE.md) so status and WHAT'S ON THE SHEET match the built PDF (Manager and Next 1:1 fields, follow-up line, why lines, 5 action rows, Next 1:1 booked tracker column). Brand line stays Designed by Kevin Britz / Leadership by Design.
 - Refreshed Shift Incident Log into a build-ready brief (Day 4 layout + Day 5 critique deltas: two-row header, fixed Type break, Impact legend + 3 rows, page-height budget) with paste-ready Etsy listing confirmation (USD 3.50, title/tags from etsy/LISTING_SHIFT_INCIDENT_LOG.md).
-- Confirmed on main: One-on-One PDFs built; `logs/critique-one-on-one-pdf-2026-10-01.md` still missing. Brand decision DONE (keep LBD). Still 0 live Etsy/Gumroad listings. Built products: Shift Handover Sheet and One-on-One Meeting Template. Nothing published, listed, sold or sent. No money spent.
+- Built Shift Incident Log PDFs: [`products/shift-incident-log/shift-incident-log-A4.pdf`](https://github.com/LBD-DASH/shift-leadership-printables/blob/main/products/shift-incident-log/shift-incident-log-A4.pdf) and `shift-incident-log-Letter.pdf` from `products/shift-incident-log/src/make_pdf.py` (reportlab, repo fonts and LBD mark). Page 1 incident sheet with all five critique fixes, Page 2 ten-row open-incidents tracker. Rows 8.75 mm (A4) and 8.02 mm (Letter) on Page 1, asserted at 8 mm or more; 12 mm margins; no full-bleed fills. Every page rendered and checked. `etsy/LISTING_SHIFT_INCIDENT_LOG.md` status and on-sheet contents now match the PDF.
+- Confirmed on main: One-on-One PDFs built; `logs/critique-one-on-one-pdf-2026-10-01.md` still missing. Brand decision DONE (keep LBD). Still 0 live Etsy/Gumroad listings. Built products: Shift Handover Sheet, One-on-One Meeting Template and Shift Incident Log. Nothing published, listed, sold or sent. No money spent.
 
 ### Next up
-- Build Shift Incident Log PDFs into `products/shift-incident-log/` (A4 + Letter + src/make_pdf.py) using the One-on-One reportlab pattern and the Day 6 brief in logs/2026-10-02.md.
-- Then build New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/` (brief in logs/2026-10-01.md).
+- Build New Manager 30-60-90 into `products/new-manager-30-60-90-day-plan/` (brief in logs/2026-10-01.md).
 - Make Etsy listing images for the One-on-One (same style as etsy/listing-0*.png).
 - Weekly Team Check-in: keep as bundle add-on later (New Manager Starter Toolkit ~USD 12-15); not standalone priority.
 - **[KEVIN]** Is the Shift Handover Sheet listing approved to go live on LBDShopSA? (yes/no)
@@ -87,7 +87,7 @@ Last updated: 2026-10-02 06:27 SAST (Printables Repo agent)
 ### Instructions for Claude and ChatGPT
 1. **ANSWERED (on main):** etsy/LISTING_ONE_ON_ONE.md (patched 2026-10-02 to match built PDF), etsy/LISTING_WEEKLY_CHECK_IN.md, etsy/LISTING_SHIFT_INCIDENT_LOG.md, etsy/LISTING_30_60_90_DAY_PLAN.md, logs/research-etsy-demand-2026-10-01.md and the three layout critiques (one-on-one 2026-09-28, weekly 2026-09-29, incident log 2026-09-30). Do not redo them.
 2. **Still outstanding:** critique the built One-on-One PDFs (products/one-on-one-meeting-template/one-on-one-meeting-template-A4.pdf and -Letter.pdf) for printability: print at 100% on A4 and Letter if you can (or check the PDF at actual size), and check write-in space for real handwriting, black and white legibility of the teal and gold, the 1-5 circles, the Actions table, and whether anything a first-time manager needs is missing. Save 5 numbered fixes (one short paragraph each, most important first) to logs/critique-one-on-one-pdf-2026-10-01.md. Text only, no rebuild. File still missing on main as of 2026-10-02 morning.
-3. **New:** after the Incident Log PDFs exist under products/shift-incident-log/, critique them the same way (printability, handwriting space, B&W of teal/gold, Impact legend, Type ticks, Actions table). Save 5 numbered fixes to logs/critique-shift-incident-log-pdf-2026-10-02.md. Text only, no rebuild. Skip until the PDFs are on main.
+3. **Active now:** critique the built Shift Incident Log PDFs (products/shift-incident-log/shift-incident-log-A4.pdf and -Letter.pdf) the same way: print at 100% on A4 and Letter if you can (or check the PDF at actual size), and check printability, handwriting space, black and white legibility of the teal and gold, the Impact legend, the Type ticks, the Escalation row and the Actions table. Save 5 numbered fixes (one short paragraph each, most important first) to logs/critique-shift-incident-log-pdf-2026-10-02.md. Text only, no rebuild.
 4. **Still outstanding:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form" and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Live counts are still missing.
 
 ## AI stock images (ai-stock-images)

@@ -2,7 +2,7 @@
 
 Refreshed 2026-10-01 against the demand check in `logs/research-etsy-demand-2026-10-01.md`. Replaces the 2026-09-30 draft. Main change: the title and tags now lead with "incident report form" and "incident report", which is where the Etsy search volume is (about 1.1K to 1.6K active listings per MakerWords, Oct 2026), while keeping the shift-supervisor angle. Format follows `docs/ETSY_SETUP_CHECKLIST.md` and the voice of `etsy/SHOP_COPY.md`.
 
-Status: DRAFT ONLY. Not listed. The PDF is not built yet; the contents below must match the final PDF before anything is published. Brand line and AI disclosure are placeholders for Kevin.
+Status: DRAFT ONLY. Not listed. PDFs built 2026-10-02 (`products/shift-incident-log/shift-incident-log-A4.pdf` and `-Letter.pdf`, from `products/shift-incident-log/src/make_pdf.py`); WHAT YOU GET and WHAT'S ON THE SHEET below were checked against the built PDF. Brand line and AI disclosure are placeholders for Kevin.
 
 ---
 
@@ -47,20 +47,21 @@ WHAT YOU GET
 • 2 print-ready PDF files, 2 pages each:
   - shift-incident-log-A4.pdf (A4, 210 x 297 mm)
   - shift-incident-log-Letter.pdf (US Letter, 8.5 x 11 in)
-• Page 1: the incident sheet (one incident per sheet). Page 2: the weekly open-incidents tracker.
+• Page 1: the incident sheet (one incident per sheet). Page 2: the weekly open-incidents tracker (10 rows).
+• Write-in lines and table rows are at least 8 mm tall, with 12 mm margins and no full-page colour fills, so it prints well on a home or office printer.
 • Instant download after purchase. Nothing is shipped.
 
 WHAT'S ON THE SHEET
-• Header: site or area, date, time found, shift, reported by, role
-• Type: safety or near miss, equipment, quality or customer, staffing or people, other (one main type per sheet)
+• Header: site or area, date, time found, shift (day, swing, night or other), reported by, role
+• Type: tick one of safety or near miss, equipment, quality or customer, staffing or people, other (one main type per sheet)
 • What happened: facts-only write-in lines
 • Immediate action taken: what was done straight away to make it safe or stop the loss
-• Impact: people affected, output or quality hit, equipment status, estimated downtime
+• Impact: 3 rows for people affected, output or quality hit, equipment status and estimated downtime or delay, with a key for equipment status (OK, Watch, Down)
 • Likely cause (best guess for now), plus the evidence behind it
-• Escalation: who, how, when and ticket or reference number, or why it wasn't escalated
-• Actions to close: owner, what, due date, status
-• Sign-off: reported by and supervisor reviewed
-• Page 2: weekly tracker of open incidents, so nothing stays open only in someone's memory
+• Escalation: who, how (call, radio or ticket), when and ticket or reference number, or why it wasn't escalated
+• Actions to close: 5 rows for owner, what, due date and status (open or done)
+• Sign-off: reported by, supervisor reviewed and date
+• Page 2: weekly tracker of open incidents (date, type, one-line summary, owner, due, status and handover sheet reference), so nothing stays open only in someone's memory
 
 HOW TO USE IT
 1. Download the PDF in the size you need (A4 or US Letter).
@@ -95,4 +96,4 @@ Designed by Kevin Britz / Leadership by Design.
 ### Why it should stand out
 Most incident forms on Etsy are generic or aimed at daycare, home care or co-parenting. This one is built for shift supervisors: one main type per sheet (no vague "misc"), facts before opinions, immediate action before the cause guess, impact on people, output and equipment in one row, escalation with a reference number, a close-out table, and a weekly tracker that links to the Shift Handover Sheet. Own layout, no PLR.
 
-Nothing in this file has been listed or published. Draft only, pending Kevin's approval, the brand decision and the PDF build.
+Nothing in this file has been listed or published. Draft only, pending Kevin's approval. Brand decision done (2026-10-01) and PDFs built (2026-10-02).
