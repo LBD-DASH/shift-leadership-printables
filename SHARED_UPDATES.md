@@ -91,11 +91,11 @@ Last updated: 2026-10-02 06:40 SAST (Printables Repo agent)
 4. **Still outstanding:** append a short dated live-count table to logs/research-etsy-demand.md IF an interactive session can open Etsy for "one on one meeting template", "incident report form" and "30 60 90 day plan" (result count, top-5 prices USD, top-3 review counts). Or Kevin can paste. Live counts are still missing.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-10-02 06:38 SAST (AI Stock Images Repo agent)
+Last updated: 2026-10-03 06:30 SAST (AI Stock Images Repo agent)
 
 ### Done today
-- Day 6 of the 30-day plan: progress check + next-content in [`logs/2026-10-02.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-02.md). Weekly metrics skipped (not Monday).
-- Next-content: 2 new seasonal themes, 24 prompts (soft New Year / January wellness still-life; cozy winter breakfast still-life). Avoided Day 1-5 repeats. Batch kept small because Days 1-5 (~168 prompts) + pilot shortlist remain unused.
+- Day 7 of the 30-day plan: progress check + next-content in [`logs/2026-10-03.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-03.md). Weekly metrics skipped (not Monday).
+- Next-content: **no new theme batch** (Day 6 froze further themes until generation starts). Restated generation order from existing backlog (~192 prompts across 16 themes + pilot shortlist).
 - Confirmed `from-cto-new/` unchanged: no new Claude or ChatGPT handoffs. `blackvault/new-income-ideas-2026-09-27.md` still absent.
 - Venture-status cost correction still applies ([`reports/venture-status-2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/reports/venture-status-2026-10-01.md)): Firefly Standard + Topaz Personal ≈R368/mo (estimate), or Firefly Standard alone ≈R164/mo; break-even ~23 downloads/mo; keep only if blockers clear by 31 Oct 2026. Old ≈R283/mo Firefly Premium figure is stale.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
