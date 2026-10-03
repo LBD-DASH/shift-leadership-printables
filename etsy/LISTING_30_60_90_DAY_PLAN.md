@@ -2,15 +2,15 @@
 
 New product, picked 2026-10-01 from the demand check in `logs/research-etsy-demand-2026-10-01.md` (replaces the Weekly Team Check-in Sheet in the next-3 list; that draft stays as a bundle add-on). Format follows `docs/ETSY_SETUP_CHECKLIST.md` and the voice of `etsy/SHOP_COPY.md`.
 
-Status: DRAFT ONLY. Not listed. No layout brief or PDF exists yet; the page plan below is the proposed content and must match the final PDF before anything is published. Brand line and AI disclosure are placeholders for Kevin.
+Status: DRAFT ONLY. Not listed. PDFs built 2026-10-03: `products/new-manager-30-60-90-day-plan/new-manager-30-60-90-day-plan-A4.pdf` and `-Letter.pdf` (3 pages each), from `products/new-manager-30-60-90-day-plan/src/make_pdf.py` and the build-ready brief in `logs/2026-10-03.md`. The page plan and WHAT YOU GET below match the built sheet. The AI disclosure is still a placeholder for Kevin.
 
 ---
 
-## Proposed page plan (for the PDF build)
-- **Page 1, Plan on a page:** name, new role, team or shift, start date, manager. "By day 90 I want...": three outcomes. People I must meet: 8-row list (name, role, date met). How I'll know it's working: three signs.
-- **Page 2, The three phases:** three columns. Days 1-30 "Listen and learn": meet every team member, learn the shift routines, handover, safety rules and numbers, no big changes yet. Days 31-60 "Fix the basics": start regular 1:1s, set one team routine, sort two quick wins. Days 61-90 "Lead and improve": agree team goals, deal with one hard issue, plan the next quarter. Each column: 5 tick-box actions, 2 write-in lines for "what I learned", and a phase check-in date with my manager.
-- **Page 3, 13-week check-in:** one row per week: what I did, what I learned, what's next, energy 1 to 5.
-- Portrait, print-and-write, same palette and fonts as the other products, 8 mm or more line height, 12 mm margins.
+## Page plan (as built, 2026-10-03)
+- **Page 1, Plan on a page:** name, new role, team or shift, start date, manager. "By day 90 I want...": three numbered outcomes. People I must meet: 8-row table (name, role, date met, tick box). How I'll know it's working: three numbered signs. Sign-off: shared with my manager on, next check-in.
+- **Page 2, The three phases:** three columns. Days 1-30 "Listen and learn": meet every team member, learn the shift routines, sit in on a handover, learn the safety rules and the numbers, no big changes yet. Days 31-60 "Fix the basics": start regular 1:1s, set one team routine, sort two quick wins (with write-in lines), clear one open issue. Days 61-90 "Lead and improve": agree team goals, deal with one hard issue, plan the next quarter, review open actions, write three things to keep doing. Each column: 5 tick-box actions, ruled "What I learned" lines (11 on A4, 9 on US Letter) and a phase check-in date with my manager. Name, role and start date at the top so the page works on its own.
+- **Page 3, 13-week check-in:** name, role, week 1 start date, then one row per week: what I did, what I learned, what's next, energy 1 to 5 (circle one, legend under the header). Weeks 4, 8 and 13 shaded and labelled 30-day, 60-day and 90-day.
+- Portrait, print-and-write, same palette and fonts as the other products, every write-in row 9 mm or more, 12 mm margins, no full-bleed fills.
 
 ---
 
@@ -55,7 +55,10 @@ WHAT YOU GET
 • 2 print-ready PDF files, 3 pages each:
   - new-manager-30-60-90-day-plan-A4.pdf (A4, 210 x 297 mm)
   - new-manager-30-60-90-day-plan-Letter.pdf (US Letter, 8.5 x 11 in)
-• Page 1: your plan on a page. Page 2: the three phases. Page 3: a 13-week check-in.
+• Page 1, your plan on a page: name, new role, team or shift, start date and manager; three outcomes for day 90; an 8-row "people I must meet" table with a tick box for each person; three signs it's working; and a line for when you shared it with your manager and your next check-in.
+• Page 2, the three phases: Days 1 to 30, 31 to 60 and 61 to 90 side by side, each with 5 tick-box actions, ruled lines for what you learned and a check-in date with your manager.
+• Page 3, a 13-week check-in: one row per week for what I did, what I learned, what's next and energy 1 to 5, with weeks 4, 8 and 13 shaded as your 30, 60 and 90-day markers.
+• Roomy write-in lines (9 mm or taller), 12 mm margins and no full-page colour, so it prints cleanly in colour or black and white.
 • Instant download after purchase. Nothing is shipped.
 
 WHAT'S ON THE PAGES
@@ -99,4 +102,4 @@ Designed by Kevin Britz / Leadership by Design.
 ### Why it should stand out
 The 30-60-90 plans on Etsy are mostly editable Word, Docs or slide files for job interviews or HR onboarding. This one is a print-and-write plan for newly promoted team leaders and shift supervisors: a clear "listen first" order, actions written for frontline teams (handover, safety, numbers, 1:1s), and a weekly check-in so the plan survives past week two. Own layout, no PLR.
 
-Nothing in this file has been listed or published. Draft only, pending Kevin's approval, the brand decision, a layout brief and the PDF build.
+Nothing in this file has been listed or published. Draft only, pending Kevin's approval. Brand decision is done (keep Leadership by Design) and the PDFs are built.
