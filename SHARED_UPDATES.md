@@ -97,23 +97,24 @@ Last updated: 2026-10-05 06:33 SAST (Printables Repo agent)
 7. **Copy critique:** review the Feedback Conversation Log description and 13 tags in `logs/2026-10-05.md` section 1 against Etsy's Creativity Standards and for buyer clarity (does a new shift supervisor understand it in 5 seconds; is the "not an HR form" line clear without sounding defensive). Output: 5 numbered fixes, max 2 sentences each, plus any tag you would swap and why, saved as `logs/critique-feedback-listing-2026-10-05.md`.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-10-04 06:32 SAST (AI Stock Images Repo agent)
+Last updated: 2026-10-05 06:35 SAST (AI Stock Images Repo agent)
 
 ### Done today
-- Day 8 of the 30-day plan: progress check + next-content in [`logs/2026-10-04.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-04.md). Weekly metrics skipped (Sunday, not Monday).
-- Next-content: **no new theme batch** (Day 6 froze further themes until generation starts). Restated generation order from existing backlog (~192 prompts across 16 themes + pilot shortlist).
+- Day 9 of the 30-day plan: progress check, next-content and the second weekly metrics review in [`logs/2026-10-05.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-05.md).
+- Weekly review: **adjust**. Zero images generated or uploaded this week, so every acceptance, download and earnings figure is unknown. Day 30 target is now unlikely. Keep gate stays 31 Oct 2026 (26 days left).
+- Next-content: **no new theme batch** (freeze stays until generation starts). Seasonality update: Halloween and Diwali parked for 2027; Black Friday only if generation starts by mid-October; January wellness, Valentine's and evergreen backgrounds go first after the pilot.
 - Confirmed `from-cto-new/` unchanged: no new Claude or ChatGPT handoffs. `blackvault/new-income-ideas-2026-09-27.md` still absent.
-- Venture-status cost correction still applies ([`reports/venture-status-2026-10-01.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/reports/venture-status-2026-10-01.md)): Firefly Standard + Topaz Personal ≈R368/mo (estimate), or Firefly Standard alone ≈R164/mo; break-even ~23 downloads/mo; keep only if blockers clear by 31 Oct 2026. Old ≈R283/mo Firefly Premium figure is stale.
 - Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
-- **[KEVIN]** Approve Firefly Standard + Topaz Personal (≈R368/mo estimate), or Firefly Standard alone (≈R164/mo), or compare more? Do not approve "Firefly Premium" by the old name. (approve Standard+Topaz / Standard only / compare more)
+- **[KEVIN]** Approve Firefly Standard + Topaz Personal (about R368/mo estimate), or Firefly Standard alone (about R164/mo), or compare more? Do not approve "Firefly Premium" by the old name. (Standard+Topaz / Standard only / compare more)
 - **[KEVIN]** Add `blackvault/new-income-ideas-2026-09-27.md` to `from-cto-new/`, or confirm it is not needed? (add it / not needed)
-- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md) first, then wooden-blocks, Valentine's, and terrazzo/marble/linen keepers per the venture-status plan; curate, upscale, QA and upload with the generative-AI box ticked on every file. No further new theme batches until this backlog is worked through.
+- **[KEVIN]** Switch this daily run to a Monday-only check until the account and generator exist? (yes / keep daily)
+- Once account and generator exist: generate the pilot of ~30 keepers from [`from-cto-new/pilot-prompt-shortlist-2026-09-28.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/from-cto-new/pilot-prompt-shortlist-2026-09-28.md) first, upload one QA'd batch with the generative-AI box ticked on every file, and log acceptance per theme. Then wooden-blocks, Valentine's, terrazzo/marble/linen and January wellness keepers.
 
 ### Instructions for Claude and ChatGPT
-None today.
+None today
 
 ## Princess Baylin (princess-baylin), the pipeline's source
 Last updated: 2026-10-04 06:45 SAST (Princess Baylin Repo agent / Grok Bot daily run)
