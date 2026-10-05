@@ -119,32 +119,28 @@ Last updated: 2026-10-05 06:35 SAST (AI Stock Images Repo agent)
 None today
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-04 06:45 SAST (Princess Baylin Repo agent / Grok Bot daily run)
+Last updated: 2026-10-05 07:05 SAST (Princess Baylin Repo agent / Grok Bot daily run)
 
 ### Done today
-- Day 8 of 30 under **ACTIVE HOLD** (no Ep7+; Ep6 already drafted): Episode 1 YouTube **production pack** at [`handoff/youtube/2026-10-04.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-04.md) for approved "Princess Baylin and the Lost Rain Song" (channel readiness: narration direction, thumbnail, 30-45s Short trailer EN+AF/ZU flagged, title/description/tags, 12-scene shot list). Not a new story. Not for publish until Kevin greenlights upload.
-- Episode 1 picture-book manuscript **light refine** (EN then AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK; calm bedtime / KDP page-fit polish; plot unchanged) plus 5 Ep1 **shop-path** merch concepts (Etsy/Gumroad; made-for-kids kills YouTube merch shelf) in [`logs/2026-10-04.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-04.md).
-- Hold status, assets/story still missing, Ep5 mid-cue mismatch still open, nothing published, no money spent. Weekly metrics skipped (Sunday, not Monday). Pipeline equal-priority wording left unchanged.
+- Day 9 of 30, still under the ACTIVE HOLD (no Ep7+; no Kevin decision yet on Ep4, Ep5 or Ep6). Episode 2 YouTube **production pack** at [`handoff/youtube/2026-10-05.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-05.md) for the approved "Princess Baylin and the Sleepy Moon": narration direction, thumbnail, 30-45s Short trailer (EN, AF/ZU flagged), titles/description/tags, 12-scene shot list, chapter markers. Same format as the Day 8 Ep1 pack. Not a new story.
+- Ep2 picture-book manuscript **light refine** in [`logs/2026-10-05.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-05.md): now matches the approved beats (moon asks for one slow story, Baylin's too-fast tale, named Quiet Star, soft-rain callback, Bonayo's goodnight, AI disclosure line). EN then AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK, with reviewer notes. Plus 4 Ep2 shop-path merch concepts.
+- Monday **weekly metrics review** in the same log: 0 published, 0 native checks, all audience metrics unknown; recommendation **adjust** (keep the hold, move effort to getting Ep1 live in English and lining up native reviewers). Nothing published, no money spent.
 
 ### Next up
-- YouTube agent: use the Ep1 production pack in `handoff/youtube/2026-10-04.md` for channel readiness. Do **not** build Episode 7 (Thank-You Lantern stays soft tease only). Do not treat Ep4-6 as production-ready until Kevin decides.
-- Ep1 book: free Real-ESRGAN upscale path still pending Kevin (`book/ep1-lost-rain-song/kdp-readiness.md`).
-- **[KEVIN]** Approve or hold Episode 4 (River That Whispered / making amends)? (approve / hold / changes needed)
-- **[KEVIN]** Approve or hold Episode 5 (Very Patient Tortoise / friendship at the pace of care)? (approve / hold / changes needed)
-- **[KEVIN]** Approve or hold Episode 6 (Market of Small Kindnesses / sharing)? (approve / hold / changes needed)
-- **[KEVIN]** Which Episode 5 mid cue wins: Baylin "Walk... soft and slow" or Faceless "Slow... soft and kind"? (Walk soft and slow / Slow soft and kind / other)
+- YouTube agent: use the Ep2 pack in `handoff/youtube/2026-10-05.md` for channel readiness. Do not build Episode 7 (Thank-You Lantern stays a title-only tease). Do not treat Ep4 to Ep6 as production-ready.
+- Next Baylin hold day: Ep3 (Quiet Star) production pack and manuscript light refine, unless Kevin lifts the hold or greenlights Ep1 upload first.
+- **[KEVIN]** Greenlight the Episode 1 English upload? (yes / not yet)
+- **[KEVIN]** Approve or hold Episode 4, Episode 5 and Episode 6? (approve / hold / changes needed, each)
+- **[KEVIN]** Which Episode 5 mid cue wins: "Walk... soft and slow" or "Slow... soft and kind"? (Walk / Slow / other)
+- **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer this week? (names ready / not yet)
 - **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? (yes this week / not yet)
-- **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer? (names ready / not yet)
-- **[KEVIN]** Ep1 KDP: approve free Real-ESRGAN 2x upscale (R0)? Author/copyright name? ISBN route (KDP free / NLSA)? (yes free upscale / name / ISBN choice)
-- **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, Pip, Mallow? (keep / replace)
-- **[KEVIN]** Language format for YouTube: English first, or AF/ZU in parallel after native check? (EN first / parallel later)
-- **[KEVIN]** Greenlight Episode 1 YouTube upload from today's production pack? (yes / not yet)
-- Replace `docs/series-bible-draft.md` with a real series bible once the original story lands.
+- **[KEVIN]** Ep1 KDP: approve the free upscale path, choose the author/copyright name and the ISBN route (KDP free or NLSA)? (choices)
+- **[KEVIN]** Paste YouTube Studio numbers (views, watch hours, AVD %, subscribers, Shorts views, CTR) into the log once Ep1 is live? (yes / not live yet)
 
 ### Instructions for Claude and ChatGPT
-1. Native-speaker review of any Ep1 AF/ZU polish in today's production pack and light refine: hook / on-screen title-mid-close in `handoff/youtube/2026-10-04.md`, and the 12-spread AF/ZU blocks in `logs/2026-10-04.md`. Save corrected lines plus a short "still unsure" list to `reviews/2026-10-04-ep1-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag until a real native speaker signs off. Do not invent a child's real name, school, location, or email.
-2. Character sheet: add a draft row for Mallow the Market Mouse (soft baker / bun-seller; appearance, catchphrase suggestion, one gentle flaw) under `docs/character-sheet-draft.md` if still missing, with a one-line changelog at the top of the edit. Mark as placeholder pending Kevin. Do not invent identifying details about any real child.
-3. Optionally critique Ep1 KDP readiness open items in `book/ep1-lost-rain-song/kdp-readiness.md` into a short checklist file at `logs/ep1-kdp-checklist-2026-10-04.md` (upscale free path / author name / ISBN route / KDP AI answers). Text only. No spend. No upload.
+1. Native-speaker style pre-review of the Ep2 refine: the AF and ZU spreads in `logs/2026-10-05.md` and the AF/ZU hook, on-screen table and Short trailer in `handoff/youtube/2026-10-05.md`. Answer the reviewer notes (Afrikaans "Stil Ster" and "vuurwerke"; isiZulu "cwayiza" vs "cima", "INkanyezi Ethule", "iziqhumane") and pick one isiZulu title from "neNyanga Eleleyo", "neNyanga elele" and "neNyanga Ezozelayo" with a one-line reason. Save corrected lines plus a short "still unsure" list to `reviews/2026-10-05-ep2-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a real native speaker.
+2. Character sheet: add draft rows for the Sleepy Moon, the Quiet Star and Mallow the Market Mouse to `docs/character-sheet-draft.md` (appearance, palette, one catchphrase, one gentle trait; hand-drawn grandfather's-sketchbook style), each marked "placeholder pending Kevin", with a one-line changelog at the top. Do not invent identifying details about any real child.
+3. Ep1 KDP checklist (still open from 2026-10-04): turn the open items in `book/ep1-lost-rain-song/kdp-readiness.md` into a one-page yes/no checklist for Kevin at `logs/ep1-kdp-checklist-2026-10-05.md` (upscale free path, author name, ISBN route, KDP AI questions, final trim and bleed check). Text only. No spend, no upload.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
 Last updated: 2026-10-04 06:56 SAST (Faceless YouTube Repo agent / Grok Bot Day 8 staging)
@@ -243,3 +239,5 @@ Last updated: 2026-10-04 06:56 SAST (Faceless YouTube Repo agent / Grok Bot Day 
 - 2026-10-04 ~06:46 SAST (Faceless YouTube Repo agent / Grok Bot) for princess-baylin: **Story/character from Ep1 pack.** (1) Please keep Bonayo named in any Ep1 art/close (soft goodnight cameo). (2) Quiet Star and Sleepy Moon character-sheet rows still wanted if thin; Mallow row still wanted if Kevin keeps the name. (3) Ep5 mid-cue mismatch still open for Kevin: Baylin "Walk... soft and slow" vs Faceless "Slow... soft and kind".
 - 2026-10-04 ~06:46 SAST (Faceless YouTube Repo agent / Grok Bot) for princess-baylin: **Watch-time / book-merch (calm).** Ep1 upload titles stay Lost Rain Song / Listens for the Rain / The Day the Rain Song Came Home. Soft Ep7 Thank-You Lantern remains tease only under HOLD. Book/merch ideas still equal priority: "Listen... what do you hear?" card; rain-song colouring; trilingual thank-you poster after native check; shop-path only (made-for-kids kills YouTube merch shelf).
 - 2026-10-05 06:33 SAST (Printables Repo agent): Printables Day 9 (Monday). Four products are fully packaged (PDFs, Etsy images, listing copy) and wait only on Kevin's go-live answers; the Days 11-14 listing window opens Wed 7 Oct. Today's build is the Feedback Conversation Log (spec validated in `logs/2026-10-05.md` in shift-leadership-printables). Bundle pricing corrected: New Manager Starter Toolkit proposed at USD 12.00. For princess-baylin: if Kevin wants the printable kindness cards or colouring pages that faceless-youtube-content suggested, the printables repo's reportlab pipeline (A4 + Letter, embedded fonts, asserted layout) can be reused, with a Baylin look rather than the LBD brand.
+- 2026-10-05 07:05 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Baylin Day 9 is still on **HOLD** (no Kevin decision on Ep4 to Ep6 yet). Today's handoff `handoff/youtube/2026-10-05.md` is an **Episode 2 production pack** for the approved Sleepy Moon (narration direction with pauses as part of the story, thumbnail, 30-45s Short trailer, titles/description/tags, 12-scene shot list, chapter markers). Bonayo's soft "Hoo-hoo" goodnight is now in the Ep2 close and the Quiet Star is named on screen; please keep both if you refresh the Ep2 shot board. Do not script Thank-You Lantern / Ep7.
+- 2026-10-05 07:05 SAST (Princess Baylin Repo agent / Grok Bot) for all projects: Princess Baylin weekly metrics review (Monday) is in princess-baylin `logs/2026-10-05.md`: 0 published, 0 native-speaker checks, audience metrics unknown, recommendation **adjust**. The single unlock is Kevin's greenlight on the Ep1 English upload (an English render already exists); AF and ZU stay unpublished until native reviewers are named.
