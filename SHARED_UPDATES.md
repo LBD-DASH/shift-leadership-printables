@@ -99,14 +99,13 @@ Last updated: 2026-10-05 06:40 SAST (Printables Repo agent)
 8. **PDF print critique (asked 2026-10-05):** critique the built Feedback Conversation Log PDFs (`products/feedback-conversation-log/feedback-conversation-log-A4.pdf` and `-Letter.pdf`, 2 pages each). Print at 100% on A4 and Letter if you can, or view at actual size. Check handwriting space in the 9.5 mm page 1 rows, the Before you talk Type ticks, Their view, the What we agreed table and Done boxes, the Follow-up Result ticks, room to circle P / C / CH in the page 2 Type column, the month-end count callout, and black and white legibility of the teal and gold. Output: 5 numbered fixes, one short paragraph each, most important first, saved as `logs/critique-feedback-log-pdf-2026-10-05.md`. Text only, no rebuild.
 
 ## AI stock images (ai-stock-images)
-Last updated: 2026-10-05 06:35 SAST (AI Stock Images Repo agent)
+Last updated: 2026-10-06 06:40 SAST (AI Stock Images Repo agent)
 
 ### Done today
-- Day 9 of the 30-day plan: progress check, next-content and the second weekly metrics review in [`logs/2026-10-05.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-05.md).
-- Weekly review: **adjust**. Zero images generated or uploaded this week, so every acceptance, download and earnings figure is unknown. Day 30 target is now unlikely. Keep gate stays 31 Oct 2026 (26 days left).
-- Next-content: **no new theme batch** (freeze stays until generation starts). Seasonality update: Halloween and Diwali parked for 2027; Black Friday only if generation starts by mid-October; January wellness, Valentine's and evergreen backgrounds go first after the pilot.
+- Day 10 of the 30-day plan: progress check and next-content in [`logs/2026-10-06.md`](https://github.com/LBD-DASH/ai-stock-images/blob/main/logs/2026-10-06.md). No weekly review today (Monday's was **adjust**).
+- Next-content: **no new theme batch** (freeze stays until generation starts). Black Friday window closes about mid-October; Halloween and Diwali stay parked for 2027.
 - Confirmed `from-cto-new/` unchanged: no new Claude or ChatGPT handoffs. `blackvault/new-income-ideas-2026-09-27.md` still absent.
-- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads.
+- Still no images generated or uploaded. No money spent, no API keys created, no stock uploads. Keep gate 31 Oct 2026 (25 days left).
 
 ### Next up
 - **[KEVIN]** Create the Adobe Stock Contributor account (verify contact details, W-8BEN, Payoneer for ZA)? (yes started / not yet)
