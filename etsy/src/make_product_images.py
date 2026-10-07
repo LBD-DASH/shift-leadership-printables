@@ -3,7 +3,7 @@
 Same visual system as the Shift Handover set (etsy/listing-0*.png): navy gradient hero,
 cream close-up, cream what-you-get, navy how-it-works, 2000x1500 RGB PNG.
 
-Run from anywhere:  python3 etsy/src/make_product_images.py [one-on-one|incident-log|30-60-90 ...]
+Run from anywhere:  python3 etsy/src/make_product_images.py [one-on-one|incident-log|30-60-90|feedback-log|weekly-check-in|handover ...]
 All paths below are repo-relative (the script changes into the repo root first).
 
 Render step (done by this script, one command per PDF size):
@@ -79,6 +79,51 @@ PRODUCTS = {
                ("13-week check-in", "One row per week"),
                ("Instant download", "Nothing is shipped")],
         step4="Work through one phase at a time",
+    ),
+    "feedback-log": dict(
+        pdf="products/feedback-conversation-log/feedback-conversation-log",
+        pages=2,
+        label="PRINTABLE PDF \u00b7 2 PAGES",
+        name=("Feedback", "Conversation Log"),
+        sub="Manager Feedback Form + Monthly Index",
+        hero_front=("A4", 1), hero_back=[("Letter", 2)],
+        closeup_page=1,
+        closeup_head="Feedback that is fair, short and written down.",
+        ticks=[("2 print-ready PDFs", "A4 and US Letter, 2 pages each"),
+               ("Page 1: one conversation", "Page 2: the monthly index"),
+               ("Instant download", "Nothing is shipped"),
+               ("Print at home or at work", "In colour or black and white")],
+        step4="Add one line to Page 2",
+    ),
+    "weekly-check-in": dict(
+        pdf="products/weekly-team-check-in/weekly-team-check-in",
+        pages=2,
+        label="PRINTABLE PDF \u00b7 2 PAGES",
+        name=("Weekly Team", "Check-in"),
+        sub="15 Minute Huddle Sheet + Monthly Team Pulse",
+        hero_front=("A4", 1), hero_back=[("Letter", 2)],
+        closeup_page=1,
+        closeup_head="A team check-in that ends with owners and dates.",
+        ticks=[("2 print-ready PDFs", "A4 and US Letter, 2 pages each"),
+               ("Page 1: the huddle sheet", "Page 2: the monthly pulse"),
+               ("Instant download", "Nothing is shipped"),
+               ("Print at home or at work", "In colour or black and white")],
+        step4="Go round the team once",
+    ),
+    "handover": dict(
+        pdf="products/shift-handover-sheet/shift-handover-sheet",
+        pages=1,
+        label="PRINTABLE PDF \u00b7 1 PAGE",
+        name=("Shift Handover", "Sheet"),
+        sub="Supervisor Shift Change Report",
+        hero_front=("A4", 1), hero_back=[("Letter", 1)],
+        closeup_page=1,
+        closeup_head="Stop losing information between shifts.",
+        ticks=[("2 print-ready PDFs", "A4 and US Letter, 1 page each"),
+               ("Eight handover blocks", "Staffing, safety, output, equipment, tasks and more"),
+               ("Instant download", "Nothing is shipped"),
+               ("Print at home or at work", "In colour or black and white")],
+        step4="Walk it through, then both sign",
     ),
 }
 

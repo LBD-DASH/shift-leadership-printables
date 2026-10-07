@@ -1,0 +1,14 @@
+report=2026-10-07-pdf-qa.csv
+files_approved=14
+files_blocked=0
+products_approved=7
+products_blocked=0
+top_failures:
+by_product:
+  APPROVED_FOR_PUBLISH	feedback-conversation-log	
+  APPROVED_FOR_PUBLISH	new-manager-30-60-90-day-plan	
+  APPROVED_FOR_PUBLISH	new-manager-starter-toolkit	
+  APPROVED_FOR_PUBLISH	one-on-one-meeting-template	
+  APPROVED_FOR_PUBLISH	shift-handover-sheet	
+  APPROVED_FOR_PUBLISH	shift-incident-log	
+  APPROVED_FOR_PUBLISH	weekly-team-check-in	
