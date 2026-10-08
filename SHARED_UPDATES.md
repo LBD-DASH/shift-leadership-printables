@@ -146,22 +146,21 @@ Last updated: 2026-10-07 06:55 SAST (Princess Baylin Repo agent / Grok Bot daily
 5. **Still outstanding from 2026-10-06:** the Ep3 language pre-review (`reviews/2026-10-06-ep3-language.md`) and the Ep2 plot side-by-side (`logs/ep2-plot-options-2026-10-06.md`), exactly as briefed yesterday.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-10-07 20:05 SAST (Faceless YouTube Repo agent, Day 11)
+Last updated: 2026-10-08 20:05 SAST (Faceless YouTube Repo agent, Day 12)
 
 ### Done today
-- Day 11 log at [`logs/2026-10-07.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-07.md): progress check. No weekly metrics review (Wednesday, not Monday).
-- **GitHub access blocker from Days 9-10 did not recur.** `git pull --rebase` worked cleanly against both this repo and the local princess-baylin clone. Closing that item unless it comes back.
-- **Episode 1 is greenlit:** Kevin approved the Episode 1 English upload on 6 Oct 2026, 15:34 SAST. Princess Baylin's handoff [`handoff/youtube/2026-10-07.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-07.md) is the Ep1 English upload pack for Grok Bot, who does the actual upload (this repo never publishes).
-- **Found and fixed a correction:** this repo's own Ep1 production pack, `scripts/2026-10-04.md`, named the final chapter "Goodnight with Bonayo" and used script-estimate timestamps. The handoff confirms the actual approved render has no Bonayo (a Day 8 suggestion that never made the 30 Sep render) and gives the render's real chapter times. Corrected both in `scripts/2026-10-04.md` with a dated note, so the repo's own record now matches what Kevin approved and what Grok Bot is uploading from.
+- Day 12 log at [`logs/2026-10-08.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-08.md): progress check. No weekly metrics review (Thursday, not Monday).
+- **Nothing new to react to.** Pulled this repo and all three sibling repos; all were already in sync. Princess Baylin's newest handoff and log are both still dated 2026-10-07; no Kevin answer has landed anywhere for any open **[KEVIN]** question.
+- Re-checked yesterday's Ep1 pack correction (`scripts/2026-10-04.md`) against its Short trailer script and on-screen text table: neither depends on clock timestamps, so nothing else needed fixing.
 - No new episode drafted (Day 8 HOLD on Ep7+ still active; Ep4-6 await Kevin). Still no publish, no spend, no API keys.
 
 ### Next up
 - Hold new episode scripting until Kevin answers approve-or-hold on Episodes 4, 5 and 6. Do not spend money or buy API keys.
 - Ep 2 and Ep 3 already have 12-scene shot boards (drafts). Confirm firefly vs moth in Ep 3 before art starts.
 - Episode 4-6 shot boards only after Kevin approves direction; apply the matching critique fixes (`logs/critique-ep4-2026-10-01.md`, `-ep5-2026-10-02.md`, `-ep6-2026-10-03.md`) if he picks those paths.
-- **[KEVIN]** Was Episode 1 actually published today? If yes, paste the video URL and publish time (SAST) here so metrics tracking can start (the handoff asks for this too).
+- **[KEVIN]** Was Episode 1 actually published? If yes, paste the video URL and publish time (SAST) here so metrics tracking can start (the handoff asks for this too).
 - **[KEVIN]** Publish the Ep1 Short (30-45s, script already in `scripts/2026-10-04.md`)? Separate question from the long-video yes on 6 Oct.
-- **[KEVIN]** With 11 of 30 days gone, is the Day-30 target of 3-4 published episodes still the goal now that Ep1 is greenlit, or should it flex? (keep target / flex it)
+- **[KEVIN]** With 12 of 30 days gone and Ep1's publish status still unconfirmed, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
 - **[KEVIN]** Approve or hold Episode 4 (`scripts/2026-10-01.md`, River That Whispered, with or without the fixes in `logs/critique-ep4-2026-10-01.md`), Episode 5 (`scripts/2026-10-02.md`, Very Patient Tortoise, with or without `logs/critique-ep5-2026-10-02.md`) and Episode 6 (`scripts/2026-10-03.md`, Market of Small Kindnesses, with or without `logs/critique-ep6-2026-10-03.md`)? (approve / hold / changes needed, each)
 - **[KEVIN]** Which Episode 5 mid cue wins: Baylin "Walk... soft and slow" or Faceless "Slow... soft and kind"? (Walk soft and slow / Slow soft and kind / other)
 - **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, Pip, and Mallow the Market Mouse? (keep / replace)
