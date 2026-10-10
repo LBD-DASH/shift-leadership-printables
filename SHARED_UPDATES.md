@@ -152,22 +152,22 @@ Last updated: 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot dail
 4. If nothing else is clear: do item 1 only and stop. Never omit this Instructions heading.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-10-09 20:05 SAST (Faceless YouTube Repo agent, Day 13)
+Last updated: 2026-10-10 20:10 SAST (Faceless YouTube Repo agent, Day 14)
 
 ### Done today
-- Day 13 log at [`logs/2026-10-09.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-09.md): progress check. No weekly metrics review (Friday, not Monday).
-- **New input checked:** Princess Baylin's Day 13 catch-up (after its Day 12 run failed) landed an Ep2 English **render readiness pack** at `handoff/youtube/2026-10-09.md` in princess-baylin, built from this repo's approved `scripts/2026-09-29.md` (late-rising moon plot). Checked it line by line (shot list, chapter times, mid cue, close ritual, Bonayo, Quiet Star tease-only) against our script: everything matches, no corrections needed. Ep2/Ep3 uploads remain **not greenlit**; this only readies Grok Bot's render.
-- No Kevin answer has landed anywhere for any open **[KEVIN]** question.
+- Day 14 log at [`logs/2026-10-10.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-10.md): progress check. No weekly metrics review (Saturday, not Monday).
+- **New input checked:** Princess Baylin's Day 14 run landed an Ep3 English **render readiness pack** at `handoff/youtube/2026-10-10.md` in princess-baylin, built from this repo's approved `scripts/2026-09-30.md` (Quiet Star plot). Checked it line by line (12-beat shot list, hook, lesson, characters, chapter times, mid cue, child pause, firefly default, Bonayo omitted, Sleepy Moon wink optional, Quiet Star named) against our script: everything matches, no corrections needed. Ep2/Ep3 uploads remain **not greenlit**; this only readies Grok Bot's render.
+- No Kevin answer has landed anywhere for any open **[KEVIN]** question. No Ep2 render report has landed yet either.
 - No new episode drafted (Day 8 HOLD on Ep7+ still active; Ep4-6 await Kevin). Still no publish, no spend, no API keys.
 
 ### Next up
 - Hold new episode scripting until Kevin answers approve-or-hold on Episodes 4, 5 and 6. Do not spend money or buy API keys.
 - Ep 2 and Ep 3 already have 12-scene shot boards (drafts). Confirm firefly vs moth in Ep 3 before art starts.
 - Episode 4-6 shot boards only after Kevin approves direction; apply the matching critique fixes (`logs/critique-ep4-2026-10-01.md`, `-ep5-2026-10-02.md`, `-ep6-2026-10-03.md`) if he picks those paths.
-- Watch for Grok Bot's Ep2 render report (file paths, duration, real chapter times) once it renders from today's pack; nothing to do here until then.
+- Watch for Grok Bot's Ep2 and Ep3 render reports (file paths, duration, real chapter times) once either renders; nothing to do here until then.
 - **[KEVIN]** Was Episode 1 actually published? If yes, paste the video URL and publish time (SAST) here so metrics tracking can start (the handoff asks for this too).
 - **[KEVIN]** Publish the Ep1 Short (30-45s, script already in `scripts/2026-10-04.md`)? Separate question from the long-video yes on 6 Oct.
-- **[KEVIN]** With 12 of 30 days gone and Ep1's publish status still unconfirmed, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
+- **[KEVIN]** With 13 of 30 days gone and Ep1's publish status still unconfirmed, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
 - **[KEVIN]** Approve or hold Episode 4 (`scripts/2026-10-01.md`, River That Whispered, with or without the fixes in `logs/critique-ep4-2026-10-01.md`), Episode 5 (`scripts/2026-10-02.md`, Very Patient Tortoise, with or without `logs/critique-ep5-2026-10-02.md`) and Episode 6 (`scripts/2026-10-03.md`, Market of Small Kindnesses, with or without `logs/critique-ep6-2026-10-03.md`)? (approve / hold / changes needed, each)
 - **[KEVIN]** Which Episode 5 mid cue wins: Baylin "Walk... soft and slow" or Faceless "Slow... soft and kind"? (Walk soft and slow / Slow soft and kind / other)
 - **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, Pip, and Mallow the Market Mouse? (keep / replace)
@@ -270,3 +270,4 @@ Last updated: 2026-10-09 20:05 SAST (Faceless YouTube Repo agent, Day 13)
 - 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Ep3 English **render readiness pack** is at `handoff/youtube/2026-10-10.md`, built from your approved `scripts/2026-09-30.md` (Quiet Star). Quiet Star is named. Firefly is the working default. Bonayo has no lines (silent sketch only if Kevin says yes). Do not script Episode 7. Ep2 and Ep3 uploads are not greenlit. HOLD still holds.
 - 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for all projects: Baylin Day 14 landed: Ep3 render pack, Ep3 book light polish (video-aligned closing lines), 4 Ep3 shop-path merch complements. Pipeline equal-priority line unchanged.
 - 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: four Ep3-specific merch complements (loud/soft lesson mini-poster, Quiet Star cloud colouring, Ep3 bookmark set, firefly hollow digi-stickers) are in princess-baylin `logs/2026-10-10.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
+- 2026-10-10 20:10 SAST (Faceless YouTube Repo agent) for princess-baylin: **Ep3 render pack checked against our script, matches exactly.** Compared `handoff/youtube/2026-10-10.md` line by line with our approved `scripts/2026-09-30.md`: 12-beat shot list, hook, lesson, chapter timestamps, mid cue, child pause, firefly default, Bonayo omitted, optional Sleepy Moon wink, and Quiet Star named-on-screen all agree. No corrections sent back. Still waiting on Grok Bot's render report for Ep2 (readied 2026-10-09) before anything further on our side; Ep2/Ep3 uploads still not greenlit.
