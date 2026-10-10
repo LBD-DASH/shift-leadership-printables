@@ -3,7 +3,7 @@
 Same visual system as the Shift Handover set (etsy/listing-0*.png): navy gradient hero,
 cream close-up, cream what-you-get, navy how-it-works, 2000x1500 RGB PNG.
 
-Run from anywhere:  python3 etsy/src/make_product_images.py [one-on-one|incident-log|30-60-90|feedback-log|weekly-check-in|handover ...]
+Run from anywhere:  python3 etsy/src/make_product_images.py [one-on-one|incident-log|30-60-90|feedback-log|weekly-check-in|handover|starter-toolkit ...]
 All paths below are repo-relative (the script changes into the repo root first).
 
 Render step (done by this script, one command per PDF size):
@@ -124,6 +124,21 @@ PRODUCTS = {
                ("Instant download", "Nothing is shipped"),
                ("Print at home or at work", "In colour or black and white")],
         step4="Walk it through, then both sign",
+    ),
+    "starter-toolkit": dict(
+        pdf="products/new-manager-starter-toolkit/new-manager-starter-toolkit",
+        pages=9,
+        label="PRINTABLE PDF \u00b7 9 PAGES",
+        name=("New Manager", "Starter Toolkit"),
+        sub="30-60-90 Plan, One-on-One, Team Check-in, Feedback Log",
+        hero_front=("A4", 2), hero_back=[("A4", 4), ("A4", 6)],
+        closeup_page=6,
+        closeup_head="Four routines for your first 90 days as a manager.",
+        ticks=[("2 print-ready PDFs", "A4 and US Letter, 9 pages each"),
+               ("Four tools in one file", "Plan, 1:1, huddle and feedback"),
+               ("Instant download", "Nothing is shipped"),
+               ("Print at home or at work", "In colour or black and white")],
+        step4="Start with the 90-day plan",
     ),
 }
 
@@ -272,7 +287,7 @@ def what_you_get(p, S, out):
     tracked(d, (LW / 2, 95), "INCLUDED IN YOUR DOWNLOAD", sans(30, 600), TEAL, 10, anchor="m")
     d.text((LW / 2, 215), "What you get", font=serif(104, 600), fill=NAVY, anchor="mm")
     d.line((LW / 2 - 80, 300, LW / 2 + 80, 300), fill=GOLD, width=5)
-    th = 680; n = p["pages"]; step = 22
+    th = 680; n = min(p["pages"], 3); step = 22
     for size, x, lab in [("A4", 90, "A4 PDF"), ("Letter", 630, "US Letter PDF")]:
         first = by_h(S[(size, 1)], th)
         # later pages peek out behind page 1, offset up and right

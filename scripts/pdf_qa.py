@@ -60,6 +60,7 @@ MIN_PAGES = {
     "feedback-conversation-log": 2,
     "weekly-team-check-in": 2,
     "new-manager-starter-toolkit": 9,
+    "shift-handover-incident-2-pack": 3,
 }
 
 STANDARD_FONTS = {

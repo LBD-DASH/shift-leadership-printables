@@ -30,7 +30,7 @@ Warnings do not block, but fix them before the listing goes live.
 |---|---|---|---|
 | C01 | Critical | Opens as a PDF | pypdf and pdfinfo read it |
 | C02 | Critical | Not encrypted | `Encrypted: no` |
-| C03 | Critical | Page count | At least the expected count (Handover 1, One-on-One 2, Incident Log 2, 30-60-90 3, Feedback Log 2, Weekly Check-in 2, Starter Toolkit 9) and equal to the listing's "WHAT YOU GET" |
+| C03 | Critical | Page count | At least the expected count (Handover 1, One-on-One 2, Incident Log 2, 30-60-90 3, Feedback Log 2, Weekly Check-in 2, Starter Toolkit 9, Handover + Incident 2-pack 3) and equal to the listing's "WHAT YOU GET" |
 | C04 | Critical | Page size | A4 files 595.28 x 841.89 pt, Letter files 612 x 792 pt (within 2 pt) on every page; file name matches size |
 | C05 | Critical | Margins | Content stays 12 mm from every edge (0.5 mm tolerance for stroke width; the generators assert 12 mm exactly) |
 | C06 | Critical | Text not cut off | Text extracts; no glyph outside the page box |
