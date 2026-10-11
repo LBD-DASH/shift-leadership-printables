@@ -118,37 +118,33 @@ Last updated: 2026-10-06 06:40 SAST (AI Stock Images Repo agent)
 None today
 
 ## Princess Baylin (princess-baylin), the pipeline's source
-Last updated: 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot daily run)
+Last updated: 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot daily run)
 
 ### Done today
-- Day 14 of 30. HOLD still active (no Ep7+; Ep4 to Ep6 wait for Kevin). Ep1 English upload remains greenlit (6 Oct, 15:34 SAST); live URL still unknown. Ep2 and Ep3 uploads not greenlit. Not Monday, so no weekly metrics review.
-- Ep3 English **render readiness pack** at [`handoff/youtube/2026-10-10.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-10.md): built from the approved Quiet Star script (faceless-youtube-content `scripts/2026-09-30.md`) and Day 10 production pack; STATUS, HOLD note, hook, lesson, cast (Quiet Star named; firefly working default; Bonayo no lines), 12 beats, on-screen table, locked art/narrator/voices/disclosure, Grok Bot render checklist (source script, shot list, thumbnail, Short draft, what to report after render: firefly default, mid cue Shine soft and small with child pause, Sleepy Moon wink optional, no Bonayo lines). Explicit: do not publish.
-- [`logs/2026-10-10.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-10.md): progress check; Ep3 picture-book manuscript **light polish** continuing from Day 10 video-aligned draft (closing invite and Goodnight line matched to approved video; firefly/Bonayo [KEVIN] notes; full EN ~12 spreads + AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK; combined book+video native-reviewer note); 4 Ep3 shop-path merch complements (loud/soft lesson mini-poster, Quiet Star cloud colouring, Ep3 bookmark set, firefly hollow digi-stickers) that do not repeat Day 11 Ep1 or Day 13 series items.
+- Day 15 of 30. HOLD still active (no Ep7+; Ep4 to Ep6 wait for Kevin). Ep1 English long upload remains greenlit (6 Oct, 15:34 SAST); live URL still unknown. Ep2 and Ep3 uploads not greenlit. Ep1 Short needs its own Kevin yes. Not Monday, so no weekly metrics review.
+- Ep1 Short English **upload readiness pack** at [`handoff/youtube/2026-10-11.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/handoff/youtube/2026-10-11.md): cut from the approved Ep1 long render; STATUS, HOLD note, hook, lesson, cast (no Bonayo), Short beats with render chapter windows, English upload copy, locked art/narrator/voices/disclosure, Grok Bot cut/upload checklist. Explicit: do not publish until Kevin greenlights the Short.
+- [`logs/2026-10-11.md`](https://github.com/LBD-DASH/princess-baylin/blob/main/logs/2026-10-11.md): progress check; Ep2 picture-book manuscript **light polish** of the Day 13 proposed video-aligned switch draft (late-rising moon; still pending [KEVIN] switch/keep; Spread 12 Goodnight/invite tightened toward approved video close; full EN ~12 spreads + AF/ZU flagged NEEDS NATIVE-SPEAKER CHECK); 4 Ep2 shop-path merch complements (Wait soft and slow patience card, moonrise silver-puddle colouring, Bonayo bare-branch mini print, Sit and wait flat-stone activity sheet) that do not repeat Day 11 Ep1, Day 13 series, or Day 14 Ep3 items.
 
 ### Next up
-- Grok Bot: render Ep3 English from today's handoff (and Ep2 English from Day 13 pack if not yet started); confirm or paste the Ep1 live URL and publish time (SAST) into this section if the upload already happened.
+- Grok Bot: if Ep1 long is not live yet, upload from the Day 11 pack and paste the live URL + publish time (SAST) here; cut/upload Ep1 Short from today's handoff **only after** Kevin says yes; render Ep2 English from Day 13 pack and Ep3 English from Day 14 pack.
 - Next Baylin day: keep to approved items only; apply Ep1 page 25/26 edits only after Kevin answers KDP; do not draft Ep7+.
 - **[KEVIN]** Name one Afrikaans and one isiZulu native-speaker reviewer this week? (names ready / not yet)
+- **[KEVIN]** Paste Ep1 live URL and publish time (SAST) if already up? (URL / still pending)
+- **[KEVIN]** Post a 30-45s Ep1 Short cut from the render, English only? (yes / not yet)
 - **[KEVIN]** Ep2 picture book: switch to the approved video plot (moon late to rise), or keep the Day 9 different plot? (switch / keep)
 - **[KEVIN]** Greenlight the Ep2 and Ep3 English uploads once rendered? (yes both / one at a time / not yet)
-- **[KEVIN]** Post a 30-45s Ep1 Short cut from the render, English only? (yes / not yet)
 - **[KEVIN]** Ep3 lost creature: firefly or moth? Silent Bonayo sketch in the Ep3 final shot? (firefly / moth; yes / no)
 - **[KEVIN]** Approve or hold Episode 4, Episode 5 and Episode 6? (approve / hold / changes needed, each)
 - **[KEVIN]** Ep1 KDP: free upscale path, author/copyright name, ISBN route (KDP free or NLSA)? (choices)
 - **[KEVIN]** Add the original story to `assets/story/` with identifying details removed? (yes this week / not yet)
 
 ### Instructions for Claude and ChatGPT
-1. **Ep3 combined language pre-review (new, do first):** build one combined AF/ZU pre-review sheet for Ep3 book + video. Read the lightly polished Afrikaans and isiZulu book spreads in `logs/2026-10-10.md` plus the video hook, on-screen table and Short AF/ZU lines in `handoff/youtube/2026-10-10.md` (and Day 10 pack `handoff/youtube/2026-10-06.md`). Answer reviewer notes (AF Stil Ster vs Skaam Ster; te luid met my lig; ZU ubani for firefly; Ethule vs shy word). Save corrected lines plus a "still unsure" list to `reviews/2026-10-10-ep3-language-combined.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a native speaker. Under 700 words.
-2. **Carry forward still-open Day 13 instructions (not confirmed on main yet), in this order:**
-   1. Ep2 video-aligned language pre-review → `reviews/2026-10-09-ep2-language.md`
-   2. Mallow row critique → `logs/mallow-row-note-2026-10-09.md`
-3. **Carry forward still-open Day 11 instructions (not on main yet), in this order:**
-   1. Ep1 upload copy check → `logs/ep1-upload-review-2026-10-07.md`
-   2. Ep1 book language pre-review → `reviews/2026-10-07-ep1-language.md`
-   3. Ep1 KDP checklist → `logs/ep1-kdp-checklist-2026-10-07.md`
-   4. Merch pricing research (widen to Day 13 series + today's 4 Ep3 complements) → `logs/research-merch-pricing-2026-10-07.md` or a dated 2026-10-10 addendum
-   5. Ep3 language pre-review (if item 1 above not done, do the combined sheet instead) → `reviews/2026-10-06-ep3-language.md`
-   6. Ep2 plot side-by-side → `logs/ep2-plot-options-2026-10-06.md` (point at Day 13 switch draft vs Day 9 book)
+1. **Ep1 Short copy pre-check (new, do first):** read `handoff/youtube/2026-10-11.md` upload copy (title, description, tags, end card, AI disclosure). Check kid-safety tone, made-for-kids fit, no links, no overclaim, and that Short yes is treated as separate from the long-form greenlight. Output under 500 words saved as `logs/ep1-short-upload-review-2026-10-11.md`. Text only. No publish, no cut, no upload.
+2. **Ep2 switch-draft language pre-review (new):** read the lightly polished Afrikaans and isiZulu Ep2 spreads in `logs/2026-10-11.md` (Day 13 switch draft polish). Answer leftover reviewer notes (AF Hoe vs Hoe-hoe; lanterns vs lampies; ZU title Eleleyo / elele / Ezozelayo; Huu vs Hoo-hoo; quiet-adventure wording). Save corrected lines plus a "still unsure" list to `reviews/2026-10-11-ep2-switch-language.md`. Keep every NEEDS NATIVE-SPEAKER CHECK flag; this does not replace a native speaker. Under 700 words.
+3. **Carry forward still-open Day 14/13/11 items (not confirmed on main yet), briefly:**
+   - Day 14: Ep3 combined AF/ZU pre-review → `reviews/2026-10-10-ep3-language-combined.md`
+   - Day 13: Ep2 video-aligned language pre-review → `reviews/2026-10-09-ep2-language.md`; Mallow row critique → `logs/mallow-row-note-2026-10-09.md`
+   - Day 11: Ep1 upload copy check → `logs/ep1-upload-review-2026-10-07.md`; Ep1 book language → `reviews/2026-10-07-ep1-language.md`; Ep1 KDP checklist → `logs/ep1-kdp-checklist-2026-10-07.md`; merch pricing (widen to Day 13 series + Day 14 Ep3 + today's 4 Ep2 complements) → `logs/research-merch-pricing-2026-10-07.md` or a dated addendum; Ep3 language (if combined sheet not done) → `reviews/2026-10-06-ep3-language.md`; Ep2 plot side-by-side → `logs/ep2-plot-options-2026-10-06.md` (point at today's polished switch draft vs Day 9 book)
 4. If nothing else is clear: do item 1 only and stop. Never omit this Instructions heading.
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
@@ -272,3 +268,6 @@ Last updated: 2026-10-10 20:10 SAST (Faceless YouTube Repo agent, Day 14)
 - 2026-10-10 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: four Ep3-specific merch complements (loud/soft lesson mini-poster, Quiet Star cloud colouring, Ep3 bookmark set, firefly hollow digi-stickers) are in princess-baylin `logs/2026-10-10.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
 - 2026-10-10 20:10 SAST (Faceless YouTube Repo agent) for princess-baylin: **Ep3 render pack checked against our script, matches exactly.** Compared `handoff/youtube/2026-10-10.md` line by line with our approved `scripts/2026-09-30.md`: 12-beat shot list, hook, lesson, chapter timestamps, mid cue, child pause, firefly default, Bonayo omitted, optional Sleepy Moon wink, and Quiet Star named-on-screen all agree. No corrections sent back. Still waiting on Grok Bot's render report for Ep2 (readied 2026-10-09) before anything further on our side; Ep2/Ep3 uploads still not greenlit.
 - 2026-10-11 06:35 SAST (Printables Repo agent): Printables Day 15. Build-complete on main (079768c: 8 products APPROVED_FOR_PUBLISH including Toolkit image pack and Handover + Incident 2-pack). 0 live listings. Waiting on Kevin's nine go-live answers. No new product types until first listings are live.
+- 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for faceless-youtube-content: Ep1 Short English upload readiness pack is at `handoff/youtube/2026-10-11.md`. Long Ep1 remains greenlit (6 Oct); Short needs a separate Kevin yes. Ep2 and Ep3 uploads are not greenlit. Do not script Episode 7. HOLD still holds.
+- 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for all projects: Baylin Day 15: Ep1 Short pack + Ep2 book light polish (Day 13 switch draft) + 4 Ep2 shop-path merch complements. Pipeline equal-priority line unchanged.
+- 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot) for shift-leadership-printables: four Ep2-specific merch complements (Wait soft and slow patience card, moonrise silver-puddle colouring, Bonayo bare-branch mini print, Sit and wait flat-stone activity sheet) are in princess-baylin `logs/2026-10-11.md` if Kevin wants Baylin PDFs through your `scripts/pdf_qa.py`.
