@@ -149,11 +149,11 @@ Last updated: 2026-10-11 ~06:50 SAST (Princess Baylin Repo agent / Grok Bot dail
 
 
 ## Faceless YouTube content (faceless-youtube-content), Princess Baylin bedtime-story channel (runs in parallel with princess-baylin)
-Last updated: 2026-10-11 ~07:10 SAST (Faceless YouTube Repo agent, Day 15)
+Last updated: 2026-10-15 ~07:10 SAST (Faceless YouTube Repo agent, Day 19)
 
 ### Done today
-- Day 15 log at [`logs/2026-10-11.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-11.md): progress check. No weekly metrics review (Sunday, not Monday).
-- **New input checked:** Princess Baylin's Day 15 run landed an Episode 1 English **Short upload readiness pack** at `handoff/youtube/2026-10-11.md` in princess-baylin (separate from the already-greenlit long video). Checked it line by line against our own Short material (`scripts/2026-09-28.md` Short script, `scripts/2026-10-04.md` Short trailer script): hook, lesson, characters (including the correct no-Bonayo rule), story beats and cut-window timestamps all match. No corrections needed. The Short still needs its own Kevin yes.
+- Day 19 log at [`logs/2026-10-15.md`](https://github.com/LBD-DASH/faceless-youtube-content/blob/main/logs/2026-10-15.md): progress check. No weekly metrics review (not Monday).
+- **New input checked:** none. Pulled this repo and all three sibling repos; all already up to date. The princess-baylin agent has now missed Day 16, 17, 18 and 19; no handoff or log newer than Day 15 (`handoff/youtube/2026-10-11.md`) exists. Confirmed via `shift-leadership-printables`'s copy of this file that this repo's section is the only one that has advanced since Day 15; `ai-stock-images` is unchanged since Day 10.
 - No Kevin answer has landed anywhere for any open **[KEVIN]** question. No Ep2/Ep3 render reports have landed yet either.
 - No new episode drafted (Day 8 HOLD on Ep7+ still active; Ep4-6 await Kevin). Still no publish, no spend, no API keys.
 
@@ -163,8 +163,8 @@ Last updated: 2026-10-11 ~07:10 SAST (Faceless YouTube Repo agent, Day 15)
 - Episode 4-6 shot boards only after Kevin approves direction; apply the matching critique fixes (`logs/critique-ep4-2026-10-01.md`, `-ep5-2026-10-02.md`, `-ep6-2026-10-03.md`) if he picks those paths.
 - Watch for Grok Bot's Ep2 and Ep3 render reports (file paths, duration, real chapter times) once either renders; nothing to do here until then.
 - **[KEVIN]** Was Episode 1 (long) actually published? If yes, paste the video URL and publish time (SAST) here so metrics tracking can start (the handoff asks for this too).
-- **[KEVIN]** Publish the Ep1 Short (30-45s cut from the approved render; upload-readiness pack now complete in princess-baylin `handoff/youtube/2026-10-11.md`)? Separate question from the long-video yes on 6 Oct.
-- **[KEVIN]** With 13 of 30 days gone and Ep1's publish status still unconfirmed, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
+- **[KEVIN]** Publish the Ep1 Short (30-45s cut from the approved render; upload-readiness pack complete in princess-baylin `handoff/youtube/2026-10-11.md`)? Separate question from the long-video yes on 6 Oct.
+- **[KEVIN]** With 19 of 30 days gone, Ep1's publish status still unconfirmed, and the princess-baylin agent now four days behind, is the Day-30 target of 3-4 published episodes still the goal, or should it flex? (keep target / flex it)
 - **[KEVIN]** Approve or hold Episode 4 (`scripts/2026-10-01.md`, River That Whispered, with or without the fixes in `logs/critique-ep4-2026-10-01.md`), Episode 5 (`scripts/2026-10-02.md`, Very Patient Tortoise, with or without `logs/critique-ep5-2026-10-02.md`) and Episode 6 (`scripts/2026-10-03.md`, Market of Small Kindnesses, with or without `logs/critique-ep6-2026-10-03.md`)? (approve / hold / changes needed, each)
 - **[KEVIN]** Which Episode 5 mid cue wins: Baylin "Walk... soft and slow" or Faceless "Slow... soft and kind"? (Walk soft and slow / Slow soft and kind / other)
 - **[KEVIN]** Keep placeholders Tilly, Sunhill, Rainbird, Pip, and Mallow the Market Mouse? (keep / replace)
